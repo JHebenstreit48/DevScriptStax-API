@@ -48,12 +48,13 @@ app.get("/api/test", (_req: Request, res: Response) => {
 // =============================
 
 // ✅ Only serve static frontend if client build exists (for monorepo/local use)
-const clientPath = path.join(process.cwd(), "../client/dist");
+// Only attach wildcard route in local or monorepo mode
+const isLocalMonorepo = fs.existsSync(path.join(process.cwd(), "../client/dist"));
 
-if (fs.existsSync(clientPath)) {
+if (isLocalMonorepo) {
+  const clientPath = path.join(process.cwd(), "../client/dist");
   app.use(express.static(clientPath));
 
-  // ✅ Wildcard fallback for SPA routing
   app.get("*", (req: Request, res: Response) => {
     if (req.path.startsWith("/api")) {
       res.status(404).send("API route not found.");
@@ -63,7 +64,17 @@ if (fs.existsSync(clientPath)) {
     const indexPath = path.join(clientPath, "index.html");
     res.sendFile(indexPath);
   });
+} else {
+  // ✅ No frontend present — allow Render to just serve the backend
+  app.get("*", (req: Request, res: Response) => {
+    if (req.path.startsWith("/api")) {
+      res.status(404).send("API route not found.");
+    } else {
+      res.status(200).send("🧠 Backend API only — frontend not served from this instance.");
+    }
+  });
 }
+
 
 
 // =============================
