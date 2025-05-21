@@ -46,23 +46,25 @@ app.get("/api/test", (_req: Request, res: Response) => {
 // =============================
 //     🖼️  Static Frontend Serve
 // =============================
+
+// ✅ Only serve static frontend if client build exists (for monorepo/local use)
 const clientPath = path.join(process.cwd(), "../client/dist");
-app.use(express.static(clientPath));
 
-// ✅ Wildcard for SPA Routing
-app.get("*", (req: Request, res: Response) => {
-  if (req.path.startsWith("/api")) {
-    res.status(404).send("API route not found.");
-    return;
-  }
+if (fs.existsSync(clientPath)) {
+  app.use(express.static(clientPath));
 
-  const indexPath = path.join(clientPath, "index.html");
-  if (fs.existsSync(indexPath)) {
+  // ✅ Wildcard fallback for SPA routing
+  app.get("*", (req: Request, res: Response) => {
+    if (req.path.startsWith("/api")) {
+      res.status(404).send("API route not found.");
+      return;
+    }
+
+    const indexPath = path.join(clientPath, "index.html");
     res.sendFile(indexPath);
-  } else {
-    res.status(404).send("Frontend not found.");
-  }
-});
+  });
+}
+
 
 // =============================
 //       🚀 Start Server
