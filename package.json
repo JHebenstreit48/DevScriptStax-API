@@ -1,7 +1,7 @@
 {
   "name": "codequest-api",
   "version": "1.0.0",
-  "description": "Backend API for AppFoundry notes project",
+  "description": "Backend API for CodeQuest notes project",
   "main": "src/server.ts",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
