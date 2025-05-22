@@ -14,22 +14,22 @@ const PORT = process.env.PORT || 3001;
 // =============================
 //         🔧 Middleware
 // =============================
+const allowedOrigins = [
+  "https://codequest-notes.netlify.app",
+  "http://localhost:5173"
+];
+
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin) return callback(null, true); // allow server-to-server or curl
-    if (origin.startsWith("http://localhost")) {
-      return callback(null, true); // ✅ allow any localhost:* origin
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
     }
-    if (origin === "https://codequest-notes.netlify.app/") {
-      return callback(null, true); // ✅ allow production frontend
-    }
-    return callback(new Error("Not allowed by CORS")); // ❌ deny all else
+    return callback(new Error("Not allowed by CORS"));
   },
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: false
 }));
-
-
 
 // =============================
 //         📦 API Routes
