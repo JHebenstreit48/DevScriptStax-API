@@ -20,7 +20,7 @@ app.use(cors({
     if (origin.startsWith("http://localhost")) {
       return callback(null, true); // ✅ allow any localhost:* origin
     }
-    if (origin === "https://web-dev-codequest.netlify.app") {
+    if (origin === "https://codequest-notes.netlify.app/") {
       return callback(null, true); // ✅ allow production frontend
     }
     return callback(new Error("Not allowed by CORS")); // ❌ deny all else
