@@ -14,13 +14,71 @@ It’s based on JavaScript object syntax but follows stricter rules to ensure un
 
 ### Key Differences Between JSON and JavaScript Objects
 
-| Rule | JavaScript Objects | JSON |
-|------|---------------------|------|
-| Quotes around keys | ❌ Optional (if valid) | ✅ Always required (double quotes only) |
-| Quotes around string values | ✅ Required | ✅ Required |
-| Quotes around number/boolean/null | ❌ Not allowed | ❌ Not allowed |
-| Valid key names | Any valid identifier (or quoted string) | Must be quoted strings |
-| Trailing commas | Allowed in JS | ❌ Not allowed in JSON |
+### JavaScript Objects – Differences from JSON
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Rule</th>
+      <th class="tableCellHeader">JavaScript Objects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around keys</strong></td>
+      <td class="tableCell">❌ Optional (if valid)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around string values</strong></td>
+      <td class="tableCell">✅ Required</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around number/boolean/null</strong></td>
+      <td class="tableCell">❌ Not allowed</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Valid key names</strong></td>
+      <td class="tableCell">Any valid identifier (or quoted string)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Trailing commas</strong></td>
+      <td class="tableCell">Allowed in JS</td>
+    </tr>
+  </tbody>
+</table>
+
+### JSON – Differences from JavaScript Objects
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Rule</th>
+      <th class="tableCellHeader">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around keys</strong></td>
+      <td class="tableCell">✅ Always required (double quotes only)</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around string values</strong></td>
+      <td class="tableCell">✅ Required</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Quotes around number/boolean/null</strong></td>
+      <td class="tableCell">❌ Not allowed</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Valid key names</strong></td>
+      <td class="tableCell">Must be quoted strings</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Trailing commas</strong></td>
+      <td class="tableCell">❌ Not allowed in JSON</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -28,25 +86,31 @@ It’s based on JavaScript object syntax but follows stricter rules to ensure un
 
 ✅ JavaScript object:
 
+```javascript
 let jsObj = {
   name: "Alice",
   age: 30,
   isMember: true
 };
+```
 
 ✅ JSON equivalent:
 
+```javascript
 {
   "name": "Alice",
   "age": 30,
   "isMember": true
 }
+```
 
 ❌ Invalid JSON (missing quotes):
 
+```javascript
 {
   name: "Alice"  // ❌ error: missing quotes around key
 }
+```
 
 ---
 
@@ -65,14 +129,79 @@ Double quotes ensure that parsers in any programming language can reliably read 
 ✅ Only strings need quotes  
 ❌ Numbers, booleans, arrays, objects, or null do NOT need quotes
 
-| Value Type | Quotes Required? | Example |
-|------------|------------------|---------|
-| String | ✅ Yes | "hello" |
-| Number | ❌ No | 42 |
-| Boolean | ❌ No | true |
-| null | ❌ No | null |
-| Array | ❌ No | [1, 2, 3] or ["a", "b"] |
-| Object | ❌ No | { "a": 1 } |
+#### Quotes Required?
+
+<table class="notesTable narrowTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Value Type</th>
+      <th class="tableCellHeader">Quotes Required?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>String</strong></td>
+      <td class="tableCell">✅ Yes</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Number</strong></td>
+      <td class="tableCell">❌ No</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Boolean</strong></td>
+      <td class="tableCell">❌ No</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>null</strong></td>
+      <td class="tableCell">❌ No</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Array</strong></td>
+      <td class="tableCell">❌ No</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Object</strong></td>
+      <td class="tableCell">❌ No</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Example Values
+
+<table class="notesTable narrowTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Value Type</th>
+      <th class="tableCellHeader">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>String</strong></td>
+      <td class="tableCell">"hello"</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Number</strong></td>
+      <td class="tableCell">42</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Boolean</strong></td>
+      <td class="tableCell">true</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>null</strong></td>
+      <td class="tableCell">null</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Array</strong></td>
+      <td class="tableCell">[1, 2, 3] or ["a", "b"]</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><strong>Object</strong></td>
+      <td class="tableCell">{ "a": 1 }</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -80,6 +209,7 @@ Double quotes ensure that parsers in any programming language can reliably read 
 
 ✅ Correct:
 
+```javascript
 {
   "quantity": 70
 }
@@ -91,6 +221,7 @@ Double quotes ensure that parsers in any programming language can reliably read 
 }
 
 Even though this is valid JSON, using quotes turns the number into a string, which can break math logic.
+```
 
 ---
 
@@ -99,6 +230,7 @@ Even though this is valid JSON, using quotes turns the number into a string, whi
 Converts a JavaScript object into a JSON-formatted string.  
 Useful when you want to store or transmit structured data.
 
+```javascript
 let obj = {
   name: "Alice",
   age: 30
@@ -107,6 +239,7 @@ let obj = {
 let jsonStr = JSON.stringify(obj);
 console.log(jsonStr);  
 // Output: '{"name":"Alice","age":30}'
+```
 
 ✅ Common use cases:
 - Sending data in a POST request
@@ -121,10 +254,12 @@ console.log(jsonStr);
 
 Takes a JSON string and turns it back into a JavaScript object.
 
+```javascript
 let jsonStr = '{"name":"Alice","age":30}';
 let parsedObj = JSON.parse(jsonStr);
 
 console.log(parsedObj.name); // "Alice"
+```
 
 ✅ Common use cases:
 - Reading data from an API response
