@@ -1,4 +1,4 @@
-# Test Block Structure (describe, it, beforeEach)
+# Test Block Structure
 
 ---
 
@@ -20,9 +20,11 @@ Groups a set of related tests. Use it to wrap all test logic that shares a commo
 
 Example:
 
+```javascript
 describe('Login Page', () => {
   // test cases go here
 });
+```
 
 🧠 Think of it as the test "category" or topic.
 
@@ -34,9 +36,11 @@ Defines an individual test. The name should describe what the test checks.
 
 Example:
 
+```javascript
 it('should allow users to log in', () => {
   // test steps here
 });
+```
 
 ✅ Use a **present-tense statement** for test clarity (e.g. “displays error” not “should display error”).
 
@@ -48,9 +52,11 @@ Runs once before **each** <span class="codeSnip">it()</span> block inside the sa
 
 Example:
 
+```javascript
 beforeEach(() => {
   cy.visit('/login');
 });
+```
 
 ✅ Use for test setup steps like visiting a page or resetting state.
 
@@ -58,6 +64,7 @@ beforeEach(() => {
 
 ## Example Structure
 
+```javascript
 describe('Login Flow', () => {
   beforeEach(() => {
     cy.visit('/login');
@@ -74,6 +81,7 @@ describe('Login Flow', () => {
     cy.contains('Dashboard').should('exist');
   });
 });
+```
 
 ---
 
