@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Note from "../models/notes";
-import { connectToDb } from "../Utility/connection";
+import Note from "@/models/notes";
+import { connectToDb } from "@/Utility/connection";
 
 const baseDir = path.join(__dirname, "..", "seeds", "Notes");
 
