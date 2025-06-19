@@ -20,12 +20,41 @@ A <span class="emphasis">workflow</span> in Git refers to the process developers
 ### Branching Basics
 
 - Create and switch to a new branch:  
-  <span class="codeSnip">git checkout -b &lt;branch-name&gt;</span>
-- Just create a branch (without switching):  
-  <span class="codeSnip">git branch &lt;branch-name&gt;</span>
-- Check your current branch:  
-  <span class="codeSnip">git status</span>
+  
+  ```shell
+  git checkout -b branch-name
+  ```
 
+- Just create a branch (without switching):  
+
+```shell
+git branch branch-name
+```
+
+NOTE:  
+You would just create a name for your branch with either dashes in between, camel case, or other casing but no spaces where it says <span class="codeSnip">branch-name</span>.
+
+Examples of valid and invalid branch names:
+
+
+  ### ✅ Valid
+
+```shell
+git checkout -b fix-login-bug
+git checkout -b feature/ReactNativeSupport
+git checkout -b hotfix_v2_patch
+```
+
+  ### ❌ Invalid (don’t do this)
+
+```shell
+git checkout -b "my broken branch" # Spaces = trouble
+```
+- Check your current branch:  
+
+```shell
+git status
+```
 Working on a branch helps keep features or fixes isolated from the main codebase.
 
 ---
@@ -34,14 +63,31 @@ Working on a branch helps keep features or fixes isolated from the main codebase
 
 1. Make changes to files locally.
 2. Stage your changes:
-   - <span class="codeSnip">git add .</span> → Stages changes in current directory
-   - <span class="codeSnip">git add -A</span> → Stages all changes, including deletions
-3. Commit with a message:  
-   <span class="codeSnip">git commit -m "your message"</span>
+   
+```shell
+git add .
+# Stages changes in current directory
+```
+
+```shell
+git add -A
+# Stages all changes, including deletions
+```
+3. Commit with a message:
+
+```shell
+git commit -m "your message"
+```
 4. Push your changes:
-   <span class="codeSnip">git push</span>  
-   - First push of a new branch:  
-     <span class="codeSnip">git push --set-upstream origin &lt;branch-name&gt;</span>
+
+```shell
+git push
+```
+- First push of a new branch:  
+
+```shell
+git push --set-upstream origin branch-name
+```
 
 ---
 
@@ -54,7 +100,14 @@ Working on a branch helps keep features or fixes isolated from the main codebase
 
 ### After Merge Cleanup
 
-- Switch back to <span class="codeSnip">main</span>:  
-  <span class="codeSnip">git checkout main</span>
-- Pull the latest updates:  
-  <span class="codeSnip">git pull</span>
+- Switch back to <span class="codeSnip">main</span>:
+
+```shell  
+git checkout main
+```
+
+- Pull the latest updates: 
+
+```shell
+git pull
+```
