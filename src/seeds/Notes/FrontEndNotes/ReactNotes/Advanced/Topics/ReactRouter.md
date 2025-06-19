@@ -12,21 +12,22 @@ React Router is the standard library for routing in React applications. It enabl
 
 ---
 
-## 🔗 The <span class="codeSnip">Link</span> Component
+## The Link Component
 
 Use the <span class="codeSnip">&lt;Link&gt;</span> component instead of an HTML anchor tag to avoid full page reloads:
 
-javascript
+```javascript
 import { Link } from 'react-router-dom';
 
 <Link to="/about">About</Link>
+```
 
 - <span class="codeSnip">to</span> is the target path.
 - Acts like an anchor tag but handled internally by React Router.
 
 ---
 
-## 💡 Why Not Use <span class="codeSnip">&lt;a href&gt;</span>?
+## Why Not Use &lt;a href&gt;?
 
 Using a native anchor tag (e.g., <span class="codeSnip">&lt;a href="/about"&gt;</span>) reloads the page — losing state and reinitializing the app.
 
@@ -34,11 +35,11 @@ Using a native anchor tag (e.g., <span class="codeSnip">&lt;a href="/about"&gt;<
 
 ---
 
-## 🧱 Route Structure (Overview)
+## Route Structure (Overview)
 
 To define routes in your app:
 
-javascript
+```javascript
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -53,35 +54,39 @@ function App() {
     </BrowserRouter>
   );
 }
+```
 
 ---
 
-## 🔑 Dynamic Routes with Params
+## Dynamic Routes with Params
 
 You can pass parameters in routes using the colon <span class="codeSnip">:</span> syntax:
 
-javascript
+```javascript
 <Route path="/user/:id" element={<UserProfile />} />
+```
 
 To access the ID in the component:
 
-javascript
+```javascript
 import { useParams } from 'react-router-dom';
 
 const { id } = useParams();
+```
 
 ---
 
-## 🧠 Key Props in <span class="codeSnip">&lt;Link&gt;</span> Lists
+## Key Props in &lt;Link&gt; Lists
 
 When rendering multiple links in a loop:
 
-javascript
+```javascript
 {items.map((item) => (
   <Link key={item.id} to={`/item/${item.id}`}>
     {item.name}
   </Link>
 ))}
+```
 
 - Always provide a unique <span class="codeSnip">key</span> to each item in a list to help React track re-renders efficiently.
 

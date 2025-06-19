@@ -23,17 +23,18 @@ This ensures the browser can directly access the file at the root URL (e.g., htt
 
 Open your project’s <span class="codeSnip">index.html</span> and add this inside the <span class="codeSnip">&lt;head&gt;</span>:
 
-html  
-&lt;link rel="icon" href="/favicon.ico" /&gt;
+```html  
+<link rel="icon" href="/favicon.ico">
+```
 
 If using <span class="codeSnip">.png</span> or <span class="codeSnip">.svg</span>, it’s best to include the MIME type:
 
-html  
-&lt;link rel="icon" type="image/png" href="/favicon.png" /&gt;
-
+```html  
+<link rel="icon" type="image/png" href="/favicon.png">
+```
 ---
 
-## 📦 React Project Differences
+## React Project Differences
 
 <table class="notesTable">
   <thead>
@@ -59,7 +60,7 @@ html
 
 ---
 
-## 🧼 Cache Gotcha
+## Cache Gotcha
 
 If the favicon doesn’t update after replacing it, try the following:
 
@@ -69,7 +70,7 @@ If the favicon doesn’t update after replacing it, try the following:
 
 ---
 
-## 🧪 Pro Tip
+## Pro Tip
 
 Want to verify your favicon?
 
