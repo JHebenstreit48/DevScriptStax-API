@@ -17,7 +17,7 @@ Here’s a functional component named <span class="codeSnip">Pet</span> that tak
 
 ### JSX Example
 
-javascript
+```javascript
 function Pet(props) {
   return (
     <li>
@@ -25,6 +25,7 @@ function Pet(props) {
     </li>
   );
 }
+```
 
 ---
 
@@ -36,9 +37,10 @@ function Pet(props) {
 
 This structure makes the <span class="codeSnip">Pet</span> component reusable. You can render it multiple times with different props:
 
-javascript
+```javascript
 <Pet name="Buddy" species="dog" age={4} />
 <Pet name="Mittens" species="cat" age={2} />
+```
 
 ---
 
@@ -49,10 +51,11 @@ javascript
 - Avoid unnecessary prop nesting — pass only what the child component actually needs.
 - Destructure props inside the component for cleaner code:
 
-javascript
+```javascript
 function Pet({ name, species, age }) {
   return <li>{name} is a {species} and is {age} years old.</li>;
 }
+```
 
 ---
 

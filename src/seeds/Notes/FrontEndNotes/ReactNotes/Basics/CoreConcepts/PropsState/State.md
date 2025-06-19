@@ -11,7 +11,7 @@ State is a built-in feature in React that allows components to store dynamic dat
 
 ---
 
-## 🪝 What Are Hooks?
+## What Are Hooks?
 
 Hooks are functions that let you "hook into" React features from functional components. Before hooks, most dynamic behavior relied on class components. Now, hooks allow functional components to manage state, lifecycle, and side effects.
 
@@ -21,7 +21,7 @@ Hooks are functions that let you "hook into" React features from functional comp
 
 ---
 
-## 🔑 Core Rules of Hooks
+## Core Rules of Hooks
 
 - Only call hooks at the top level — never inside loops, conditions, or nested functions.  
 - Only call hooks from React functions — either your component or a custom hook.
@@ -30,7 +30,7 @@ These rules ensure consistent state handling and predictable behavior.
 
 ---
 
-## 🧰 Common Built-in Hooks
+## Common Built-in Hooks
 
 <table class="notesTable">
   <thead>
@@ -79,7 +79,7 @@ These rules ensure consistent state handling and predictable behavior.
 
 ### Example: Basic Counter
 
-javascript
+```javascript
 import { useState } from 'react';
 
 function Counter() {
@@ -92,6 +92,7 @@ function Counter() {
     </div>
   );
 }
+```
 
 - <span class="codeSnip">count</span> is the current state value.  
 - <span class="codeSnip">setCount</span> is the function that updates <span class="codeSnip">count</span>.  
@@ -118,7 +119,7 @@ Use state when a component needs to:
 
 ### Example: Basic useReducer Skeleton
 
-javascript
+```javascript
 const initialState = { count: 0 };
 
 function reducer(state, action) {
@@ -131,6 +132,7 @@ function reducer(state, action) {
 }
 
 const [state, dispatch] = useReducer(reducer, initialState);
+```
 
 ---
 

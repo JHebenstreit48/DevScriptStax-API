@@ -2,7 +2,7 @@
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 
 Before installing React with Vite, make sure the following are installed on your system:
 
@@ -21,8 +21,9 @@ Before installing React with Vite, make sure the following are installed on your
 
 Run the following in your terminal:
 
-shell
+```shell
 npm create vite@latest
+```
 
 ---
 
@@ -30,8 +31,9 @@ npm create vite@latest
 
 When prompted:
 
-shell  
+```shell  
 ? Project name: › .
+```
 
 Using a single dot tells Vite to create the app in the current folder, avoiding nested directories.
 
@@ -41,13 +43,15 @@ Using a single dot tells Vite to create the app in the current folder, avoiding 
 
 Use arrow keys to select:
 
-shell
+```shell
 >React
+```
 
 or  
 
-shell
+```shell
 >React + TypeScript
+```
 
 (If you are using React with TypeScript)
 
@@ -55,33 +59,34 @@ Then press **Enter**.
 
 ---
 
-## 📦 Step 4: Install Dependencies
+## Step 4: Install Dependencies
 
 Once the project is scaffolded, install all necessary dependencies:
 
-shell  
+```shell  
 npm install
-
+```
 ---
 
-## 🚀 Step 5: Start the Development Server
+## Step 5: Start the Development Server
 
 Run the following to start your local server:
 
-shell  
+```shell  
 npm run dev
+```
 
 This should show something to the effect of:
 
-shell
+```shell
 ➜  Local:   http://localhost:5173/
 ➜  Network: use --host to expose
 ➜  press h + enter to show help
-
+```
 
 ---
 
-## 🧩 Optional: Add a Favicon
+## Optional: Add a Favicon
 
 1. Place your favicon file (e.g., <span class="codeSnip">favicon.ico</span>) in the <span class="codeSnip">public</span> folder  
 2. In your <span class="codeSnip">index.html</span>, add this inside the <span class="codeSnip">&lt;head&gt;</span>:

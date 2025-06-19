@@ -2,7 +2,7 @@
 
 ---
 
-## ✨ What Is JSX?
+## What Is JSX?
 
 JSX (JavaScript XML) is a syntax extension for JavaScript that lets you write HTML-like elements directly inside JavaScript.
 
@@ -12,14 +12,15 @@ JSX (JavaScript XML) is a syntax extension for JavaScript that lets you write HT
 
 ### Example
 
-javascript
+```javascript
 function HelloWorld() {
   return <h1>Hello, World!</h1>;
 }
+```
 
 ---
 
-## 🎨 Class Names in React
+## Class Names in React
 
 React uses <span class="codeSnip">className</span> instead of <span class="codeSnip">class</span> to apply CSS classes.
 
@@ -27,20 +28,21 @@ Why? Because <span class="codeSnip">class</span> is a reserved keyword in JavaSc
 
 ### Example
 
-javascript
+```javascript
 <div className="container">
   <p>This uses className</p>
 </div>
+```
 
 ---
 
-## 🔁 Rendering Arrays
+## Rendering Arrays
 
 You can dynamically render a list of elements using the <span class="codeSnip">.map()</span> method.
 
 ### Example
 
-javascript
+```javascript
 const items = ['Apples', 'Bananas', 'Oranges'];
 
 function FruitList() {
@@ -52,13 +54,14 @@ function FruitList() {
     </ul>
   );
 }
+```
 
 - <span class="codeSnip">key</span> helps React identify which items changed, added, or removed  
 - Keys should be stable and unique per element in the list
 
 ---
 
-## 🧠 Key Prop: Why It Matters
+## Key Prop: Why It Matters
 
 When rendering lists, React needs a way to track each item uniquely. The <span class="codeSnip">key</span> prop helps with performance by minimizing DOM changes during re-renders.
 
@@ -86,7 +89,7 @@ Class components have special methods triggered during specific lifecycle stages
 
 ### Example
 
-javascript
+```javascript
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -113,19 +116,21 @@ class Clock extends React.Component {
     return <div>{this.state.time.toLocaleTimeString()}</div>;
   }
 }
+```
 
 ---
 
-### 🔁 Functional Lifecycle with useEffect
+### Functional Lifecycle with useEffect
 
 Functional components use <span class="codeSnip">useEffect</span> to simulate lifecycle behaviors.
 
 #### Mounting Only (componentDidMount)
 
-javascript
+```javascript
 useEffect(() => {
   console.log("Mounted once");
 }, []);
+```
 
 - The empty array means this effect runs only on the first render.
 
@@ -133,10 +138,11 @@ useEffect(() => {
 
 #### Updating (componentDidUpdate)
 
-javascript
+```javascript
 useEffect(() => {
   console.log("Updated due to changes in value");
 }, [value]);
+```
 
 - Runs on initial mount and again whenever <span class="codeSnip">value</span> changes.
 
@@ -144,7 +150,7 @@ useEffect(() => {
 
 #### Unmounting (componentWillUnmount)
 
-javascript
+```javascript
 useEffect(() => {
   const id = setInterval(() => console.log("Tick"), 1000);
 
@@ -153,14 +159,15 @@ useEffect(() => {
     console.log("Cleaned up on unmount");
   };
 }, []);
+```
 
 - The return function inside <span class="codeSnip">useEffect</span> handles cleanup.
 
 ---
 
-### 🧪 All-in-One Example
+### All-in-One Example
 
-javascript
+```javascript
 useEffect(() => {
   console.log("Effect runs at mount or dependency change");
 
@@ -168,6 +175,7 @@ useEffect(() => {
     console.log("Cleanup before re-run or unmount");
   };
 }, [dependency]);
+```
 
 - Perfect for setting up and cleaning up subscriptions, timers, etc.  
 - Runs once on mount and again whenever <span class="codeSnip">dependency</span> changes.
