@@ -1,76 +1,3 @@
-# React and TypeScript Code Examples
-
-## Setting Up TypeScript in a React Project  
----
-
-### Using Create React App
-
-1. Create a React app with TypeScript:
-
-```shell
-npx create-react-app my-app --template typescript
-```
-
-2. Install necessary TypeScript dependencies:
-
-```shell
-npm install --save-dev @types/react @types/react-dom
-```
-
-3. Configure TypeScript settings for React in `tsconfig.app.json`:
-
-```json
-{
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "strict": true,
-    "moduleResolution": "node"
-  }
-}
-```
-
-### Using Vite
-
-1. Create a React app with TypeScript using Vite:
-
-```shell
-npm create vite@latest
-```
-
-2. When prompted, select the react-ts template.
-
-3. Install dependencies:
-
-```shell
-npm install
-```
-
-4. To avoid creating a nested folder structure, run the Vite command with a single dot (`.`) to use the current directory:
-
-```shell
-npm create vite@latest . -- --template react-ts
-```
-
-5. Start the development server:
-
-```shell
-npm run dev
-```
-
-6. Update the tsconfig.json file for stricter typing rules if needed:
-
-```json
-{
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "strict": true,
-    "moduleResolution": "node"
-  }
-}
-```
-
----
-
 ## TypeScript Basics  
 ---
 
@@ -117,20 +44,6 @@ json
 
 ---
 
-### Example: Relative Path
-
-typescript
-import MyComponent from '../../components/MyComponent';
-
----
-
-### Example: Using Alias
-
-typescript
-import MyComponent from '@components/MyComponent';
-
----
-
 ### Explanation
 
 - The `baseUrl` specifies the root directory for module resolution.
@@ -153,35 +66,6 @@ tsconfig.app.json
 ```bash
 tsconfig.node.json
 ```
-
----
-
-## Using TypeScript Interfaces  
----
-
-### Combining Interfaces
-
-```typescript
-interface Person {
-  firstName: string;
-}
-
-interface Person {
-  lastName: string;
-}
-```
-
-- Explanation: Interfaces with the same name merge automatically, combining their properties.
-
-### Linter Rule for Interfaces
-
-```shell
-no-redeclare
-```
-
-- Explanation: This linter rule prevents you from using the same interface name more than once.
-
----
 
 ## React Functional Components with TypeScript  
 ---
@@ -213,7 +97,7 @@ const List = <T,>({ items, render }: ListProps<T>) => (
 );
 ```
 
-- Explanation: This example demonstrates how to use generics (<T>) to create reusable, type-safe components.
+Explanation: This example demonstrates how to use generics (<T>) to create reusable, type-safe components.
 
 ---
 
