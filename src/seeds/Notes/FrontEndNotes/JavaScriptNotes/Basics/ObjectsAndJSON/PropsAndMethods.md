@@ -17,6 +17,7 @@ An <span class="emphasis">object</span> in JavaScript can hold both data and beh
 
 You can define properties inside the object or add them later using dot or bracket notation.
 
+```javascript
 let person = {
   name: "Alice",
   age: 30
@@ -24,6 +25,7 @@ let person = {
 
 person.location = "USA";             // dot notation  
 person["favorite color"] = "green";  // bracket notation
+```
 
 ---
 
@@ -34,6 +36,7 @@ You can access object data using either:
 - <span class="emphasis">Dot notation</span> → cleaner and preferred  
 - <span class="emphasis">Bracket notation</span> → required for special characters or spaces
 
+```javascript
 let obj = {
   name: "Alice",
   "full name": "Alice A"
@@ -41,9 +44,10 @@ let obj = {
 
 console.log(obj.name);         // "Alice"
 console.log(obj["full name"]); // "Alice A"
+```
 
-✅ A period <span class="codeSnip">.</span> is used to look inside an object.  
-✅ Brackets allow dynamic or complex keys (e.g., from variables).
+A period <span class="codeSnip">.</span> is used to look inside an object.  
+Brackets allow dynamic or complex keys (e.g., from variables).
 
 ---
 
@@ -53,14 +57,17 @@ A method is a function inside an object. There are two ways to define one:
 
 ✅ Traditional syntax:
 
+```javascript
 let user = {
   greet: function(name) {
     console.log("Hello, " + name + "!");
   }
 };
+```
 
 ✅ Shorthand method syntax (preferred):
 
+```javascript
 let user = {
   greet(name) {
     console.log("Hello, " + name + "!");
@@ -68,6 +75,7 @@ let user = {
 };
 
 user.greet("Alice"); // "Hello, Alice!"
+```
 
 ---
 
@@ -76,12 +84,14 @@ user.greet("Alice"); // "Hello, Alice!"
 When including a function inside an object, you do NOT need to use the <span class="codeSnip">function</span> keyword.  
 Just place a comma before starting the next method (if it's not the last item).
 
+```javascript
 let tool = {
   name: "Hammer",
   use() {
     console.log("Smash!");
   }
 };
+```
 
 ---
 
@@ -89,6 +99,7 @@ let tool = {
 
 An object can contain both properties and methods at the same time.
 
+```javascript
 let dog = {
   name: "Barksalot",
   breed: "Beagle",
@@ -98,6 +109,7 @@ let dog = {
 };
 
 dog.bark(); // "Woof!"
+```
 
 ---
 
@@ -105,21 +117,23 @@ dog.bark(); // "Woof!"
 
 <span class="codeSnip">addEventListener</span> is a method that belongs to the <span class="emphasis">document</span> object in the browser.
 
+```javascript
 document.addEventListener("click", myAmazingFunction);
+```
 
 - The first argument, <span class="codeSnip">"click"</span>, is the event you're listening for  
 - The second argument, <span class="codeSnip">myAmazingFunction</span>, is the function to run when it happens
 
-✅ The document object is part of the browser and includes built-in methods and properties.
+The document object is part of the browser and includes built-in methods and properties.
 
 ---
 
 ### Summary
 
-✅ Properties store data  
-✅ Methods define behavior  
-✅ Dot notation is clean; brackets are flexible  
-✅ Shorthand syntax makes objects easier to write  
-✅ JavaScript objects can contain both data and logic
+Properties store data  
+Methods define behavior  
+Dot notation is clean; brackets are flexible  
+Shorthand syntax makes objects easier to write  
+JavaScript objects can contain both data and logic
 
 ---

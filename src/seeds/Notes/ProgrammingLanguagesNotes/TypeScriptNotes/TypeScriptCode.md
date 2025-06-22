@@ -88,46 +88,6 @@ console.log(identity<number>(42));
 
 ---
 
-## Configuring Path Aliases in tsconfig.json
----
-
-TypeScript supports path aliases natively via tsconfig.json. This enables clean imports and reduces the need for complex relative paths.
-
-### tsconfig.json Configuration
-
-json
-{
-  "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  }
-}
-
----
-
-### Example: Relative Path
-
-typescript
-import MyComponent from '../../components/MyComponent';
-
----
-
-### Example: Using Alias
-
-typescript
-import MyComponent from '@/components/MyComponent';
-
----
-
-### Explanation
-
-- The `baseUrl` specifies the root directory for module resolution.
-- The `paths` map custom aliases (e.g., `@/`) to directories within the project (e.g., `src/`).
-
----
-
 ## Additional Notes and Best Practices
 ---
 
