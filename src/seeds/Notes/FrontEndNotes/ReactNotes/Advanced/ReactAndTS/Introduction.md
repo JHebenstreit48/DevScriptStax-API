@@ -45,19 +45,6 @@ These projects benefit from strong typing because they often involve many develo
 
 ---
 
-## Common Misconceptions About TypeScript
-
-TypeScript is powerful, but it’s easy to misunderstand what it does (and doesn’t) do.
-
-- TypeScript is not a runtime checker — it won’t prevent runtime bugs by itself  
-- You don’t have to fully migrate a project to use it — it can be adopted incrementally  
-- You can still write bad code with TypeScript — types help, but logic still matters  
-- TypeScript doesn’t slow down your app — it’s removed at compile time
-
-Understanding its strengths and limits helps you get the most out of using TypeScript with React.
-
----
-
 ## How React and TypeScript Work Together
 
 TypeScript enhances the development experience but doesn't change the way React works under the hood.
@@ -68,5 +55,42 @@ TypeScript enhances the development experience but doesn't change the way React 
 - TypeScript tools provide early feedback via your editor or terminal — not the browser
 
 This makes it a safe enhancement — adding types helps developers but never affects your app’s runtime behavior.
+
+---
+
+# Setup & Configuration
+
+---
+
+## Before You Begin
+
+If you haven’t set up a React project yet, refer to the setup instructions under:
+
+➡️ <span class="emphasis">React → Basics → Fundamentals → Setup & Installation</span>
+
+That guide walks through creating a React project using Vite or Create React App (CRA). This file focuses only on what’s specific to **TypeScript** setup and configuration.
+
+---
+
+## Creating a React + TypeScript Project
+
+When following the base setup:
+
+- If using **Vite**, choose the <span class="emphasis">React + TypeScript</span> template during scaffolding.
+- If using **Create React App**, use this command:
+
+```shell
+npx create-react-app my-app --template typescript
+```
+
+---
+
+## Installing React Type Definitions (if not preinstalled)
+
+If your setup didn’t include type definitions automatically (e.g., converting an existing JS project to TS), install them manually:
+
+```shell
+npm install --save-dev @types/react @types/react-dom
+```
 
 ---
