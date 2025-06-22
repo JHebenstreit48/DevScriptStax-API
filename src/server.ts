@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 //         🔧 Middleware
 // =============================
 const allowedOrigins = [
-  "https://codequest-notes.netlify.app",
+  "https://devscriptstax.netlify.app/",
   "http://localhost:5173"
 ];
 
