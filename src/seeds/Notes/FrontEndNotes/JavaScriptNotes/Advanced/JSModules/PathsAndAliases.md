@@ -70,9 +70,10 @@ In <span class="codeSnip">babel.config.js</span>:
 
 #### Vite / ESBuild
 
-```javascript
-vite.config.js:
 
+<span class="emphasis">vite.config.js</span>:
+
+```javascript
 import { defineConfig } from "vite";
 import path from "path";
 
@@ -101,32 +102,19 @@ module.exports = {
 };
 ```
 
-#### TypeScript
-
-In <span class="codeSnip">tsconfig.json</span>:
-
-```javascript
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  }
-}
-```
-
 ---
 
 ### Example with Alias
 
 Directory:
 
+```shell
 src/
 ├── components/
 │   └── Button.js
 ├── utils/
 │   └── math.js
+```
 
 With alias <span class="codeSnip">@ → ./src</span>:
 

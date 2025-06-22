@@ -1,16 +1,3 @@
-## TSConfig
----
-
-### tsconfig.json, tsconfig.node.json, and tsconfig.app.json
----
-
-- The tsconfig.json file is the main configuration file for TypeScript projects.
-  - It defines TypeScript options, such as compiler settings and file inclusions/exclusions.
-- The tsconfig.node.json file is used to set the configuration rules for Node.js-specific portions of your project.
-- The tsconfig.app.json file can be used to define settings specific to the client-side application or app portions of a project, allowing you to separate concerns.
-
-<br>
-
 ## React Functional Components
 ---
 
@@ -26,18 +13,6 @@
 <br>
 
 ### Using TypeScript with Functional Components
----
-<br>
-
-#### Why Use TypeScript?
-- TypeScript enhances React Functional Components by allowing type annotations for props.
-- This ensures components receive the correct data structure, improving reliability and reducing runtime errors.
-
-#### Example Use Case
-- Define and enforce specific types for props to prevent bugs during development.
-
-<br>
-
 ---
 
 ## Generics in Functional Components
