@@ -2,7 +2,7 @@
 
 ---
 
-## 🗂️ Overview
+## Overview
 
 When you create a React project (with tools like Vite or Create React App), the default folder structure helps organize code efficiently.
 
@@ -10,7 +10,7 @@ Understanding this structure improves maintainability and teamwork.
 
 ---
 
-## 📁 Root Directory
+## Root Directory
 
 - <span class="codeSnip">node_modules</span>  
   Contains all installed dependencies. Managed by your package manager (e.g., npm or Yarn).
@@ -26,7 +26,7 @@ Understanding this structure improves maintainability and teamwork.
 
 ---
 
-## 📁 src/ (Source Folder)
+## src/ (Source Folder)
 
 This is where your actual application lives.
 
@@ -47,7 +47,7 @@ This is where your actual application lives.
 
 ---
 
-## 📁 public/ Folder
+## public/ Folder
 
 Only used in tools like Vite and CRA for static assets.
 
@@ -61,7 +61,7 @@ Any file in <span class="codeSnip">public/</span> can be referenced directly in 
 
 ---
 
-## 🧪 Optional: Folder Conventions
+## Optional: Folder Conventions
 
 Some developers customize their folder layout as projects grow. Common conventions include:
 
@@ -73,7 +73,7 @@ Some developers customize their folder layout as projects grow. Common conventio
 
 ---
 
-## 📝 Summary
+## Summary
 
 - <span class="codeSnip">src/</span> = App logic  
 - <span class="codeSnip">public/</span> = Static assets  
