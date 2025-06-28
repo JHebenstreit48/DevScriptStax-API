@@ -2,7 +2,7 @@
 
 ---
 
-## 🌐 What Is Open Graph?
+## What Is Open Graph?
 
 Open Graph is a protocol developed by Facebook that enables you to control how URLs appear when shared on social media or messaging platforms.
 
@@ -16,7 +16,7 @@ It uses meta tags in the HTML <span class="codeSnip">&lt;head&gt;</span> to defi
 
 ---
 
-## 🧠 Why It Matters for React?
+## Why It Matters for React?
 
 In React, especially with Single Page Applications (SPAs), metadata doesn’t update between pages unless managed intentionally. This means:
 
@@ -25,42 +25,45 @@ In React, especially with Single Page Applications (SPAs), metadata doesn’t up
 
 ---
 
-## 🏗️ Static Open Graph Tags (Vite + CRA)
+## Static Open Graph Tags (Vite + CRA)
 
 ### React with Vite
 
-- Open the root <span class="codeSnip">index.html</span> file.
+Open the root <span class="codeSnip">index.html</span> file.
 
-html
+```html
 <meta property="og:title" content="My Awesome Site">
 <meta property="og:description" content="Come explore this amazing content.">
 <meta property="og:image" content="/thumbnail.jpg">
 <meta property="og:url" content="https://mysite.com">
 <meta property="og:type" content="website">
+```
 
-- Place <span class="codeSnip">thumbnail.jpg</span> in your public or root directory.
+Place <span class="codeSnip">thumbnail.jpg</span> in your public or root directory.
 
 ### React with Create React App
 
-- Open <span class="codeSnip">public/index.html</span>.
-- Use <span class="codeSnip">%PUBLIC_URL%</span> in the image path:
+Open <span class="codeSnip">public/index.html</span>.
+Use <span class="codeSnip">%PUBLIC_URL%</span> in the image path:
 
-html
+```html
 <meta property="og:image" content="%PUBLIC_URL%/thumbnail.jpg">
+```
 
 ---
 
-## ⚡ Making Tags Dynamic
+## Making Tags Dynamic
 
 If you want per-route customization, you’ll need a tool like:
 
 - <span class="codeSnip">react-helmet</span>
 - Server-side rendering (e.g., Next.js)
 
-bash
+```bash
 npm install react-helmet
+```
 
-javascript
+```javascript
 import { Helmet } from 'react-helmet';
 
 const MyPage = () => (
@@ -74,10 +77,11 @@ const MyPage = () => (
     <div>Page content...</div>
   </>
 );
+```
 
 ---
 
-## 🤝 Other Meta Tags to Consider
+## Other Meta Tags to Consider
 
 - <span class="codeSnip">twitter:card</span> – For Twitter previews
 - <span class="codeSnip">og:site_name</span> – Name of your website

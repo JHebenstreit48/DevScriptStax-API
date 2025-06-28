@@ -4,7 +4,7 @@
 
 ## Handling Form Inputs in React
 
-React uses a **controlled component** pattern to manage form elements like `<input>`, `<textarea>`, and `<select>`. This means the form data is handled by React state.
+React uses a <span class="emphasis">controlled component</span> pattern to manage form elements like <span class="codeSnip">&lt;input&gt;</span>, <span class="codeSnip">&lt;textarea&gt;</span>, and <span class="codeSnip">&lt;select&gt;</span>. This means the form data is handled by React state.
 
 ---
 

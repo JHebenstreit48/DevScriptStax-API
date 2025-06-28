@@ -2,13 +2,13 @@
 
 ---
 
-## 🎯 What Is a Favicon?
+## What Is a Favicon?
 
 A **favicon** (short for "favorite icon") is the small icon that appears in the browser tab, bookmarks, and sometimes as a shortcut icon. It's a small but vital branding tool.
 
 ---
 
-## 🗂️ Where to Put It
+## Where to Put It
 
 Place your favicon image (e.g., <span class="codeSnip">.ico</span>, <span class="codeSnip">.png</span>, or <span class="codeSnip">.svg</span>) in the <span class="codeSnip">public</span> folder:
 
@@ -19,7 +19,7 @@ This ensures the browser can directly access the file at the root URL (e.g., htt
 
 ---
 
-## 🧠 How to Link It
+## How to Link It
 
 Open your project’s <span class="codeSnip">index.html</span> and add this inside the <span class="codeSnip">&lt;head&gt;</span>:
 
@@ -81,7 +81,7 @@ Want to verify your favicon?
 
 ---
 
-## ✅ Summary
+## Summary
 
 - Favicons live in the <span class="codeSnip">public</span> folder for direct access
 - Add a <span class="codeSnip">&lt;link rel="icon"&gt;</span> tag in your HTML’s <span class="codeSnip">&lt;head&gt;</span>

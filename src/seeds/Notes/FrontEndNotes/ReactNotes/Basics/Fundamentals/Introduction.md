@@ -6,7 +6,7 @@
 
 React is an open-source JavaScript library for building user interfaces by composing reusable components. These allow developers to define a UI component once and render it with different data across the app.
 
-### 🧰 Why React Matters
+### Why React Matters
 
 - Designed for building slick, dynamic interfaces.
 - Components encourage flexibility and reusability.
@@ -14,7 +14,7 @@ React is an open-source JavaScript library for building user interfaces by compo
 
 ---
 
-## 📜 History of React
+## History of React
 
 React was born out of a need to efficiently update UI elements without reloading entire pages. In **2010**, Jordan Walke, a developer at Facebook, created a prototype called FaxJS to solve this problem internally.
 
@@ -32,11 +32,11 @@ And in **2019**, React introduced Hooks—such as <span class="codeSnip">useStat
 
 ## Core Concepts (Overview)
 
-- ✅ Components: self-contained UI building blocks.
-- ✅ Reusability: define once, render multiple times.
-- ✅ Virtual DOM: updates only changed UI pieces.
-- ✅ JSX syntax: template-style JavaScript markup.
-- ✅ Unidirectional data flow: props passed from parent to child.
+- Components: self-contained UI building blocks.
+- Reusability: define once, render multiple times.
+- Virtual DOM: updates only changed UI pieces.
+- JSX syntax: template-style JavaScript markup.
+- Unidirectional data flow: props passed from parent to child.
 
 ---
 
