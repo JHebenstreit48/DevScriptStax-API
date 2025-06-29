@@ -2,7 +2,7 @@
 
 ---
 
-## 🎯 React Events: The Basics
+## React Events: The Basics
 
 React uses camelCase syntax for event handlers, similar to standard DOM events — but not exactly the same. Instead of using <span class="codeSnip">onclick</span>, React uses <span class="codeSnip">onClick</span>.
 
@@ -12,8 +12,8 @@ Example:
 <button onClick={() => alert('You clicked me!')}>Click Me</button>
 ```
 
-- The function is passed as a value to the <span class="codeSnip">onClick</span> prop
-- You can define the handler inline or separately
+The function is passed as a value to the <span class="codeSnip">onClick</span> prop
+You can define the handler inline or separately
 
 ---
 
@@ -33,8 +33,8 @@ function Counter() {
 }
 ```
 
-- This ties user interaction directly to UI updates
-- React ensures the component re-renders when state changes
+This ties user interaction directly to UI updates
+React ensures the component re-renders when state changes
 
 ---
 
@@ -48,22 +48,27 @@ React Router DOM uses &lt;Link&gt; for navigation instead of the native HTML anc
 
 Why not use &lt;a href="/about"&gt;?
 
-- React Router’s <span class="codeSnip">Link</span> enables client-side navigation without full page reloads
+<div class="bullet2">
+
+- React Router's <span class="codeSnip">&lt;Link&gt;</span> component enables client-side navigation without full page reloads
+
 - It keeps your app fast and stateful
+
+</div>
 
 ---
 
 ## Things to Remember
 
-- React normalizes event behavior across browsers
-- You can still access the synthetic event object in handlers
-- Always use function references — don’t invoke them directly (i.e., <span class="codeSnip">onClick={handleClick}</span>, not <span class="codeSnip">onClick={handleClick()}</span>)
+React normalizes event behavior across browsers
+You can still access the synthetic event object in handlers
+Always use function references — don’t invoke them directly (i.e., <span class="codeSnip">onClick={handleClick}</span>, not <span class="codeSnip">onClick={handleClick()}</span>)
 
 ---
 
 ## Summary
 
-- Use camelCase event names like <span class="codeSnip">onClick</span>, <span class="codeSnip">onChange</span>, etc.
-- Handlers trigger functions that often update state
-- Use React Router’s <span class="codeSnip">Link</span> component for navigation
-- Avoid full-page reloads with proper routing and event handling
+Use camelCase event names like <span class="codeSnip">onClick</span>, <span class="codeSnip">onChange</span>, etc.
+Handlers trigger functions that often update state
+Use React Router’s <span class="codeSnip">Link</span> component for navigation
+Avoid full-page reloads with proper routing and event handling
