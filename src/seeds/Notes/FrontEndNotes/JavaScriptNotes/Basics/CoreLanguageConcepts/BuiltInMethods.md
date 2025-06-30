@@ -6,9 +6,9 @@
 
 <span class="emphasis">Built-in methods</span> are predefined functions provided by JavaScript that you can use on common data types like <span class="secondEmphasis">strings</span> and <span class="secondEmphasis">numbers</span>.
 
-✅ They help you manipulate and evaluate data easily.  
-✅ Methods are called with parentheses <span class="codeSnip">()</span> after the value.  
-✅ Strings and numbers have many helpful methods available without you needing to define them yourself.
+- They help you manipulate and evaluate data easily.  
+- <span class="emphasis">Methods</span> are called with parentheses <span class="codeSnip">()</span> after the value.  
+- <span class="emphasis">Strings</span> and numbers have many helpful methods available without you needing to define them yourself.
 
 ---
 
@@ -177,9 +177,9 @@ console.log(typeof x); // "string"
 
 ## Summary
 
-✅ <span class="codeSnip">.toUpperCase()</span>, <span class="codeSnip">.split()</span>, <span class="codeSnip">.trim()</span> make strings easier to work with.  
-✅ <span class="codeSnip">parseInt()</span>, <span class="codeSnip">toFixed()</span>, and <span class="codeSnip">isNaN()</span> are essential for number manipulation.  
-✅ Use <span class="codeSnip">String()</span> and <span class="codeSnip">Number()</span> to convert between types.  
-✅ <span class="codeSnip">typeof</span> helps you check what kind of data you’re working with.
+<span class="codeSnip">.toUpperCase()</span>, <span class="codeSnip">.split()</span>, <span class="codeSnip">.trim()</span> make strings easier to work with.  
+<span class="codeSnip">parseInt()</span>, <span class="codeSnip">toFixed()</span>, and <span class="codeSnip">isNaN()</span> are essential for number manipulation.  
+Use <span class="codeSnip">String()</span> and <span class="codeSnip">Number()</span> to convert between types.  
+<span class="codeSnip">typeof</span> helps you check what kind of data you’re working with.
 
 ---

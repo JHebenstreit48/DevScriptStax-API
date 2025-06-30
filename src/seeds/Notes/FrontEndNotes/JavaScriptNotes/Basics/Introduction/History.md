@@ -35,10 +35,10 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 
 ### JavaScript Today
 
-✅ JavaScript remains the dominant language for web development.  
-✅ It forms the "holy trinity" of front-end technologies: <span class="secondEmphasis">HTML</span>, <span class="secondEmphasis">CSS</span>, and <span class="secondEmphasis">JavaScript</span>.  
-✅ Modern frameworks and libraries like <span class="emphasis">React</span>, <span class="emphasis">Angular</span>, and <span class="emphasis">Vue.js</span> have further propelled its growth.  
-✅ JavaScript now powers client-side interfaces, server-side APIs, mobile apps, desktop apps, and even IoT devices.
+- JavaScript remains the dominant language for web development.  
+- It forms the "holy trinity" of front-end technologies: <span class="secondEmphasis">HTML</span>, <span class="secondEmphasis">CSS</span>, and <span class="secondEmphasis">JavaScript</span>.  
+- Modern frameworks and libraries like <span class="emphasis">React</span>, <span class="emphasis">Angular</span>, and <span class="emphasis">Vue.js</span> have further propelled its growth.  
+- JavaScript now powers client-side interfaces, server-side APIs, mobile apps, desktop apps, and even IoT devices.
 
 ---
 
