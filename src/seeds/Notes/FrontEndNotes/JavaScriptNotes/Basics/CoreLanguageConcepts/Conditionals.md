@@ -6,8 +6,8 @@
 
 <span class="emphasis">Conditional statements</span> allow a JavaScript program to make decisions and execute code blocks based on whether a condition evaluates as <span class="secondEmphasis">true</span> or <span class="secondEmphasis">false</span>.
 
-✅ Think of them as “checkpoints” that control the flow of logic.  
-✅ These are essential for branching logic — like what to show or do depending on user input, values, or events.
+- Think of them as “checkpoints” that control the flow of logic.  
+- These are essential for branching logic — like what to show or do depending on user input, values, or events.
 
 ---
 
@@ -59,7 +59,7 @@ if (score >= 90) {
 }
 ```
 
-✅ JavaScript evaluates each condition in order and stops at the first match.
+JavaScript evaluates each condition in order and stops at the first match.
 
 ---
 
@@ -122,7 +122,7 @@ if (age >= 21 && hasID) {
 }
 ```
 
-✅ Use <span class="codeSnip">&&</span> for AND, <span class="codeSnip">||</span> for OR, and <span class="codeSnip">!</span> for NOT.
+- Use <span class="codeSnip">&&</span> for AND, <span class="codeSnip">||</span> for OR, and <span class="codeSnip">!</span> for NOT.
 
 ---
 
@@ -140,15 +140,15 @@ It follows the structure:
 
 <span class="codeSnip">condition ? valueIfTrue : valueIfFalse;</span>
 
-✅ This is useful for quick logic inside variables, return statements, or inline rendering.
+- This is useful for quick logic inside variables, return statements, or inline rendering.
 
 ---
 
 ### Best Practices
 
-✅ Favor <span class="codeSnip">===</span> over <span class="codeSnip">==</span> to avoid unexpected type coercion.  
-✅ Use braces <span class="codeSnip">{}</span> even for single-line <span class="codeSnip">if</span> blocks for clarity.  
-✅ Group complex conditions with parentheses to clarify evaluation order.  
-✅ Don’t nest too many <span class="codeSnip">else if</span> blocks — use <span class="codeSnip">switch</span> or refactor if needed.
+Favor <span class="codeSnip">===</span> over <span class="codeSnip">==</span> to avoid unexpected type coercion.  
+Use braces <span class="codeSnip">{}</span> even for single-line <span class="codeSnip">if</span> blocks for clarity.  
+Group complex conditions with parentheses to clarify evaluation order.  
+Don’t nest too many <span class="codeSnip">else if</span> blocks — use <span class="codeSnip">switch</span> or refactor if needed.
 
 ---

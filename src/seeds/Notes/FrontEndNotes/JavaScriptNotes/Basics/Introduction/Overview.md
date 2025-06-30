@@ -17,10 +17,10 @@ Plays a critical role alongside <span class="secondEmphasis">HTML</span> and <sp
 
 ### Key Characteristics of JavaScript
 
-✅ **Interpreted Language** → Runs directly without needing prior compilation.  
-✅ **Prototype-Based Inheritance** → Objects inherit directly from other objects.  
-✅ **Event-Driven** → Designed to respond to user interactions dynamically.  
-✅ **First-Class Functions** → Functions are treated as variables and can be passed as arguments.
+**Interpreted Language** → Runs directly without needing prior compilation.  
+**Prototype-Based Inheritance** → Objects inherit directly from other objects.  
+**Event-Driven** → Designed to respond to user interactions dynamically.  
+**First-Class Functions** → Functions are treated as variables and can be passed as arguments.
 
 ---
 
@@ -38,11 +38,11 @@ greet("World"); // Output: Hello, World!
 
 ### Why Use JavaScript?
 
-🔹 **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.  
-🔹 **Full Stack Capabilities** → With Node.js, JavaScript can be used for both front-end and back-end development.  
-🔹 **Rich Ecosystem** → A vast number of libraries (like React, Angular, Vue) and frameworks help speed up development.  
-🔹 **Large Community Support** → Active community with millions of developers and open-source contributions.  
-🔹 **Continuous Evolution** → New features added regularly via ECMAScript (ES6+ updates).
+- **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.  
+- **Full Stack Capabilities** → With Node.js, JavaScript can be used for both front-end and back-end development.  
+- **Rich Ecosystem** → A vast number of libraries (like React, Angular, Vue) and frameworks help speed up development.  
+- **Large Community Support** → Active community with millions of developers and open-source contributions.  
+- **Continuous Evolution** → New features added regularly via ECMAScript (ES6+ updates).
 
 ---
 
