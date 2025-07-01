@@ -48,7 +48,7 @@ React Router DOM uses &lt;Link&gt; for navigation instead of the native HTML anc
 
 Why not use &lt;a href="/about"&gt;?
 
-<div class="bullet2">
+<div class="bullet1">
 
 - React Router's <span class="codeSnip">&lt;Link&gt;</span> component enables client-side navigation without full page reloads
 

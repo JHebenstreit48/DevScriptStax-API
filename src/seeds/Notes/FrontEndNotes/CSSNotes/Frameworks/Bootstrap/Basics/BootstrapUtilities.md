@@ -96,7 +96,7 @@ Bootstrap provides predefined classes for **padding and margins**.
 
 - **{property}{sides}-{size}**
 
-<span class="bullet1">
+<span class="bullet2">
 
   - **p** → Padding  
   - **m** → Margin  
@@ -232,7 +232,7 @@ The **collapse** class is used to **show and hide content dynamically** without 
 </div>
 ```
 
-✅ Clicking the button **toggles the visibility** of the <div>.  
+Clicking the button **toggles the visibility** of the <div>.  
 
 ---
 ### **Making a Section Expand by Default**
@@ -245,7 +245,7 @@ To have content **visible by default**, add show inside the collapse class.
 </div>
 ```
 
-✅ The **show class** makes the section **expanded on page load**.
+The **show class** makes the section **expanded on page load**.
 
 ---
 
@@ -259,7 +259,7 @@ To have content **visible by default**, add show inside the collapse class.
 <div class="collapse multiCollapse">Content 2</div>
 ```
 
-✅ This **toggles multiple sections** at the same time.
+This **toggles multiple sections** at the same time.
 
 ---
 ## **Bootstrap data-toggle Attribute (Deprecated)**

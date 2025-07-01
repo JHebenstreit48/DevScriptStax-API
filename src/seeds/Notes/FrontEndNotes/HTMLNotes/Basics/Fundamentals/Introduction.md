@@ -14,14 +14,16 @@ HTML is composed of <span class="emphasis">elements</span>, which define the <sp
 
 ### Examples of Common Elements:
 
-<span class="bullet3">
+<div class="bullet2">
+
 - Text
 - Images
 - Headers
 - Lists
 - Dividers
 - Links
-</span>
+
+</div>
 
 ---
 
