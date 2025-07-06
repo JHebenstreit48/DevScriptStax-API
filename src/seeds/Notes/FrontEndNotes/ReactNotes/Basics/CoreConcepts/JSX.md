@@ -72,13 +72,13 @@ Use a unique identifier if possible (like an ID), but if unavailable, you can us
 
 ---
 
-## 🔄 Lifecycle Behavior
+## Lifecycle Behavior
 
 Lifecycle methods describe the different phases a component goes through during its life in the DOM. These phases include mounting, updating, and unmounting. While originally associated with class components, functional components can mimic them using Hooks.
 
 ---
 
-### 🏛️ Class Component Lifecycle (Reference)
+### Class Component Lifecycle (Reference)
 
 Class components have special methods triggered during specific lifecycle stages:
 

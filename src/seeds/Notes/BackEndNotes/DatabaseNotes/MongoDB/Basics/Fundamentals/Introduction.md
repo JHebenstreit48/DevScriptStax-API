@@ -12,11 +12,15 @@ Instead, it uses <span class="emphasis">documents</span>, <span class="emphasis"
 
 ### Key Features of MongoDB
 
+<div class="bullet1">
+
 - Open-source and document-oriented
 - Stores data in <span class="emphasis">collections</span> (groups of documents)
 - Flexible schemas — documents within a collection can differ in structure
 - Horizontally scalable and ideal for distributed systems
 - Commonly used in modern web development with Node.js and JavaScript
+
+</div>
 
 ---
 
@@ -64,7 +68,7 @@ MongoDB documents use a unique <span class="codeSnip">ObjectID()</span> identifi
 
 A graphical interface for MongoDB, allowing you to:
 
-<div class="bullet2">
+<div class="bullet1">
 
 - <span class="emphasis">View</span> and <span class="emphasis">edit</span> <span class="secondEmphasis">documents</span>.
 - Run queries visually.

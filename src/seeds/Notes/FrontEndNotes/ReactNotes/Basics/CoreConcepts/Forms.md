@@ -99,6 +99,67 @@ function handleSubmit(e) {
 
 ---
 
+---
+
+## Full Form Example with Multiple Inputs
+
+This example demonstrates handling multiple input types within a single form:
+
+```jsx
+function FormExample() {
+  const [text, setText] = useState("")
+  const [bio, setBio] = useState("")
+  const [color, setColor] = useState("#00bfff")
+  const [volume, setVolume] = useState(50)
+  const [agreed, setAgreed] = useState(false)
+
+  return (
+    <form onSubmit={(e) => {
+      e.preventDefault()
+      alert("Form submitted!")
+    }}>
+      <label>
+        Text:
+        <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
+      </label>
+
+      <br /><br />
+
+      <label>
+        Bio:
+        <textarea value={bio} onChange={(e) => setBio(e.target.value)} />
+      </label>
+
+      <br /><br />
+
+      <label>
+        Favorite Color:
+        <input type="color" value={color} onChange={(e) => setColor(e.target.value)} />
+      </label>
+
+      <br /><br />
+
+      <label>
+        Volume:
+        <input type="range" min={0} max={100} value={volume} onChange={(e) => setVolume(Number(e.target.value))} />
+        {volume}%
+      </label>
+
+      <br /><br />
+
+      <label>
+        Agree to Terms:
+        <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} />
+      </label>
+
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  )
+}
+```
+
 ## Best Practices
 
 - Always use <span class="codeSnip">value</span> + <span class="codeSnip">onChange</span> for inputs.  

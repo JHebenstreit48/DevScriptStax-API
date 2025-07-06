@@ -4,11 +4,11 @@
 
 The <span class="emphasis">&lt;table&gt;</span> element creates a table for displaying tabular data.
 
-html
-
+```html
 <table>
   ...
 </table>
+```
 
 ---
 
@@ -16,14 +16,14 @@ html
 
 The <span class="emphasis">&lt;thead&gt;</span> element groups the header content in a table.
 
-html
-
+```html
 <thead>
   <tr>
     <th>Column 1</th>
     <th>Column 2</th>
   </tr>
 </thead>
+```
 
 ---
 
@@ -31,14 +31,14 @@ html
 
 The <span class="emphasis">&lt;tbody&gt;</span> element contains the main content of a table.
 
-html
-
+```html
 <tbody>
   <tr>
     <td>Data 1</td>
     <td>Data 2</td>
   </tr>
 </tbody>
+```
 
 ---
 

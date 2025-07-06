@@ -6,7 +6,7 @@
 
 Props are short for “properties”, allow a component to receive data from its parent. They make components customizable and dynamic by enabling different data to be passed at render time.
 
-<div class="bullet2">
+<div class="bullet1">
 
 - Props are read-only. A child component cannot modify the prop values it receives.
 - You can pass strings, numbers, arrays, objects, functions even JSX as props.
@@ -35,7 +35,7 @@ function Pet(props) {
 
 ### How It Works
 
-<div class="bullet2">
+<div class="bullet1">
 
 - <span class="codeSnip">props.name</span>: Displays the pet’s name.
 - <span class="codeSnip">props.species</span>: Indicates the type of animal.
