@@ -145,7 +145,7 @@ To share state across many components without prop drilling, use the Context API
 
 ---
 
-## 🧠 Hook Naming Convention
+## Hook Naming Convention
 
 React relies on naming to detect hooks. All custom hook functions must start with <span class="codeSnip">use</span> — like <span class="codeSnip">useAuth</span> or <span class="codeSnip">useFormData</span>.
 
