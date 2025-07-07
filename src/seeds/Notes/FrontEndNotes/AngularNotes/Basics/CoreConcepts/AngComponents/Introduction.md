@@ -1,4 +1,4 @@
-# Introduction to Angular Components
+# Components
 
 Angular components are the **building blocks** of Angular applications: they combine a class, template, and metadata to define UI behavior.
 

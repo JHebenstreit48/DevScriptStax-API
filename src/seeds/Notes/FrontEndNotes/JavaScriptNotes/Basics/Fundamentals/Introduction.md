@@ -57,19 +57,19 @@ greet("World"); // Output: Hello, World!
   </thead>
   <tbody>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Environment</strong></td>
+      <td class="tableCell"><span class="emphasis">Environment</span></td>
       <td class="tableCell">Runs inside a web browser (Chrome, Firefox, Safari)</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Primary Usage</strong></td>
+      <td class="tableCell"><span class="emphasis">Primary Usage</span></td>
       <td class="tableCell">DOM manipulation, event handling, client-side validation</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Access to Filesystem</strong></td>
+      <td class="tableCell"><span class="emphasis">Access to Filesystem</span></td>
       <td class="tableCell">No (for security reasons)</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Popular Libraries/Frameworks</strong></td>
+      <td class="tableCell"><span class="emphasis">Popular Libraries/Frameworks</span></td>
       <td class="tableCell">React, Vue.js, Angular</td>
     </tr>
   </tbody>
@@ -88,19 +88,19 @@ greet("World"); // Output: Hello, World!
   </thead>
   <tbody>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Environment</strong></td>
+      <td class="tableCell"><span class="emphasis">Environment</span></td>
       <td class="tableCell">Runs on the server using Node.js runtime</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Primary Usage</strong></td>
+      <td class="tableCell"><span class="emphasis">Primary Usage</span></td>
       <td class="tableCell">API creation, database communication, backend services</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Access to Filesystem</strong></td>
+      <td class="tableCell"><span class="emphasis">Access to Filesystem</span></td>
       <td class="tableCell">Yes (full access)</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Popular Libraries/Frameworks</strong></td>
+      <td class="tableCell"><span class="emphasis">Popular Libraries/Frameworks</span></td>
       <td class="tableCell">Express.js, Koa.js, NestJS</td>
     </tr>
   </tbody>
