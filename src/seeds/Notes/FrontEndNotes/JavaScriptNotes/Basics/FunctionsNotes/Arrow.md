@@ -7,8 +7,8 @@
 <span class="emphasis">Arrow functions</span> are a shorter syntax for writing function expressions.  
 They were introduced in <span class="emphasis">ES6</span> and are especially useful for concise callbacks and one-liners.
 
-✅ They use the <span class="codeSnip">=></span> syntax instead of the <span class="codeSnip">function</span> keyword.  
-✅ Arrow functions do not have their own <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span> binding.
+They use the <span class="codeSnip">=></span> syntax instead of the <span class="codeSnip">function</span> keyword.  
+Arrow functions do not have their own <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span> binding.
 
 ---
 
@@ -35,7 +35,7 @@ const square = (x) => x * x;
 console.log(square(4)); // Output: 16
 ```
 
-✅ You can omit <span class="codeSnip">return</span> and braces when there’s a single line.
+You can omit <span class="codeSnip">return</span> and braces when there’s a single line.
 
 ---
 
@@ -47,7 +47,7 @@ If there's only one parameter, you can also omit the parentheses.
 const double = x => x * 2;
 ```
 
-✅ Parentheses are required when there are zero or more than one parameter.
+Parentheses are required when there are zero or more than one parameter.
 
 ---
 
@@ -131,15 +131,15 @@ console.log(evens); // [2, 4]
 - When using the <span class="codeSnip">arguments</span> object directly  
 - When defining object methods that rely on their own <span class="codeSnip">this</span>
 
-✅ In these cases, stick with regular functions.
+In these cases, stick with regular functions.
 
 ---
 
 ### Summary
 
-✅ Arrow functions are concise, powerful, and ideal for short callbacks.  
-✅ They do not bind <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span>.  
-✅ Use them in array methods and short utilities.  
-✅ Avoid them in constructors or methods that rely on <span class="codeSnip">this</span>.
+Arrow functions are concise, powerful, and ideal for short callbacks.  
+They do not bind <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span>.  
+Use them in array methods and short utilities.  
+Avoid them in constructors or methods that rely on <span class="codeSnip">this</span>.
 
 ---
