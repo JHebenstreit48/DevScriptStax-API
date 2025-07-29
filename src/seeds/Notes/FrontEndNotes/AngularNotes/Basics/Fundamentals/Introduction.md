@@ -10,12 +10,12 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 ### Why Use Angular?
 
-✅ **Component-Based Architecture** → Code is modular and reusable.  
-✅ **Two-Way Data Binding** → Automatically syncs data between model & UI.  
-✅ **Dependency Injection (DI)** → Improves maintainability & testing.  
-✅ **Built-in Routing & HTTP Services** → No need for third-party libraries.  
-✅ **Reactive Forms & RxJS** → Enables efficient event handling & state management.  
-✅ **Optimized for Performance** → Uses Ahead-of-Time (AOT) compilation.
+**Component-Based Architecture** → Code is modular and reusable.  
+**Two-Way Data Binding** → Automatically syncs data between model & UI.  
+**Dependency Injection (DI)** → Improves maintainability & testing.  
+**Built-in Routing & HTTP Services** → No need for third-party libraries.  
+**Reactive Forms & RxJS** → Enables efficient event handling & state management.  
+**Optimized for Performance** → Uses Ahead-of-Time (AOT) compilation.
 
 ---
 
