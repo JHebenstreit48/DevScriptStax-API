@@ -1,8 +1,10 @@
-## Overview of JavaScript
+<br>
 
 ---
 
 ### What is JavaScript?
+
+---
 
 <span class="emphasis">JavaScript</span> is a <span class="secondEmphasis">dynamic, high-level programming language</span> primarily used for creating <span class="emphasis">interactive and dynamic web applications</span>.
 
@@ -16,6 +18,8 @@ Plays a critical role alongside <span class="secondEmphasis">HTML</span> and <sp
 ---
 
 ### Key Characteristics of JavaScript
+
+---
 
 **Interpreted Language** → Runs directly without needing prior compilation.  
 **Prototype-Based Inheritance** → Objects inherit directly from other objects.  
@@ -38,15 +42,19 @@ greet("World"); // Output: Hello, World!
 
 ### Why Use JavaScript?
 
-- **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.  
-- **Full Stack Capabilities** → With Node.js, JavaScript can be used for both front-end and back-end development.  
-- **Rich Ecosystem** → A vast number of libraries (like React, Angular, Vue) and frameworks help speed up development.  
-- **Large Community Support** → Active community with millions of developers and open-source contributions.  
+---
+
+- **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.
+- **Full Stack Capabilities** → With Node.js, JavaScript can be used for both front-end and back-end development.
+- **Rich Ecosystem** → A vast number of libraries (like React, Angular, Vue) and frameworks help speed up development.
+- **Large Community Support** → Active community with millions of developers and open-source contributions.
 - **Continuous Evolution** → New features added regularly via ECMAScript (ES6+ updates).
 
 ---
 
 ### JavaScript in the Browser
+
+---
 
 <table class="notesTable">
   <thead>
@@ -69,8 +77,12 @@ greet("World"); // Output: Hello, World!
       <td class="tableCell">No (for security reasons)</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Popular Libraries/Frameworks</span></td>
-      <td class="tableCell">React, Vue.js, Angular</td>
+      <td class="tableCell"><span class="emphasis">Popular Libraries</span></td>
+      <td class="tableCell">React</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">Popular Frameworks</span></td>
+      <td class="tableCell">Vue.js, Angular</td>
     </tr>
   </tbody>
 </table>
@@ -99,12 +111,15 @@ greet("World"); // Output: Hello, World!
       <td class="tableCell"><span class="emphasis">Access to Filesystem</span></td>
       <td class="tableCell">Yes (full access)</td>
     </tr>
+<tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">Popular Libraries</span></td>
+      <td class="tableCell">Mongoose, Prisma</td>
+    </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="emphasis">Popular Libraries/Frameworks</span></td>
+      <td class="tableCell"><span class="emphasis">Popular Frameworks</span></td>
       <td class="tableCell">Express.js, Koa.js, NestJS</td>
     </tr>
   </tbody>
 </table>
-
 
 ---

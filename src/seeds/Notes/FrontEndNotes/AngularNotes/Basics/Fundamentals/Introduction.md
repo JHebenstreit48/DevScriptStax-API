@@ -1,4 +1,4 @@
-## Introduction to Angular
+<br>
 
 ---
 
@@ -10,30 +10,40 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 ### Why Use Angular?
 
-**Component-Based Architecture** → Code is modular and reusable.  
-**Two-Way Data Binding** → Automatically syncs data between model & UI.  
-**Dependency Injection (DI)** → Improves maintainability & testing.  
-**Built-in Routing & HTTP Services** → No need for third-party libraries.  
-**Reactive Forms & RxJS** → Enables efficient event handling & state management.  
-**Optimized for Performance** → Uses Ahead-of-Time (AOT) compilation.
+<div class="bullet5">
+
+🔹 <span class="emphasis">Component-Based Architecture</span> → Code is modular and reusable.  
+🔹 <span class="emphasis">Two-Way Data Binding</span> → Automatically syncs data between model & UI.  
+🔹 <span class="emphasis">Dependency Injection (DI)</span> → Improves maintainability & testing.  
+🔹 <span class="emphasis">Built-in Routing & HTTP Services</span> → No need for third-party libraries.  
+🔹 <span class="emphasis">Reactive Forms & RxJS</span> → Enables efficient event handling & state management.  
+🔹 <span class="emphasis">Optimized for Performance</span> → Uses Ahead-of-Time (AOT) compilation.
+
+</div>
 
 ---
 
 ### Core Angular Concepts
 
-🔹 **Components** → The building blocks of UI.  
-🔹 **Modules** → Organize Angular applications.  
-🔹 **Services & Dependency Injection** → Share logic across components.  
-🔹 **Directives** → Extend HTML with additional behavior.  
-🔹 **Routing** → Manage navigation between views.  
-🔹 **Forms** → Handle user input efficiently.  
-🔹 **State Management (RxJS)** → Handle asynchronous data streams.
+<div class="bullet5">
+
+🔹 <span class="emphasis">Components</span> → The building blocks of UI.  
+🔹 <span class="emphasis">Modules</span> → Organize Angular applications.  
+🔹 <span class="emphasis">Services & Dependency Injection</span> → Share logic across components.  
+🔹 <span class="emphasis">Directives</span> → Extend HTML with additional behavior.  
+🔹 <span class="emphasis">Routing</span> → Manage navigation between views.  
+🔹 <span class="emphasis">Forms</span> → Handle user input efficiently.  
+🔹 <span class="emphasis">State Management (RxJS)</span> → Handle asynchronous data streams.
+
+</div>
 
 ---
 
 ### Angular vs. Other Frameworks
 
-#### **Key Differences Between Angular and React JS**
+---
+
+#### Key Differences Between Angular and React JS
 
 <table class="notesTable">
     <thead>
@@ -45,7 +55,7 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
     </thead>
     <tbody>
         <tr class="tableRow">
-            <td class="tableCell"><strong>Language</strong></td>
+            <td class="tableCell"><span class="emphasis">Language</span></td>
             <td class="tableCell">TypeScript</td>
             <td class="tableCell">JavaScript (JSX)</td>
         </tr>
