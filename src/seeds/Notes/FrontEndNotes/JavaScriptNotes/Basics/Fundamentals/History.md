@@ -1,8 +1,10 @@
-## History of JavaScript
+<br>
 
 ---
 
 ### The Birth of JavaScript
+
+---
 
 In 1995, <span class="emphasis">Brendan Eich</span> created the first version of JavaScript while working at <span class="emphasis">Netscape Communications</span>.  
 The goal was to develop a lightweight scripting language that could run inside web browsers and enable greater user interactivity.
@@ -15,6 +17,8 @@ The goal was to develop a lightweight scripting language that could run inside w
 
 ### Early Adoption and Standardization
 
+---
+
 As JavaScript grew in popularity, inconsistencies appeared between browser implementations.  
 To solve this, JavaScript was standardized under the name <span class="emphasis">ECMAScript</span> by <span class="emphasis">ECMA International</span>.
 
@@ -24,6 +28,8 @@ To solve this, JavaScript was standardized under the name <span class="emphasis"
 ---
 
 ### JavaScript's Growth Beyond the Browser
+
+---
 
 Originally, JavaScript was confined to client-side scripting inside browsers.  
 However, with the creation of <span class="emphasis">Node.js</span> in 2009, JavaScript expanded to server-side development as well.
@@ -35,6 +41,8 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 
 ### JavaScript Today
 
+---
+
 - JavaScript remains the dominant language for web development.  
 - It forms the "holy trinity" of front-end technologies: <span class="secondEmphasis">HTML</span>, <span class="secondEmphasis">CSS</span>, and <span class="secondEmphasis">JavaScript</span>.  
 - Modern frameworks and libraries like <span class="emphasis">React</span>, <span class="emphasis">Angular</span>, and <span class="emphasis">Vue.js</span> have further propelled its growth.  
@@ -43,6 +51,8 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 ---
 
 ### Timeline Summary
+
+---
 
 <table class="notesTable">
   <thead>
