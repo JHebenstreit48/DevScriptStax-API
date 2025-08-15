@@ -1,18 +1,22 @@
-## Working with JSON
+<br>
 
 ---
 
 ### What Is JSON?
 
+---
+
 <span class="emphasis">JSON</span> (JavaScript Object Notation) is a lightweight format for storing and exchanging data.  
 It’s based on JavaScript object syntax but follows stricter rules to ensure universal compatibility.
 
-✅ JSON is widely used to send data between a server and a web app  
-✅ Easy for both humans and machines to read and write
+- JSON is widely used to send data between a server and a web app  
+-  Easy for both humans and machines to read and write
 
 ---
 
 ### Key Differences Between JSON and JavaScript Objects
+
+---
 
 ### JavaScript Objects – Differences from JSON
 
@@ -84,7 +88,9 @@ It’s based on JavaScript object syntax but follows stricter rules to ensure un
 
 ### Example Comparison
 
-✅ JavaScript object:
+---
+
+#### JavaScript object:
 
 ```javascript
 let jsObj = {
@@ -94,7 +100,7 @@ let jsObj = {
 };
 ```
 
-✅ JSON equivalent:
+#### JSON equivalent:
 
 ```javascript
 {
@@ -104,7 +110,7 @@ let jsObj = {
 }
 ```
 
-❌ Invalid JSON (missing quotes):
+#### Invalid JSON (missing quotes):
 
 ```javascript
 {
@@ -116,15 +122,19 @@ let jsObj = {
 
 ### JSON Keys: Why Double Quotes?
 
+---
+
 JSON is a strict data format meant for interoperability between systems and languages.  
 Double quotes ensure that parsers in any programming language can reliably read the data.
 
-✅ JavaScript is more relaxed and developer-friendly.  
-✅ JSON must be predictable, so it enforces stricter rules.
+- JavaScript is more relaxed and developer-friendly.  
+- JSON must be predictable, so it enforces stricter rules.
 
 ---
 
 ### JSON Values: When Are Quotes Required?
+
+---
 
 ✅ Only strings need quotes  
 ❌ Numbers, booleans, arrays, objects, or null do NOT need quotes
@@ -207,25 +217,31 @@ Double quotes ensure that parsers in any programming language can reliably read 
 
 ### Common Pitfall: Numbers in Quotes
 
-✅ Correct:
+---
+
+#### ✅ Correct:
 
 ```javascript
 {
   "quantity": 70
 }
+```
 
-❌ Incorrect (value is now a string):
+#### ❌ Incorrect (value is now a string):
 
+```js
 {
   "quantity": "70"
 }
+```
 
 Even though this is valid JSON, using quotes turns the number into a string, which can break math logic.
-```
 
 ---
 
 ### JSON.stringify()
+
+---
 
 Converts a JavaScript object into a JSON-formatted string.  
 Useful when you want to store or transmit structured data.
@@ -241,7 +257,8 @@ console.log(jsonStr);
 // Output: '{"name":"Alice","age":30}'
 ```
 
-✅ Common use cases:
+Common use cases:  
+
 - Sending data in a POST request
 - Saving structured data in localStorage
 - Logging full object structures
@@ -252,6 +269,8 @@ console.log(jsonStr);
 
 ### JSON.parse()
 
+---
+
 Takes a JSON string and turns it back into a JavaScript object.
 
 ```javascript
@@ -261,7 +280,8 @@ let parsedObj = JSON.parse(jsonStr);
 console.log(parsedObj.name); // "Alice"
 ```
 
-✅ Common use cases:
+Common use cases:  
+
 - Reading data from an API response
 - Loading data from storage
 - Converting static config into usable variables
@@ -272,11 +292,11 @@ console.log(parsedObj.name); // "Alice"
 
 ### Summary
 
-✅ JSON is stricter than JS objects  
-✅ Keys must use double quotes  
-✅ Only string values need quotes  
-✅ Use <span class="codeSnip">JSON.stringify()</span> to convert JS → JSON  
-✅ Use <span class="codeSnip">JSON.parse()</span> to convert JSON → JS  
-✅ Avoid quoting numbers unless you intend to treat them as strings
+JSON is stricter than JS objects  
+Keys must use double quotes  
+Only string values need quotes  
+Use <span class="codeSnip">JSON.stringify()</span> to convert JS → JSON  
+Use <span class="codeSnip">JSON.parse()</span> to convert JSON → JS  
+Avoid quoting numbers unless you intend to treat them as strings
 
 ---
