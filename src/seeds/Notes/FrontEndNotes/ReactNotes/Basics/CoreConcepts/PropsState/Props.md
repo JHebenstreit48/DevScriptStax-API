@@ -4,6 +4,8 @@
 
 ## What Are Props?
 
+---
+
 Props are short for “properties”, allow a component to receive data from its parent. They make components customizable and dynamic by enabling different data to be passed at render time.
 
 <div class="bullet1">
@@ -16,6 +18,8 @@ Props are short for “properties”, allow a component to receive data from its
 ---
 
 ## Example: Customizing a Component with Props
+
+---
 
 Here’s a functional component named <span class="codeSnip">Pet</span> that takes props and displays them in a list item.
 
@@ -34,6 +38,8 @@ function Pet(props) {
 ---
 
 ### How It Works
+
+---
 
 <div class="bullet1">
 
@@ -55,6 +61,8 @@ This structure makes the <span class="codeSnip">Pet</span> component reusable. Y
 
 ## Best Practices for Props
 
+---
+
 - Use <span class="codeSnip">propTypes</span> or TypeScript interfaces to validate expected props (if applicable).
 - Provide default values with <span class="codeSnip">defaultProps</span> or default parameters.
 - Avoid unnecessary prop nesting — pass only what the child component actually needs.
@@ -69,6 +77,8 @@ function Pet({ name, species, age }) {
 ---
 
 ## Summary
+
+---
 
 - Props are passed from parent to child components
 - They are immutable in the receiving component
