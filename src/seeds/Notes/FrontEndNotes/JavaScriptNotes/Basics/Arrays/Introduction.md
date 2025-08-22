@@ -1,8 +1,10 @@
-## Arrays
+<br>
 
 ---
 
 ### What is an Array?
+
+---
 
 <span class="emphasis">Arrays</span> in JavaScript are ordered collections that can store multiple values in a single variable.  
 Each item in an array is known as an <span class="secondEmphasis">element</span>, and elements are accessed by their <span class="secondEmphasis">index</span>, starting at <span class="codeSnip">0</span>.
@@ -22,7 +24,7 @@ Each item in an array is known as an <span class="secondEmphasis">element</span>
 
 ### Creating an Array
 
-```javascript
+```js
 let empty = [];  
 let colors = ["red", "green", "blue"];  
 let numbers = [1, 2, 3];  
@@ -38,7 +40,7 @@ let fruits = new Array("apple", "banana", "cherry");
 
 Use bracket notation with the index to access elements:
 
-```javascript
+```js
 let animals = ["dog", "cat", "bird"];  
 console.log(animals[0]); // "dog"  
 console.log(animals[2]); // "bird"
@@ -46,7 +48,7 @@ console.log(animals[2]); // "bird"
 
 You can also modify values at a specific index:
 
-```javascript
+```js
 animals[1] = "rabbit";  
 console.log(animals); // ["dog", "rabbit", "bird"]
 ```
@@ -57,7 +59,7 @@ console.log(animals); // ["dog", "rabbit", "bird"]
 
 Arrays can store complex elements like objects:
 
-```javascript
+```js
 let myPets = [
   { name: "Meowsalot", species: "cat" },
   { name: "Barksalot", species: "dog" }
@@ -72,7 +74,7 @@ let myPets = [
 
 You can access specific object properties by combining array index and dot notation:
 
-```javascript
+```js
 console.log(myPets[1].species); // "dog"
 ```
 ✅ This logs the <span class="secondEmphasis">species</span> property of the second object in the array.
@@ -83,14 +85,14 @@ console.log(myPets[1].species); // "dog"
 
 The <span class="codeSnip">length</span> property shows how many elements the array contains:
 
-```javascript
+```js
 let nums = [10, 20, 30];  
 console.log(nums.length); // 3
 ```
 
 You can also use it to truncate an array:
 
-```javascript
+```js
 nums.length = 1;  
 console.log(nums); // [10]
 ```
@@ -101,7 +103,7 @@ console.log(nums); // [10]
 
 JavaScript allows sparse arrays:
 
-```javascript
+```js
 let sparse = [];  
 sparse[3] = "hi";  
 console.log(sparse); // [empty × 3, "hi"]  
@@ -116,7 +118,7 @@ console.log(sparse.length); // 4
 
 The <span class="codeSnip">typeof</span> operator returns <span class="codeSnip">"object"</span> for arrays, so use <span class="codeSnip">Array.isArray()</span> to check:
 
-```javascript
+```js
 let list = ["a", "b"];  
 console.log(typeof list);         // "object"  
 console.log(Array.isArray(list)); // true
