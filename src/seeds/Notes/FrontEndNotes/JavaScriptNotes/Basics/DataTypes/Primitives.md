@@ -1,8 +1,10 @@
-## Primitive Types
+<br>
 
 ---
 
 ### What Are Primitive Data Types?
+
+---
 
 In JavaScript, a **primitive** is data that is not an object and has no methods.  
 These values are immutable (they cannot be changed) and are passed by value, not reference.
@@ -14,19 +16,21 @@ These values are immutable (they cannot be changed) and are passed by value, not
 
 ### List of Primitive Types
 
-🔹 String – represents text  
-🔹 Number – represents integers and floats  
-🔹 Boolean – true or false logic  
-🔹 Null – intentional absence of any value  
-🔹 Undefined – a declared variable with no value  
-🔹 Symbol – unique and immutable identifier (ES6)  
-🔹 BigInt – large integers (ES11)
+---
+
+🔹 <span class="emphasis">String</span> – represents text  
+🔹 <span class="emphasis">Number</span> – represents integers and floats  
+🔹 <span class="emphasis">Boolean</span> – true or false logic  
+🔹 <span class="emphasis">Null</span> – intentional absence of any value  
+🔹 <span class="emphasis">Undefined</span> – a declared variable with no value  
+🔹 <span class="emphasis">Symbol</span> – unique and immutable identifier (ES6)  
+🔹 <span class="emphasis">BigInt</span> – large integers (ES11)
 
 ---
 
 ### Examples of Each Primitive Type
 
-```javascript
+```js
 let name = "Alice";               // String  
 let age = 30;                     // Number  
 let isLoggedIn = true;           // Boolean  
@@ -46,12 +50,13 @@ let big = 12345678901234567890n; // BigInt
 - typeof null returns "object" (this is a JavaScript bug).  
 - undefined is the default value of uninitialized variables.  
 - Symbol values are unique and not equal to any other value.  
-- BigInt allows safe representation of large integers (use the `n` suffix).
+- BigInt allows safe representation of large integers (use the <span class="codeSnip">n</span> suffix).
 
 ---
 
 ### typeof Operator Examples
 
+```js
 typeof "Hello"         // "string"  
 typeof 42              // "number"  
 typeof true            // "boolean"  
@@ -59,6 +64,7 @@ typeof undefined       // "undefined"
 typeof null            // "object" ← known bug  
 typeof Symbol("x")     // "symbol"  
 typeof 123n            // "bigint"
+```
 
 ---
 
