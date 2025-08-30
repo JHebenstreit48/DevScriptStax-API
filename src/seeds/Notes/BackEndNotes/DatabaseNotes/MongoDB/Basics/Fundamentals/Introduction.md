@@ -1,16 +1,16 @@
-## Introduction to MongoDB
+<BR>
 
 ---
-
 ### What is MongoDB?
+---
 
 <span class="emphasis">MongoDB</span> is a <span class="emphasis">NoSQL</span> (non-relational) database management system.  
 Unlike traditional relational databases like <span class="emphasis">PostgreSQL</span>, MongoDB does not store data in tables and rows.  
 Instead, it uses <span class="emphasis">documents</span>, <span class="emphasis">objects</span>, and <span class="emphasis">arrays</span>.
 
 ---
-
 ### Key Features of MongoDB
+---
 
 <div class="bullet1">
 
@@ -61,8 +61,8 @@ MongoDB documents use a unique <span class="codeSnip">ObjectID()</span> identifi
 </table>
 
 ---
-
 ### MongoDB Tools
+---
 
 #### MongoDB Compass
 
@@ -107,5 +107,3 @@ MongoDB is built for scale and rapid change:
 - Adds schemas to MongoDB, similar to how TypeScript adds types to JavaScript
 - Useful for validation, structure enforcement, and cleaner queries
 - Example: MongoDB is to Mongoose what SQL is to Sequelize
-
----

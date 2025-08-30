@@ -1,10 +1,14 @@
+<br>
+
+---
 ### What Are Complex (Non-Primitive) Types?
+---
 
 Complex types in JavaScript are built using the **object** data type.  
 These types can store **collections of values** and are always passed by reference.
 
-✅ Objects and functions are reference types.  
-✅ Arrays are technically specialized objects.
+🔹 Objects and functions are reference types.  
+🔹 Arrays are technically specialized objects.
 
 ---
 
@@ -18,6 +22,7 @@ These types can store **collections of values** and are always passed by referen
 
 ### Examples of Complex Types
 
+```js
 // Object  
 let user = {  
   name: "Alice",  
@@ -31,6 +36,7 @@ let colors = ["red", "green", "blue"];
 function greet(name) {  
   return "Hello, " + name;  
 }
+```
 
 ---
 
@@ -39,10 +45,12 @@ function greet(name) {
 - Complex values are **stored in memory** and referenced by their address.  
 - If you assign one object to another variable, both variables point to the **same object**.
 
+```js
 let original = { value: 10 };  
 let copy = original;  
 copy.value = 99;  
 console.log(original.value); // 99 (because both reference the same object)
+```
 
 ---
 
@@ -50,10 +58,12 @@ console.log(original.value); // 99 (because both reference the same object)
 
 You can use the <span class="codeSnip">typeof</span> operator, but it returns "object" for **arrays** and **null**, so use safer alternatives for more precise checks.
 
+```js
 typeof user         // "object"  
 typeof colors       // "object"  
 typeof greet        // "function"  
 typeof null         // "object" ← historical bug
+```
 
 ---
 
