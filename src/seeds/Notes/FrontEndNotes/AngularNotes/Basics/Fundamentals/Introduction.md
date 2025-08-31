@@ -14,7 +14,7 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 ---
 
-<div class="bullet5">
+<div class="fullWidthBullet">
 
 🔹 <span class="emphasis">Component-Based Architecture</span> → Code is modular and reusable.  
 🔹 <span class="emphasis">Two-Way Data Binding</span> → Automatically syncs data between model & UI.  
@@ -31,7 +31,7 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 ---
 
-<div class="bullet5">
+<div class="fullWidthBullet">
 
 🔹 <span class="emphasis">Components</span> → The building blocks of UI.  
 🔹 <span class="emphasis">Modules</span> → Organize Angular applications.  
