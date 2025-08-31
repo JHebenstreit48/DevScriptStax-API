@@ -1,4 +1,4 @@
-<BR>
+<br>
 
 ---
 ### What is MongoDB?
@@ -12,24 +12,29 @@ Instead, it uses <span class="emphasis">documents</span>, <span class="emphasis"
 ### Key Features of MongoDB
 ---
 
-<div class="bullet1">
+<div class="fullWidthBullet">
 
-- Open-source and document-oriented
-- Stores data in <span class="emphasis">collections</span> (groups of documents)
-- Flexible schemas — documents within a collection can differ in structure
-- Horizontally scalable and ideal for distributed systems
-- Commonly used in modern web development with Node.js and JavaScript
+🔹 <span class="emphasis">Open-source</span> and document-oriented  
+🔹 Stores data in <span class="emphasis">collections</span> (groups of documents)  
+🔹 Flexible <span class="emphasis">schemas</span> — documents within a collection can differ in structure  
+🔹 <span class="emphasis">Horizontally scalable</span> and ideal for distributed systems  
+🔹 Commonly used in <span class="emphasis">web development</span> with Node.js and JavaScript  
 
 </div>
 
 ---
-
 ### BSON (Binary JSON)
-
-- MongoDB stores documents in <span class="emphasis">BSON</span>, a binary-encoded format similar to JSON.
-- BSON supports embedded documents and arrays and is optimized for parsing performance.
-
 ---
+
+<div class="fullWidthBullet">
+
+🔹 Stores documents in <span class="emphasis">BSON</span>, a binary-encoded format similar to JSON  
+🔹 Supports <span class="emphasis">embedded documents</span> and <span class="emphasis">arrays</span>  
+🔹 Optimized for <span class="emphasis">parsing performance</span>  
+
+</div>
+
+<!-- ---
 
 ### ObjectID Structure
 
@@ -70,10 +75,10 @@ A graphical interface for MongoDB, allowing you to:
 
 <div class="bullet1">
 
-- <span class="emphasis">View</span> and <span class="emphasis">edit</span> <span class="secondEmphasis">documents</span>.
-- Run queries visually.
-- Explore collections and indexes.
-- Analyze schema structure.
+🔹 <span class="emphasis">View</span> and <span class="emphasis">edit</span> <span class="secondEmphasis">documents</span>  
+🔹 Run queries visually  
+🔹 Explore collections and indexes  
+🔹 Analyze schema structure  
 
 </div>
 
@@ -83,27 +88,41 @@ A command-line tool for interacting directly with MongoDB.
 You can use it to run queries, insert data, create collections, and more.
 
 ---
-
 ### Port and Default Settings
-
-- The default MongoDB port is <span class="codeSnip">27017</span>.
-
 ---
 
+<div class="bullet3">
+
+🔹 The default MongoDB <span class="emphasis">port</span> is <span class="codeSnip">27017</span>  
+
+</div>
+
+--- -->
+
+---
 ### Scalability and Flexibility
+---
 
 MongoDB is built for scale and rapid change:
 
-- Stores <span class="emphasis">heterogeneous</span> data with no enforced schema
-- Easily supports embedded documents and arrays
-- Ideal for projects with evolving data models
+<div class="fullWidthBullet">
+
+🔹 Stores <span class="emphasis">heterogeneous data</span> with no enforced schema  
+🔹 Supports <span class="emphasis">embedded documents</span> and <span class="emphasis">arrays</span>  
+🔹 Ideal for projects with <span class="emphasis">evolving data models</span>  
+
+</div>
 
 ---
-
 ### Mongoose (Overview)
+---
 
-<span class="emphasis">Mongoose</span> is a popular Object Data Modeling (ODM) library for MongoDB and Node.js.
+<span class="emphasis">Mongoose</span> is a popular <span class="emphasis">Object Data Modeling (ODM)</span> library for MongoDB and Node.js.
 
-- Adds schemas to MongoDB, similar to how TypeScript adds types to JavaScript
-- Useful for validation, structure enforcement, and cleaner queries
-- Example: MongoDB is to Mongoose what SQL is to Sequelize
+<div class="fullWidthBullet">
+
+🔹 Adds <span class="emphasis">schemas</span> for structure and validation  
+🔹 Provides cleaner <span class="emphasis">queries</span> and model organization  
+🔹 Analogy: MongoDB is to Mongoose what SQL is to <span class="emphasis">Sequelize</span>  
+
+</div>
