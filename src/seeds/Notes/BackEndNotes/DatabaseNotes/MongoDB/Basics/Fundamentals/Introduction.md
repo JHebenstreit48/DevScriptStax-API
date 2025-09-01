@@ -66,5 +66,8 @@ MongoDB is built for scale and rapid change:
 ### Mongoose (pointer)
 ---
 
-Mongoose is an ODM that adds schemas, validation, and models on top of MongoDB.  
-See: <span class="emphasis">Mongoose → Overview</span> <a href="/databases/mongodb/basics/mongoose/overview"></a>
+Mongoose is an ODM that adds schemas, validation, and models on top of MongoDB.
+
+<div>  
+See: <a href="/databases/mongodb/basics/mongoose/overview"><span class="emphasis">Mongoose → Overview</span></a>
+</div>

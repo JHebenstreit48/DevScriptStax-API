@@ -35,3 +35,24 @@ update(criteria, updateData);
 🔹 <span class="emphasis">$push</span>: append value (array or scalar)  
 
 </div>
+
+---
+### Deletes
+---
+
+Remove documents from a collection using model helpers.
+
+```js  
+Model.deleteOne({ field: value })  
+Model.deleteMany({ field: value })  
+Model.findByIdAndDelete(id)
+```
+
+<div class="fullWidthBullet">
+
+🔹 <span class="codeSnip">deleteOne</span> → remove a single matching document  
+🔹 <span class="codeSnip">deleteMany</span> → remove all matching documents  
+🔹 <span class="codeSnip">findByIdAndDelete</span> → remove by ObjectId shortcut  
+🔹 Equivalent to a REST <span class="emphasis">DELETE</span> request  
+
+</div>
