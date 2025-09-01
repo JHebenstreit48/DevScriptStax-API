@@ -34,71 +34,6 @@ Instead, it uses <span class="emphasis">documents</span>, <span class="emphasis"
 
 </div>
 
-<!-- ---
-
-### ObjectID Structure
-
-MongoDB documents use a unique <span class="codeSnip">ObjectID()</span> identifier. Each ObjectID is a <span class="emphasis">12-byte</span> value containing:  
-
-<br>
-
-<table class="notesTable">
-  <thead>
-    <tr class="tableHeader">
-      <th class="tableCellHeader">Component</th>
-      <th class="tableCellHeader">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="tableRow">
-      <td class="tableCell">4 bytes</td>
-      <td class="tableCell">Unix timestamp (seconds)</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">5 bytes</td>
-      <td class="tableCell">Random value generated per process</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell">3 bytes</td>
-      <td class="tableCell">Incrementing counter</td>
-    </tr>
-  </tbody>
-</table>
-
----
-### MongoDB Tools
----
-
-#### MongoDB Compass
-
-A graphical interface for MongoDB, allowing you to:
-
-<div class="bullet1">
-
-🔹 <span class="emphasis">View</span> and <span class="emphasis">edit</span> <span class="secondEmphasis">documents</span>  
-🔹 Run queries visually  
-🔹 Explore collections and indexes  
-🔹 Analyze schema structure  
-
-</div>
-
-#### Mongo Shell
-
-A command-line tool for interacting directly with MongoDB.  
-You can use it to run queries, insert data, create collections, and more.
-
----
-### Port and Default Settings
----
-
-<div class="bullet3">
-
-🔹 The default MongoDB <span class="emphasis">port</span> is <span class="codeSnip">27017</span>  
-
-</div>
-
---- -->
-
 ---
 ### Scalability and Flexibility
 ---
@@ -126,3 +61,10 @@ MongoDB is built for scale and rapid change:
 🔹 Analogy: MongoDB is to Mongoose what SQL is to <span class="emphasis">Sequelize</span>  
 
 </div>
+
+---
+### Mongoose (pointer)
+---
+
+Mongoose is an ODM that adds schemas, validation, and models on top of MongoDB.  
+See: <span class="emphasis">Mongoose → Overview</span> <a href="/databases/mongodb/basics/mongoose/overview"></a>

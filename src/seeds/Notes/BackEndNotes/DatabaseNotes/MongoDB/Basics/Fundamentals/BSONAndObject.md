@@ -62,3 +62,10 @@ In drivers (e.g., Node.js):
 ```js  
 new ObjectId()
 ```
+
+---
+### Note on naming
+---
+
+Some older docs/tools refer to this type as <span class="codeSnip">ObjectID()</span>.  
+Modern drivers and the shell typically use <span class="codeSnip">ObjectId</span>. They refer to the same identifier type.
