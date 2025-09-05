@@ -1,31 +1,35 @@
+<br>
+
+---
 ## What Is Cypress?
+---
 
 Cypress is a modern, end-to-end testing framework built for the modern web.
 
-✅ It runs directly in the browser alongside your application  
-✅ Designed for <span class="codeSnip">JavaScript</span>/<span class="codeSnip">TypeScript</span> developers  
-✅ Ideal for testing modern front-end frameworks like React, Vue, Angular
+🔹 It runs directly in the browser alongside your application  
+🔹 Designed for <span class="codeSnip">JavaScript</span>/<span class="codeSnip">TypeScript</span> developers  
+🔹 Ideal for testing modern front-end frameworks like React, Vue, Angular
 
 ---
 
 ## Why Use Cypress?
 
-- 🔹 Fast feedback loop with hot reloading of tests  
-- 🔹 Runs in the same run-loop as the app — gives better visibility  
-- 🔹 Uses a real browser — no WebDriver layer required  
-- 🔹 Built-in wait, retry, and assertion handling  
-- 🔹 Friendly debugging with time-travel snapshots and error messages  
-- 🔹 Excellent integration with CI tools like GitHub Actions and CircleCI  
+🔹 Fast feedback loop with hot reloading of tests  
+🔹 Runs in the same run-loop as the app — gives better visibility  
+🔹 Uses a real browser — no WebDriver layer required  
+🔹 Built-in wait, retry, and assertion handling  
+🔹 Friendly debugging with time-travel snapshots and error messages  
+🔹 Excellent integration with CI tools like GitHub Actions and CircleCI  
 
 ---
 
 ## Key Features at a Glance
 
-✅ Easy to install with <span class="codeSnip">npm</span>  
-✅ Visual test runner or headless CLI support  
-✅ Built-in network traffic control (intercept, mock)  
-✅ Easy to write readable tests using chaining  
-✅ Compatible with component and integration testing  
+🔹 Easy to install with <span class="codeSnip">npm</span>  
+🔹 Visual test runner or headless CLI support  
+🔹 Built-in network traffic control (intercept, mock)  
+🔹 Easy to write readable tests using chaining  
+🔹 Compatible with component and integration testing  
 
 ---
 
