@@ -1,4 +1,8 @@
-## Introduction to HTML
+<br>
+
+---
+## What is HTML?
+---
 
 <span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the cornerstone <span class="emphasis">languages</span> of the web.
 
