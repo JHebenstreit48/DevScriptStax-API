@@ -7,6 +7,7 @@
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
+    "seed:firebase": "ts-node -r tsconfig-paths/register src/scripts/importNotesFirebase.ts",
     "build": "tsc",
     "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
     "start:dev": "npm run start:watch"
@@ -15,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "firebase-admin": "^13.6.0",
     "gray-matter": "^4.0.3",
     "mongoose": "^8.8.4"
   },
@@ -22,6 +24,8 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.15.21",
+    "fast-glob": "^3.3.3",
+    "marked": "^16.4.1",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
