@@ -1,17 +1,13 @@
 <br>
 
 ---
-
 ### What is Angular?
-
 ---
 
 Angular is a **TypeScript-based front-end framework** for building dynamic, scalable web applications. Developed by Google, it provides powerful tools for handling components, state management, and client-server communication.
 
 ---
-
 ### Why Use Angular?
-
 ---
 
 <div class="fullWidthBullet">
@@ -26,9 +22,7 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 </div>
 
 ---
-
 ### Core Angular Concepts
-
 ---
 
 <div class="fullWidthBullet">
@@ -44,15 +38,11 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 </div>
 
 ---
-
 ### Angular vs. Other Frameworks
-
 ---
 
 ---
-
 #### Key Differences Between Angular and React JS
-
 ---
 
 ##### Angular Framework

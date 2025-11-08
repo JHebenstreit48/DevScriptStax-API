@@ -1,5 +1,7 @@
-## Built-in Methods in JavaScript
+<br>
 
+---
+## Built-in Methods in JavaScript
 ---
 
 ### What Are Built-in Methods?
@@ -11,9 +13,7 @@
 - <span class="emphasis">Strings</span> and numbers have many helpful methods available without you needing to define them yourself.
 
 ---
-
 ## String Methods
-
 ---
 
 ### .toUpperCase()

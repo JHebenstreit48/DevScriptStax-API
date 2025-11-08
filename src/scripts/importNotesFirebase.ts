@@ -45,8 +45,6 @@ const baseDir = path.join(__dirname, "..", "seeds", "Notes");
 
 // Convert absolute file path -> canonical fullPath used in Firestore and frontend
 // Example:
-//   abs: /.../seeds/Notes/Languages/CFamily/C/Basics/Fundamentals/Introduction.md
-//   fullPath: "Languages/CFamily/C/Basics/Fundamentals/Introduction"
 const toFullPath = (abs: string): string =>
   path
     .relative(baseDir, abs)
