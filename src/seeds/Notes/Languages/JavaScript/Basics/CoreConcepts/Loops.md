@@ -1,5 +1,7 @@
-## Loops
+<br>
 
+---
+## Loops
 ---
 
 ### Introduction to Loops
