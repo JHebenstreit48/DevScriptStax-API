@@ -6,8 +6,8 @@
 
 <span class="emphasis">JavaScript</span> uses a flexible syntax that allows developers to create programs composed of <span class="secondEmphasis">statements</span>, <span class="secondEmphasis">blocks</span>, and <span class="secondEmphasis">functions</span>.
 
-✅ Syntax refers to the set of rules that define the structure of valid JavaScript code.  
-✅ Even though JavaScript is forgiving compared to stricter languages like C++, writing clean and consistent syntax improves readability and maintenance.
+🔹 Syntax refers to the set of rules that define the structure of valid JavaScript code.  
+🔹 Even though JavaScript is forgiving compared to stricter languages like C++, writing clean and consistent syntax improves readability and maintenance.
 
 ---
 
@@ -22,10 +22,10 @@
 
 ### Quote Style Consistency
 
-JavaScript allows both <span class="codeSnip">"</span>double quotes<span class="codeSnip">"</span> and <span class="codeSnip">'</span>single quotes<span class="codeSnip">'</span> for string literals.
+JavaScript allows both <span class="emphasis">double quotes</span> <span class="codeSnip">""</span> and <span class="emphasis">single quotes</span> <span class="codeSnip">''</span> for string literals.
 
-✅ Choose one style and use it consistently across your codebase.  
-✅ Both work identically in JavaScript — it’s just a matter of style preference.
+🔹 Choose one style and use it consistently across your codebase.  
+🔹 Both work identically in JavaScript — it’s just a matter of style preference.
 
 ```javascript
 let greeting1 = "Hello, World!";
@@ -66,10 +66,10 @@ greet();        // Output: Hello, World!
 
 ### Key Best Practices for Syntax
 
-✅ Always use <span class="emphasis">semicolons</span> to <span class="secondEmphasis">terminate</span> statements explicitly.  
-✅ Keep consistent indentation (usually 2 or 4 spaces).  
-✅ Place opening curly braces <span class="codeSnip">{</span> on the same line as the control statement (e.g., <span class="codeSnip">if</span>, <span class="codeSnip">function</span>, <span class="codeSnip">for</span>).  
-✅ Use clear and descriptive variable and function names.
+🔹 Always use <span class="emphasis">semicolons</span> to <span class="secondEmphasis">terminate</span> statements explicitly.  
+🔹 Keep consistent indentation (usually 2 or 4 spaces).  
+🔹 Place opening curly braces <span class="codeSnip">{</span> on the same line as the control statement (e.g., <span class="codeSnip">if</span>, <span class="codeSnip">function</span>, <span class="codeSnip">for</span>).  
+🔹 Use clear and descriptive variable and function names.
 
 ---
 
