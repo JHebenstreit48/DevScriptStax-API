@@ -7,6 +7,7 @@
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "ts-node -r tsconfig-paths/register src/server.ts",
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
+    "gen:md": "tsx -r tsconfig-paths/register src/scripts/cli/gen-md.ts",
     "ping:firebase": "node dist/scripts/pingFirestore.js",
     "build": "tsc",
     "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
@@ -29,6 +30,7 @@
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.2.2"
   }
 }
