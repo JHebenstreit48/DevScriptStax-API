@@ -1,11 +1,3 @@
-## Code Snippets
-
----
-
-When rendering code snippets in Markdown, enclose them in triple backticks <span className="emphasis">```</span>. Optionally, specify the language for syntax highlighting.
-
----
-
 ## Embedding Images in Markdown
 
 ---
