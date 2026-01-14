@@ -101,7 +101,9 @@
       <td class="tableCell"><span class="codeSnip">git remote set-url origin &lt;url&gt;</span></td>
       <td class="tableCell">Change remote origin URL</td>
     </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">git fetch --all --prune</span></td>
+      <td class="tableCell">Update remote branch list and remove stale remote-tracking branches</td>
+    </tr>
   </tbody>
 </table>
-
----
