@@ -49,3 +49,14 @@ The <span class="emphasis">&lt;body&gt;</span> element contains the visible cont
   <p>This is a paragraph.</p>
 </body>
 ```
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/basics/fundamentals/history">← Back</a>
+    <div class="xrefTitle">Topic HTML Fundamentals → History</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/basics/structure/attributes">Next →</a>
+    <div class="xrefTitle">HTML Structure → Attributes</div>
+  </div>
+</div>
