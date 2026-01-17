@@ -56,7 +56,7 @@ The <span class="emphasis">&lt;body&gt;</span> element contains the visible cont
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/html/basics/structure/elements">Next →</a>
+    <a class="xrefBtn" href="/html/basics/structure/attributes">Next →</a>
     <div class="xrefTitle">HTML Structure → Attributes</div>
   </div>
 </div>
