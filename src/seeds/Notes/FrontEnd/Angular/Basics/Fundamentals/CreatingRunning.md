@@ -103,5 +103,16 @@ ng build --prod
 ```
 
 This generates a **minified, tree-shaken dist/ folder** ready for deployment.
-
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Angular Fundamentals → Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/fundamentals/cli">Next →</a>
+    <div class="xrefTitle">Angular Fundamentals → CLI</div>
+  </div>
+</div>
