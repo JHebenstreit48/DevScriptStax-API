@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const ChangeStreamsAndEvents: Subpage = {
   name: 'Change Streams & Events',

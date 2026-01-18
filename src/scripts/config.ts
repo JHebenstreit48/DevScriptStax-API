@@ -1,27 +1,28 @@
 export const config = {
-  // Where to import the navigation root from (Subpage[])
-  navEntryModule: '@/Navigation/Combined/Core/Pages',
-
-  // Markdown output root (backend repo)
+  navEntryModule: '@/types/navigation',
   notesRoot: 'src/seeds/Notes',
 
-  // Map nav “Main Tab” display names -> folder names you actually use
   sectionNameMap: {
     'Front End': 'FrontEnd',
     'Back End': 'BackEnd',
     'GraphQL & Apollo': 'GraphQLAndApollo',
-    'Cloud and Deployment': 'CloudAndDeployment',
+    'Cloud & Deploy': 'CloudAndDeployment',
     'Languages': 'Languages',
     'Testing': 'Testing',
     'Tools': 'Tools',
     'Stacks': 'Stacks',
   } as Record<string, string>,
 
-  // Optional: override topic folder names when needed
   topicNameMap: {
     // 'IDS & IPS': 'IDSIPS',
   } as Record<string, string>,
 
-  // Optional safety cap default (can be overridden by CLI --limit)
+  // NEW: override folder names for “group crumbs” (folders between Topic and leaf)
+  groupFolderNameMap: {
+    'Services/Dependency Injection': 'Services',
+    'Authentication & Authorization': 'AuthenticationAuthorization',
+    'Structure': 'ProjectStructure',
+  } as Record<string, string>,
+
   defaultLimit: 10_000,
 };

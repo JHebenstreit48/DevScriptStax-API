@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Concepts from '@/Navigation/Individual/Granularized/FrontEnd/Svelte/Advanced/Concepts';
 import BestPractices from '@/Navigation/Individual/Granularized/FrontEnd/Svelte/Advanced/BestPractices';

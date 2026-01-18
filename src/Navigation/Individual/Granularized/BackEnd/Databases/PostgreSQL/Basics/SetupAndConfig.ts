@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const SetupAndConfig: Subpage = {
   name: 'Setup & Configuration',

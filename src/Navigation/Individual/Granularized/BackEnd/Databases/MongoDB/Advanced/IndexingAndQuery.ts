@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const IndexingAndQuery: Subpage = {
   name: 'Indexing & Query Planner',

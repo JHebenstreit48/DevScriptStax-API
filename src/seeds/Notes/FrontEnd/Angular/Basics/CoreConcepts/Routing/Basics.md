@@ -42,3 +42,17 @@ Place <span class="codeSnip">&lt;router-outlet&gt;</span> in your AppComponent t
 <span class="codeSnip">routerLink</span> updates the URL and displays the associated component.
 
 > Next: Learn about guards, resolvers, and protected routes.
+
+<!-- NAV_START -->
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/core-concepts/services/dependency-injection">← Back</a>
+    <div class="xrefTitle">Section: Angular Services/Dependency Injection → Dependency Injection (DI)</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/core-concepts/routing/guards-and-resolvers">Next →</a>
+    <div class="xrefTitle">Routing → Guards/Resolvers</div>
+  </div>
+</div>
+<!-- NAV_END -->

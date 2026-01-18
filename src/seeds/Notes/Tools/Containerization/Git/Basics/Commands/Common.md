@@ -164,7 +164,7 @@ On Windows, Git Bash is commonly used for Git workflows because it supports Unix
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/git/basics/workflow/nuances">← Back</a>
-    <div class="xrefTitle">Topic: Git Workflow → Nuances</div>
+    <div class="xrefTitle">Section: Git Workflow → Nuances</div>
   </div>
 
   <div class="xrefItem">

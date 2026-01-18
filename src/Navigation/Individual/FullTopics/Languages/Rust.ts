@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Basics from '@/Navigation/Individual/Granularized/Languages/Rust/Basics';
 import Advanced from '@/Navigation/Individual/Granularized/Languages/Rust/Advanced';
