@@ -128,12 +128,19 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 </table>
 
 ---
-
 #### **When to Choose Angular vs. React JS**
-
 ---
 
 - **Angular:** Best for **enterprise-scale applications** needing structure and built-in features.
 - **React JS:** Best for **lightweight, flexible projects** requiring UI focus.
 - **Angular** includes routing, state management, and DI **out of the box**.
 - **React** relies on **third-party libraries** for routing and state management.
+
+<div class="xrefNav">
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/fundamentals/creating-and-running">Next →</a>
+    <div class="xrefTitle">Angular Fundamentals → Creating & Running</div>
+  </div>
+
+</div>

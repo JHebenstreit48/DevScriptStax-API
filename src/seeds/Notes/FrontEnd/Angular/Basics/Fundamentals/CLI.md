@@ -7,10 +7,10 @@ Angular CLI (Command Line Interface) automates project setup, builds, and develo
 ---
 
 ### 2. Why Use Angular CLI?
-✅ **Provides tools to initialize, develop, and maintain Angular applications efficiently.**  
-✅ **Simplifies setup** by automating configurations for TypeScript, Webpack, and other dependencies.  
-✅ **Predefined project structure** ensures scalable, maintainable code.  
-✅ **Optimized Workflow:** Built-in commands for generating files and running tasks.  
+<span class="emphasis">Provides tools</span> to <span class="secondEmphasis">initialize</span>, <span class="secondEmphasis">develop</span>, and <span class="secondEmphasis">maintain</span> Angular applications <span class="emphasis">efficiently</span>.  
+**Simplifies setup** by automating configurations for TypeScript, Webpack, and other dependencies.  
+**Predefined project structure** ensures scalable, maintainable code.  
+**Optimized Workflow:** Built-in commands for generating files and running tasks.  
 
 ---
 
@@ -47,5 +47,4 @@ ng update
 🔹 **Customizing ng build with flags**  
 🔹 **Using Schematics for automatic code generation**  
 🔹 **Working with angular.json to configure CLI behavior**  
-
 ---
