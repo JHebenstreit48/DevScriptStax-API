@@ -1,10 +1,11 @@
 # Components
+---
 
 Angular components are the **building blocks** of Angular applications: they combine a class, template, and metadata to define UI behavior.
 
 ---
-
 ## Anatomy of a Component
+---
 
 An Angular component consists of:
 
@@ -30,8 +31,8 @@ export class HelloComponent {
 The <span class="codeSnip">(click)</span> syntax binds click events to <span class="codeSnip">update()</span>—a central part of component interactivity.
 
 ---
-
 ## Why Components Matter
+---
 
 - Promote **reusability** and encapsulation
 - Support structured UI composition
@@ -49,6 +50,6 @@ Angular uses components to build scalable, maintainable applications.
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/core-concepts/components/reusable-design">Next →</a>
-    <div class="xrefTitle">Components → Reusable Design</div>
+    <div class="xrefTitle">Angular Components → Reusable Design</div>
   </div>
 </div>

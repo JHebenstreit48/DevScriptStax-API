@@ -141,6 +141,6 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/fundamentals/creating-and-running">Next →</a>
-    <div class="xrefTitle">Fundamentals → Creating/Running</div>
+    <div class="xrefTitle">Angular Fundamentals → Creating/Running</div>
   </div>
 </div>
