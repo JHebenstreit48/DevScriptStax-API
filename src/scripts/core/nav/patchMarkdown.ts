@@ -16,14 +16,28 @@ function isBlank(md: string): boolean {
 /**
  * Normalize ONLY for comparison so whitespace differences
  * don't cause rewrites. Never write the normalized text.
+ *
+ * Rules:
+ * - normalize CRLF -> LF
+ * - trim trailing whitespace per-line
+ * - collapse runs of 3+ newlines to 2
+ * - collapse whitespace between HTML tags (">   <" -> "><")
+ * - trim ends
  */
 function normalizeForCompare(s: string): string {
-  return s
-    .replace(/\r\n/g, "\n")
+  const lf = s.replace(/\r\n/g, "\n");
+
+  const trimmedLineEnds = lf
     .split("\n")
     .map((line) => line.replace(/[ \t]+$/g, ""))
-    .join("\n")
-    .trim();
+    .join("\n");
+
+  const collapseBlankRuns = trimmedLineEnds.replace(/\n{3,}/g, "\n\n");
+
+  // Ignore whitespace-only differences between tags
+  const collapseBetweenTags = collapseBlankRuns.replace(/>\s+</g, "><");
+
+  return collapseBetweenTags.trim();
 }
 
 /**
@@ -48,8 +62,10 @@ function ensureOneBlankLineBeforeAppend(md: string): string {
 
 export function patchMarkdownWithNav(beforeRaw: string, m: ManifestEntry): string {
   const before = stripBom(beforeRaw);
-  const newNav = renderNav(m.back, m.next).trim(); // canonical nav as produced
-  const newNavCmp = normalizeForCompare(newNav);
+
+  // canonical nav as produced by renderNav
+  const newNav = renderNav(m.back, m.next).trim();
+  const _newNavCmp = normalizeForCompare(newNav); // kept in case you want it later
 
   // 1) Blank file → scaffold + nav (no extra EOF newline)
   if (isBlank(before)) {
@@ -65,18 +81,7 @@ export function patchMarkdownWithNav(beforeRaw: string, m: ManifestEntry): strin
     return out.replace(/\s*$/, "");
   }
 
-  // 3) Nav found → compare nav blocks (ignore whitespace)
-  const existingNav = before.slice(found.start, found.end);
-  const existingNavCmp = normalizeForCompare(existingNav);
-
-  // If nav already correct → return original EXACT (except trim BOM)
-  if (existingNavCmp === newNavCmp) {
-    return before;
-  }
-
-  // 4) Replace ONLY nav slice, keep everything else byte-for-byte
-  const out = before.slice(0, found.start) + newNav + before.slice(found.end);
-
-  // Do not leave trailing blank lines at EOF
-  return out.replace(/\s*$/, "");
+  // 3) Nav found → treat existing nav as canonical (idempotent)
+  // If it's there, we do NOT rewrite it.
+  return before;
 }
