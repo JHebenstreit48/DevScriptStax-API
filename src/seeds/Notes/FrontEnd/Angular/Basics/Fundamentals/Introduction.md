@@ -12,11 +12,11 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 <div class="fullWidthBullet">
 
-🔹 <span class="emphasis">Component-Based Architecture</span> → Code is modular and reusable.  
-🔹 <span class="emphasis">Two-Way Data Binding</span> → Automatically syncs data between model & UI.  
-🔹 <span class="emphasis">Dependency Injection (DI)</span> → Improves maintainability & testing.  
-🔹 <span class="emphasis">Built-in Routing & HTTP Services</span> → No need for third-party libraries.  
-🔹 <span class="emphasis">Reactive Forms & RxJS</span> → Enables efficient event handling & state management.  
+🔹 <span class="emphasis">Component-Based Architecture</span> → Code is modular and reusable.
+🔹 <span class="emphasis">Two-Way Data Binding</span> → Automatically syncs data between model & UI.
+🔹 <span class="emphasis">Dependency Injection (DI)</span> → Improves maintainability & testing.
+🔹 <span class="emphasis">Built-in Routing & HTTP Services</span> → No need for third-party libraries.
+🔹 <span class="emphasis">Reactive Forms & RxJS</span> → Enables efficient event handling & state management.
 🔹 <span class="emphasis">Optimized for Performance</span> → Uses Ahead-of-Time (AOT) compilation.
 
 </div>
@@ -27,12 +27,12 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 
 <div class="fullWidthBullet">
 
-🔹 <span class="emphasis">Components</span> → The building blocks of UI.  
-🔹 <span class="emphasis">Modules</span> → Organize Angular applications.  
-🔹 <span class="emphasis">Services & Dependency Injection</span> → Share logic across components.  
-🔹 <span class="emphasis">Directives</span> → Extend HTML with additional behavior.  
-🔹 <span class="emphasis">Routing</span> → Manage navigation between views.  
-🔹 <span class="emphasis">Forms</span> → Handle user input efficiently.  
+🔹 <span class="emphasis">Components</span> → The building blocks of UI.
+🔹 <span class="emphasis">Modules</span> → Organize Angular applications.
+🔹 <span class="emphasis">Services & Dependency Injection</span> → Share logic across components.
+🔹 <span class="emphasis">Directives</span> → Extend HTML with additional behavior.
+🔹 <span class="emphasis">Routing</span> → Manage navigation between views.
+🔹 <span class="emphasis">Forms</span> → Handle user input efficiently.
 🔹 <span class="emphasis">State Management (RxJS)</span> → Handle asynchronous data streams.
 
 </div>
@@ -137,10 +137,10 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 - **React** relies on **third-party libraries** for routing and state management.
 
 <div class="xrefNav">
+  <div class="xrefItem"></div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/fundamentals/creating-and-running">Next →</a>
-    <div class="xrefTitle">Angular Fundamentals → Creating & Running</div>
+    <div class="xrefTitle">Fundamentals → Creating/Running</div>
   </div>
-
 </div>

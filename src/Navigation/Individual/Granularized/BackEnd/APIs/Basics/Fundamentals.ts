@@ -1,7 +1,7 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const Fundamentals: Subpage = {
-  name: 'API Fundamentals',
+  name: 'Fundamentals',
   subpages: [
     {
       name: 'Core Concepts',

@@ -35,4 +35,14 @@ export class AppComponent {
 
 Dependency Injection ensures you use a single shared instance of DataService.
 
-> Next: Dive deeper into Angular's hierarchical injectors and advanced DI scenarios.
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/core-concepts/lazy-loading">← Back</a>
+    <div class="xrefTitle">Section: Angular Modules → Lazy Loading</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/core-concepts/services/dependency-injection">Next →</a>
+    <div class="xrefTitle">Services/Dependency Injection → Dependency Injection (DI)</div>
+  </div>
+</div>

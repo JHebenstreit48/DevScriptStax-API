@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Types: Subpage = {
   name: "Types of APIs",
@@ -9,7 +9,7 @@ const Types: Subpage = {
     },
     {
       name: "REST vs GraphQL vs SOAP",
-      path: "/apis/basics/types/comparison"
+      path: "/apis/basics/types/rest-vs-graphql-vs-soap"
     },
     {
       name: "Microservices & API-based Architectures",
