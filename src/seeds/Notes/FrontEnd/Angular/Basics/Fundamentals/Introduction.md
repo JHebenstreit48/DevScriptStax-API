@@ -136,7 +136,6 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
 - **Angular** includes routing, state management, and DI **out of the box**.
 - **React** relies on **third-party libraries** for routing and state management.
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem"></div>
 
@@ -145,4 +144,3 @@ Angular is a **TypeScript-based front-end framework** for building dynamic, scal
     <div class="xrefTitle">Fundamentals → Creating/Running</div>
   </div>
 </div>
-<!-- NAV_END -->

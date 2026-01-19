@@ -1,7 +1,6 @@
 ## Path Aliases
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/advanced/animations/triggers">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">TypeScript Integration → Advanced Aliases</div>
   </div>
 </div>
-<!-- NAV_END -->

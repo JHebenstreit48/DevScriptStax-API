@@ -1,7 +1,6 @@
 ## Bundle Optimization
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/advanced/change-detection/template-optimization">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Performance → Budgets & Profiling</div>
   </div>
 </div>
-<!-- NAV_END -->

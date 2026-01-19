@@ -65,3 +65,15 @@ import { MyComponent } from '@components/MyComponent';
 1. Define meaningful aliases that reflect your project’s folder structure (e.g., @components for the components directory).
 2. Update your imports consistently when adding or changing aliases.
 3. Test your configuration to ensure proper resolution using Angular’s built-in tools.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/fundamentals/cli">← Back</a>
+    <div class="xrefTitle">Section: Angular Fundamentals → CLI</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/structure/config-files">Next →</a>
+    <div class="xrefTitle">Structure → Configuration Files</div>
+  </div>
+</div>

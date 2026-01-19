@@ -1,7 +1,6 @@
 ## Writing
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/testing/e2e/introduction">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Next Topic: CSS Introduction & Selectors → Introduction and Syntax</div>
   </div>
 </div>
-<!-- NAV_END -->

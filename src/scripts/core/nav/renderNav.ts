@@ -1,9 +1,9 @@
 import type { NavTarget } from "@/scripts/core/nav/buildManifest";
 
-function item(href: string, btnText: string, title: string) {
+function item(href: string, btnText: string, title?: string) {
+  const titleHtml = title ? `\n    <div class="xrefTitle">${title}</div>` : "";
   return `  <div class="xrefItem">
-    <a class="xrefBtn" href="${href}">${btnText}</a>
-    <div class="xrefTitle">${title}</div>
+    <a class="xrefBtn" href="${href}">${btnText}</a>${titleHtml}
   </div>`;
 }
 

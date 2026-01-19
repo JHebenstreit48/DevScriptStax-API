@@ -1,10 +1,9 @@
 export type BoundaryMode = "next-topic" | "stop";
-
 export type TitleKind = "same-group" | "cross-group" | "cross-topic";
 
 export type NavTarget = {
   href: string;
-  title: string;
+  title: string; // SHORT label only
   kind: TitleKind;
 };
 
@@ -26,8 +25,6 @@ type LeafInput = {
 };
 
 function groupLabel(crumbs: string[]): string {
-  // [Tab, Topic, Group1, Group2, ..., Leaf]
-  // Use the last group before leaf as the "group label"
   const groups = crumbs.slice(2, -1);
   return groups.at(-1) ?? "";
 }
@@ -40,10 +37,9 @@ function leafLabel(crumbs: string[]): string {
   return crumbs.at(-1) ?? "";
 }
 
-function makeTitle(opts: {
+function makeShortTitle(opts: {
   from: LeafInput;
   to: LeafInput;
-  direction: "back" | "next";
 }): { title: string; kind: TitleKind } {
   const fromTopic = topicLabel(opts.from.crumbs);
   const toTopic = topicLabel(opts.to.crumbs);
@@ -51,25 +47,24 @@ function makeTitle(opts: {
   const toGroup = groupLabel(opts.to.crumbs);
   const toLeaf = leafLabel(opts.to.crumbs);
 
+  // If crossing topics, show only the topic name (short)
   if (fromTopic !== toTopic) {
-    const prefix = opts.direction === "next" ? "Next Topic:" : "Previous Topic:";
-    const toGroupPart = toGroup ? ` ${toGroup} → ${toLeaf}` : ` → ${toLeaf}`;
-    return { title: `${prefix} ${toTopic}${toGroupPart}`, kind: "cross-topic" };
+    return { title: toTopic || toLeaf, kind: "cross-topic" };
   }
 
+  // If crossing groups, show only the group (short)
   if (fromGroup && toGroup && fromGroup !== toGroup) {
-    return { title: `Section: ${toTopic} ${toGroup} → ${toLeaf}`, kind: "cross-group" };
+    return { title: toGroup || toLeaf, kind: "cross-group" };
   }
 
-  if (toGroup) return { title: `${toGroup} → ${toLeaf}`, kind: "same-group" };
-  return { title: `${toLeaf}`, kind: "same-group" };
+  // Same group/topic: show only the destination leaf
+  return { title: toLeaf, kind: "same-group" };
 }
 
 export function buildManifest(
   leaves: LeafInput[],
   opts: { boundary: BoundaryMode }
 ): ManifestEntry[] {
-  // Order is the order provided by flattenNav (nav order).
   const out: ManifestEntry[] = [];
 
   for (let i = 0; i < leaves.length; i++) {
@@ -88,16 +83,15 @@ export function buildManifest(
       pageTitle: leafLabel(cur.crumbs),
     };
 
-    // Back always allowed within your "continuous" model, but boundary may remove cross-topic links.
     if (prev) {
-      const t = makeTitle({ from: cur, to: prev, direction: "back" });
+      const t = makeShortTitle({ from: cur, to: prev });
       if (opts.boundary === "next-topic" || topicLabel(prev.crumbs) === topicLabel(cur.crumbs)) {
         entry.back = { href: prev.urlPath, title: t.title, kind: t.kind };
       }
     }
 
     if (next) {
-      const t = makeTitle({ from: cur, to: next, direction: "next" });
+      const t = makeShortTitle({ from: cur, to: next });
       if (opts.boundary === "next-topic" || topicLabel(next.crumbs) === topicLabel(cur.crumbs)) {
         entry.next = { href: next.urlPath, title: t.title, kind: t.kind };
       }

@@ -38,9 +38,6 @@ export class AppModule {}
 
 NgModules form the structural backbone of your application.
 
-> Next: Explore lazy-loaded feature modules.
-
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/core-concepts/components/inputs-outputs">← Back</a>
@@ -52,4 +49,3 @@ NgModules form the structural backbone of your application.
     <div class="xrefTitle">Modules → Lazy Loading</div>
   </div>
 </div>
-<!-- NAV_END -->

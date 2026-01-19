@@ -1,7 +1,6 @@
 ## Optimizing
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/advanced/change-detection/basics">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Change Detection → Template Rendering Optimization</div>
   </div>
 </div>
-<!-- NAV_END -->

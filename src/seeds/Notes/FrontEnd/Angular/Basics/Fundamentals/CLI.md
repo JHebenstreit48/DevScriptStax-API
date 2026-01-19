@@ -49,7 +49,6 @@ ng update
 🔹 **Working with angular.json to configure CLI behavior**
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/fundamentals/creating-and-running">← Back</a>
@@ -57,8 +56,7 @@ ng update
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/angular/basics/structure/structure">Next →</a>
+    <a class="xrefBtn" href="/angular/basics/structure/project-structure">Next →</a>
     <div class="xrefTitle">Section: Angular Structure → Project Structure</div>
   </div>
 </div>
-<!-- NAV_END -->

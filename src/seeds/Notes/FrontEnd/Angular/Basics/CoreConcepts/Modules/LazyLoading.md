@@ -1,7 +1,6 @@
 ## Lazy Loading
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/core-concepts/modules/basics">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Section: Angular Services/Dependency Injection → Basics</div>
   </div>
 </div>
-<!-- NAV_END -->

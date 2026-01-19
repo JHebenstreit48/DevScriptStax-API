@@ -4,7 +4,7 @@
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/advanced/performance/budgets-profiling">← Back</a>
-    <div class="xrefTitle">Topic: Angular Performance → Budgets & Profiling</div>
+    <div class="xrefTitle">Section: Angular Performance → Budgets & Profiling</div>
   </div>
 
   <div class="xrefItem">

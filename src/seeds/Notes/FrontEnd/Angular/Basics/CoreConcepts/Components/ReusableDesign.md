@@ -1,6 +1,5 @@
 ## Reusable Component Design
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/core-concepts/components/introduction">← Back</a>
@@ -12,4 +11,3 @@
     <div class="xrefTitle">Components → Smart/Dumb</div>
   </div>
 </div>
-<!-- NAV_END -->

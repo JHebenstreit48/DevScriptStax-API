@@ -43,7 +43,6 @@ Place <span class="codeSnip">&lt;router-outlet&gt;</span> in your AppComponent t
 
 > Next: Learn about guards, resolvers, and protected routes.
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/core-concepts/services/dependency-injection">← Back</a>
@@ -55,4 +54,3 @@ Place <span class="codeSnip">&lt;router-outlet&gt;</span> in your AppComponent t
     <div class="xrefTitle">Routing → Guards/Resolvers</div>
   </div>
 </div>
-<!-- NAV_END -->

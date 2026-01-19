@@ -41,7 +41,6 @@ Angular uses components to build scalable, maintainable applications.
 
 > Next: Learn about reusable design patterns and how to structure components.
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/basics/structure/naming-conventions">← Back</a>
@@ -53,4 +52,3 @@ Angular uses components to build scalable, maintainable applications.
     <div class="xrefTitle">Components → Reusable Design</div>
   </div>
 </div>
-<!-- NAV_END -->

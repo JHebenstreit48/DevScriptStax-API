@@ -1,7 +1,6 @@
 ## Advanced Aliases
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/advanced/ts-integration/path-aliases">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Section: Angular Fundamentals → Basics</div>
   </div>
 </div>
-<!-- NAV_END -->

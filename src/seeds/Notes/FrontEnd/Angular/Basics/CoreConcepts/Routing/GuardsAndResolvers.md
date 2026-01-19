@@ -1,7 +1,6 @@
 ## Guards/Resolvers
 ---
 
-<!-- NAV_START -->
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/angular/core-concepts/routing/basics">← Back</a>
@@ -13,4 +12,3 @@
     <div class="xrefTitle">Routing → Lazy Loading</div>
   </div>
 </div>
-<!-- NAV_END -->
