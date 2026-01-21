@@ -1,8 +1,8 @@
 ## Syntax and Structure
 
 ---
-
 ### Introduction to JavaScript Syntax
+---
 
 <span class="emphasis">JavaScript</span> uses a flexible syntax that allows developers to create programs composed of <span class="secondEmphasis">statements</span>, <span class="secondEmphasis">blocks</span>, and <span class="secondEmphasis">functions</span>.
 
@@ -10,8 +10,8 @@
 🔹 Even though JavaScript is forgiving compared to stricter languages like C++, writing clean and consistent syntax improves readability and maintenance.
 
 ---
-
 ### Basic Syntax Rules
+---
 
 - Every statement should ideally end with a <span class="codeSnip">;</span> (semicolon), although JavaScript engines can infer them (this is called Automatic Semicolon Insertion — <span class="secondEmphasis">ASI</span>).
 - Code blocks are wrapped in <span class="codeSnip">{}</span> (curly braces).
@@ -19,8 +19,8 @@
 - Indentation and formatting are important for human readability (although not enforced by the JavaScript engine).
 
 ---
-
 ### Quote Style Consistency
+---
 
 JavaScript allows both <span class="emphasis">double quotes</span> <span class="codeSnip">""</span> and <span class="emphasis">single quotes</span> <span class="codeSnip">''</span> for string literals.
 
@@ -35,8 +35,8 @@ let greeting2 = 'Hello again!';
 ⚠️ Avoid mixing styles unless necessary (e.g., using one to escape the other).
 
 ---
-
 ### Common Building Blocks of JavaScript Code
+---
 
 🔹 **Statements** → Smallest standalone instructions (e.g., variable declarations, function calls).  
 🔹 **Blocks** → Collections of statements grouped by curly braces <span class="codeSnip">{}</span>.  
@@ -44,7 +44,6 @@ let greeting2 = 'Hello again!';
 🔹 **Functions** → Reusable blocks of code that perform specific tasks.
 
 ---
-
 ### Example of Basic JavaScript Structure
 
 ```javascript
@@ -63,8 +62,8 @@ greet();        // Output: Hello, World!
 ```
 
 ---
-
 ### Key Best Practices for Syntax
+---
 
 🔹 Always use <span class="emphasis">semicolons</span> to <span class="secondEmphasis">terminate</span> statements explicitly.  
 🔹 Keep consistent indentation (usually 2 or 4 spaces).  

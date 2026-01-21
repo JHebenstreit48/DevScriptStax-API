@@ -60,4 +60,16 @@ If Firestore prompts to create an index, click the link to generate it and re-ru
 **Notes:**
 
 - Multi-field queries may require composite indexes.  
-- The Query Builder is ideal for testing queries before implementing them in code.  
+- The Query Builder is ideal for testing queries before implementing them in code.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/basics/firestore/model">← Back</a>
+    <div class="xrefTitle">Firebase Firestore → Document & Collection Model</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/basics/realtime-db/introduction">Next →</a>
+    <div class="xrefTitle">Section: Firebase → Realtime Databases → Introduction</div>
+  </div>
+</div>
