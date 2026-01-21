@@ -1,9 +1,7 @@
 <br>
 
 ---
-
 ### The Birth of JavaScript
-
 ---
 
 In 1995, <span class="emphasis">Brendan Eich</span> created the first version of JavaScript while working at <span class="emphasis">Netscape Communications</span>.  
@@ -14,9 +12,7 @@ The goal was to develop a lightweight scripting language that could run inside w
 - Despite the name, JavaScript and Java are fundamentally different languages with different purposes.
 
 ---
-
 ### Early Adoption and Standardization
-
 ---
 
 As JavaScript grew in popularity, inconsistencies appeared between browser implementations.  
@@ -26,9 +22,7 @@ To solve this, JavaScript was standardized under the name <span class="emphasis"
 - Over time, major updates like <span class="secondEmphasis">ES5</span> (2009) and <span class="secondEmphasis">ES6 (ES2015)</span> added powerful new features, including classes, modules, arrow functions, and promises.
 
 ---
-
 ### JavaScript's Growth Beyond the Browser
-
 ---
 
 Originally, JavaScript was confined to client-side scripting inside browsers.  
@@ -38,9 +32,7 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 - This innovation enabled JavaScript to build full-stack applications, APIs, and even real-time applications like chat servers.
 
 ---
-
 ### JavaScript Today
-
 ---
 
 - JavaScript remains the dominant language for web development.  
@@ -49,9 +41,7 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 - JavaScript now powers client-side interfaces, server-side APIs, mobile apps, desktop apps, and even IoT devices.
 
 ---
-
 ### Timeline Summary
-
 ---
 
 <table class="notesTable">
@@ -86,3 +76,15 @@ However, with the creation of <span class="emphasis">Node.js</span> in 2009, Jav
 </table>
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">JavaScript Fundamentals → Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/syntax-and-structure">Next →</a>
+    <div class="xrefTitle">Section: JavaScript Core Concepts → Syntax & Structure</div>
+  </div>
+</div>
