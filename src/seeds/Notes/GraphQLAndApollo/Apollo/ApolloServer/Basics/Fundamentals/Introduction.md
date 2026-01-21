@@ -1,10 +1,14 @@
-<br>
+## Apollo Server (Introduction)
 
 ---
-### Apollo Server (Introduction)
----
 
-Apollo Server is a community-driven GraphQL server for building APIs.
+### Overview
+
+Apollo Server is a community-driven, open-source, spec-compliant GraphQL server used to build GraphQL APIs.
+
+It provides the backend layer responsible for defining a GraphQL schema and resolving client requests against underlying data sources.
+
+---
 
 <div class="fullWidthBullet">
 
@@ -14,3 +18,23 @@ Apollo Server is a community-driven GraphQL server for building APIs.
 🔹 Integrates well with Apollo Client  
 
 </div>
+
+---
+
+### What Apollo Server Helps With
+
+Apollo Server focuses on the **server-side GraphQL API**, including:
+
+- Exposing a GraphQL endpoint
+- Defining the schema that describes available data and operations
+- Implementing resolvers that fetch or compute requested fields
+- Integrating with databases, REST APIs, and other backend services
+- Structuring a GraphQL API in a scalable and maintainable way
+
+---
+
+### Related Topics
+
+Apollo Server handles the backend GraphQL layer.
+
+Client-side concerns such as caching, UI integration, and hooks (for example Apollo Client, InMemoryCache, and React hooks) are covered in the Apollo Client section.
