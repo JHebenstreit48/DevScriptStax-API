@@ -92,12 +92,12 @@ console.log(pets.includes("bird")); // false
 These methods take a <span class="emphasis">callback function</span> and apply it to each element.
 
 ---
-
 ### forEach()
+---
 
 Runs a function on every element of the array. Does not return a new array.
 
-```javascript  
+```js 
 let nums = [1, 2, 3];  
 nums.forEach((n) => {  
   console.log(n * 2); // 2, 4, 6  
@@ -105,8 +105,8 @@ nums.forEach((n) => {
 ```
 
 ---
-
 ### map()
+---
 
 Creates a new array by applying a function to each element.
 
