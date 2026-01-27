@@ -84,3 +84,15 @@ function Pet({ name, species, age }) {
 - They are immutable in the receiving component
 - Make components reusable and configurable
 - Props can be strings, numbers, arrays, objects, or functions
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/event-handling">← Back</a>
+    <div class="xrefTitle">Core Concepts</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/props-and-state/state">Next →</a>
+    <div class="xrefTitle">State</div>
+  </div>
+</div>

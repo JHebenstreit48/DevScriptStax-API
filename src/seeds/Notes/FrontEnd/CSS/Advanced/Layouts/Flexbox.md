@@ -234,3 +234,15 @@ Below is a comprehensive comparison table outlining the differences and similari
 ### Related Notes on Grid
 
 For more information on Grid-specific alignment properties, refer to the [CSS Grid Layout Alignment](/css/vanillacss/layouts/grid#self-vs-group-alignment) file.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/box-model-and-position/positioning">← Back</a>
+    <div class="xrefTitle">Box Model & Positioning</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/layouts/grid">Next →</a>
+    <div class="xrefTitle">Grid</div>
+  </div>
+</div>

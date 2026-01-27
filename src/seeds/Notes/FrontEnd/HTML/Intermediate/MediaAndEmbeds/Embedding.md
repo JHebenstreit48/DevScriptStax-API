@@ -9,16 +9,16 @@ HTML makes it easy to embed other types of media or content into your page. This
 The <span class="codeSnip">&lt;iframe&gt;</span> element embeds another webpage within the current page.
 
 ```html
-&lt;iframe 
-  src="https://example.com" 
-  width="600" 
-  height="400" 
+&lt;iframe
+  src="https://example.com"
+  width="600"
+  height="400"
   title="Embedded Page"&gt;
 &lt;/iframe&gt;
 ```
 
-- <span class="codeSnip">src</span>: The URL to embed  
-- <span class="codeSnip">title</span>: Required for accessibility  
+- <span class="codeSnip">src</span>: The URL to embed
+- <span class="codeSnip">title</span>: Required for accessibility
 - <span class="codeSnip">width</span>/<span class="codeSnip">height</span>: Controls dimensions
 
 ---
@@ -28,11 +28,11 @@ The <span class="codeSnip">&lt;iframe&gt;</span> element embeds another webpage 
 YouTube provides iframe code you can paste directly into your HTML:
 
 ```html
-&lt;iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-  title="YouTube video player" 
+&lt;iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="YouTube video player"
   allowfullscreen&gt;
 &lt;/iframe&gt;
 ```
@@ -91,7 +91,19 @@ Wrap your <span class="codeSnip">&lt;iframe&gt;</span> in a container to make it
 
 ## Summary
 
-- Use <span class="codeSnip">&lt;iframe&gt;</span> to embed pages or media  
-- Only use <span class="codeSnip">&lt;embed&gt;</span> or <span class="codeSnip">&lt;object&gt;</span> for older formats  
-- Always include a <span class="codeSnip">title</span> for accessibility  
+- Use <span class="codeSnip">&lt;iframe&gt;</span> to embed pages or media
+- Only use <span class="codeSnip">&lt;embed&gt;</span> or <span class="codeSnip">&lt;object&gt;</span> for older formats
+- Always include a <span class="codeSnip">title</span> for accessibility
 - Use a responsive container when embedding videos
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/intermediate/media-and-embeds/media">← Back</a>
+    <div class="xrefTitle">Media Elements</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/intermediate/media-and-embeds/captions-and-tracks">Next →</a>
+    <div class="xrefTitle">Captions & Tracks</div>
+  </div>
+</div>

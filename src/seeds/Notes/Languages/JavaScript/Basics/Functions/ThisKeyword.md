@@ -4,10 +4,10 @@
 
 ### Overview
 
-The this keyword is one of the most misunderstood concepts in JavaScript.  
+The this keyword is one of the most misunderstood concepts in JavaScript.
 It does **not** behave like this in other object-oriented languages — in JavaScript, its value depends entirely on **how a function is called**, not where it’s defined.
 
-✅ this refers to the object that is currently executing the function.  
+✅ this refers to the object that is currently executing the function.
 ❗ The value of this is **dynamic** unless an arrow function or manual binding is used.
 
 ---
@@ -16,7 +16,7 @@ It does **not** behave like this in other object-oriented languages — in JavaS
 
 When used in the global scope (outside any function or object), this refers to the **global object**.
 
-- In browsers: this → window  
+- In browsers: this → window
 - In Node.js: this → {} (or global in some contexts)
 
 ```javascript
@@ -64,7 +64,7 @@ dog.bark(); // "Woof! My name is Rex"
 
 ### Arrow Functions and Lexical this
 
-Arrow functions do **not** bind their own this.  
+Arrow functions do **not** bind their own this.
 Instead, they inherit this from the **surrounding (lexical) scope**.
 
 ```javascript
@@ -196,3 +196,15 @@ cat.speak(); // "This animal is a cat"
 </table>
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/functions/higher-order">← Back</a>
+    <div class="xrefTitle">Higher-Order Functions</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/intermediate/dom/dom-manipulation">Next →</a>
+    <div class="xrefTitle">DOM and Events</div>
+  </div>
+</div>

@@ -50,3 +50,15 @@ In PostgreSQL, SERIAL is commonly used to generate auto-incrementing identifiers
 ### Summary
 
 Schemas and tables form the foundation of PostgreSQL data storage and structure.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/setup-and-config/starter-optimization">← Back</a>
+    <div class="xrefTitle">Setup & Configuration</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/core-sql/crud">Next →</a>
+    <div class="xrefTitle">CRUD (SQL Statements)</div>
+  </div>
+</div>

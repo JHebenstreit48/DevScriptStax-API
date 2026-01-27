@@ -40,3 +40,15 @@ Errors like "Cannot POST /answer" are not crashes.
 They are routing mismatches and are expected during development.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/backend/frameworks/express/basics/routing/params-query">← Back</a>
+    <div class="xrefTitle">Params & Query</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/backend/frameworks/express/basics/middleware/core">Next →</a>
+    <div class="xrefTitle">Middleware</div>
+  </div>
+</div>

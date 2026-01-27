@@ -51,3 +51,15 @@ To link an external CSS file to an <span class="secondEmphasis">HTML document</s
   <link rel="stylesheet" href="styles.css" />
 </head>
 ```
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/testing/e2e/writing">← Back</a>
+    <div class="xrefTitle">Angular</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/introduction-and-selectors/selectors">Next →</a>
+    <div class="xrefTitle">Selectors</div>
+  </div>
+</div>

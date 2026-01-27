@@ -13,8 +13,8 @@ This page covers:
 - Understanding req and res
 - Why /about or other paths do not change the output yet
 
-✅ No npm required  
-✅ Uses built-in Node modules  
+✅ No npm required
+✅ Uses built-in Node modules
 ✅ Foundation for learning routing and frameworks like Express
 
 ---
@@ -66,8 +66,8 @@ If test.js exists, Node runs it.
 ### Should You Rely on This?
 ---
 
-- For learning demos: ✅ fine  
-- For real projects / notes / muscle memory: ❌ better to be explicit  
+- For learning demos: ✅ fine
+- For real projects / notes / muscle memory: ❌ better to be explicit
 
 Best practice:
 
@@ -260,3 +260,17 @@ A port is a numbered communication channel on your computer.
     </tr>
   </tbody>
 </table>
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/files-streams/streams-basics">← Back</a>
+    <div class="xrefTitle">Files & Streams</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/networking-core/http-client">Next →</a>
+    <div class="xrefTitle">HTTP Client</div>
+  </div>
+</div>

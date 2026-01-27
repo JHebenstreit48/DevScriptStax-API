@@ -4,10 +4,10 @@
 
 ### What Are Arrow Functions?
 
-<span class="emphasis">Arrow functions</span> are a shorter syntax for writing function expressions.  
+<span class="emphasis">Arrow functions</span> are a shorter syntax for writing function expressions.
 They were introduced in <span class="emphasis">ES6</span> and are especially useful for concise callbacks and one-liners.
 
-They use the <span class="codeSnip">=></span> syntax instead of the <span class="codeSnip">function</span> keyword.  
+They use the <span class="codeSnip">=></span> syntax instead of the <span class="codeSnip">function</span> keyword.
 Arrow functions do not have their own <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span> binding.
 
 ---
@@ -26,7 +26,7 @@ greet("Alice"); // Output: Hello Alice
 
 ### Implicit Return
 
-If the function has only one expression and no block <span class="codeSnip">{}</span>,  
+If the function has only one expression and no block <span class="codeSnip">{}</span>,
 it will automatically return the result of that expression.
 
 ```javascript
@@ -127,8 +127,8 @@ console.log(evens); // [2, 4]
 
 ### When Not to Use Arrow Functions
 
-- When you need access to <span class="codeSnip">this</span> inside a method or constructor  
-- When using the <span class="codeSnip">arguments</span> object directly  
+- When you need access to <span class="codeSnip">this</span> inside a method or constructor
+- When using the <span class="codeSnip">arguments</span> object directly
 - When defining object methods that rely on their own <span class="codeSnip">this</span>
 
 In these cases, stick with regular functions.
@@ -137,9 +137,21 @@ In these cases, stick with regular functions.
 
 ### Summary
 
-Arrow functions are concise, powerful, and ideal for short callbacks.  
-They do not bind <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span>.  
-Use them in array methods and short utilities.  
+Arrow functions are concise, powerful, and ideal for short callbacks.
+They do not bind <span class="codeSnip">this</span> or <span class="codeSnip">arguments</span>.
+Use them in array methods and short utilities.
 Avoid them in constructors or methods that rely on <span class="codeSnip">this</span>.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/functions/expressions-and-iife">← Back</a>
+    <div class="xrefTitle">Expressions & IIFE</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/functions/parameters-and-arguments">Next →</a>
+    <div class="xrefTitle">Parameters and Arguments</div>
+  </div>
+</div>

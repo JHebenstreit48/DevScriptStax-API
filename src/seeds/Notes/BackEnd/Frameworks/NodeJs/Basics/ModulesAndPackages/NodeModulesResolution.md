@@ -14,16 +14,16 @@ Understanding how Node resolves modules helps avoid import issues and improves p
 
 Node.js supports several types of modules:
 
-- **Built-in modules**  
+- **Built-in modules**
   Examples include:
   - fs
   - http
   - path
 
-- **User-defined modules**  
+- **User-defined modules**
   Files created within your project.
 
-- **Third-party modules**  
+- **Third-party modules**
   Installed from npm and stored in the node_modules directory.
 
 ---
@@ -74,5 +74,17 @@ Aliases are typically configured in package.json and allow simplified imports th
 
 ### Summary
 
-Module resolution determines how Node finds and loads files.  
+Module resolution determines how Node finds and loads files.
 Understanding relative paths, node_modules, and aliases is essential for maintaining scalable Node.js projects.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/modules-packages/lockfiles-npm">← Back</a>
+    <div class="xrefTitle">Lockfiles (npm)</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/tooling/npm-npx">Next →</a>
+    <div class="xrefTitle">Tooling</div>
+  </div>
+</div>

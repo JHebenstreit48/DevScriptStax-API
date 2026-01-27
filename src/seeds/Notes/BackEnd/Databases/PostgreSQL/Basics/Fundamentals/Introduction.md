@@ -23,16 +23,16 @@ PostgreSQL is commonly used for:
 
 ### Key Characteristics
 
-- **Open-source**  
+- **Open-source**
   PostgreSQL is community-driven and freely available.
 
-- **SQL-compliant**  
+- **SQL-compliant**
   It supports standard SQL while offering advanced features.
 
-- **Extensible**  
+- **Extensible**
   Users can define custom data types, functions, and extensions.
 
-- **Scalable**  
+- **Scalable**
   Suitable for both small applications and large production systems.
 
 ---
@@ -40,3 +40,15 @@ PostgreSQL is commonly used for:
 ### Summary
 
 PostgreSQL is a powerful relational database designed for correctness, flexibility, and long-term maintainability.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/advanced/aggregation/atlas-search">← Back</a>
+    <div class="xrefTitle">Aggregation & Search</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/fundamentals/features-use-cases">Next →</a>
+    <div class="xrefTitle">Features & Use Cases</div>
+  </div>
+</div>

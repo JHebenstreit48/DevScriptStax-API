@@ -12,10 +12,10 @@ It provides the backend layer responsible for defining a GraphQL schema and reso
 
 <div class="fullWidthBullet">
 
-🔹 Connects GraphQL schemas to data sources  
-🔹 Works with Node.js and popular frameworks (Express, Koa, etc.)  
-🔹 Handles queries, mutations, and subscriptions  
-🔹 Integrates well with Apollo Client  
+🔹 Connects GraphQL schemas to data sources
+🔹 Works with Node.js and popular frameworks (Express, Koa, etc.)
+🔹 Handles queries, mutations, and subscriptions
+🔹 Integrates well with Apollo Client
 
 </div>
 
@@ -38,3 +38,15 @@ Apollo Server focuses on the **server-side GraphQL API**, including:
 Apollo Server handles the backend GraphQL layer.
 
 Client-side concerns such as caching, UI integration, and hooks (for example Apollo Client, InMemoryCache, and React hooks) are covered in the Apollo Client section.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/client/advanced/tooling/devtools">← Back</a>
+    <div class="xrefTitle">Tooling</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/server/basics/fundamentals/install-setup">Next →</a>
+    <div class="xrefTitle">Install & Setup</div>
+  </div>
+</div>

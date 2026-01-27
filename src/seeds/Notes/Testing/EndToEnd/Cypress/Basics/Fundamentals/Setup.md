@@ -70,18 +70,30 @@ npx cypress run
 
 When you run <span class="codeSnip">npx cypress open</span>, you’ll see:
 
-✅ A list of available test specs  
-✅ Options for choosing a browser (Chrome, Electron, Edge, etc.)  
-✅ Real-time logs and screenshots  
-✅ Time-travel feature (hover to see before/after DOM snapshots)  
+✅ A list of available test specs
+✅ Options for choosing a browser (Chrome, Electron, Edge, etc.)
+✅ Real-time logs and screenshots
+✅ Time-travel feature (hover to see before/after DOM snapshots)
 ✅ Full command log for every <span class="codeSnip">cy</span> action
 
 ---
 
 ## Summary
 
-✅ Install Cypress with npm  
-✅ Add custom launch scripts in <span class="codeSnip">package.json</span>  
-✅ Use <span class="codeSnip">npx cypress open</span> for the GUI  
-✅ Use <span class="codeSnip">npx cypress run</span> for headless test automation  
-✅ The test runner gives powerful debugging and real-time feedback  
+✅ Install Cypress with npm
+✅ Add custom launch scripts in <span class="codeSnip">package.json</span>
+✅ Use <span class="codeSnip">npx cypress open</span> for the GUI
+✅ Use <span class="codeSnip">npx cypress run</span> for headless test automation
+✅ The test runner gives powerful debugging and real-time feedback
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/testing/e2e/cypress/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/testing/e2e/cypress/basics/fundamentals/first-test">Next →</a>
+    <div class="xrefTitle">Running Tests & Modes</div>
+  </div>
+</div>

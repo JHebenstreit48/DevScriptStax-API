@@ -6,7 +6,7 @@
 
 State is a built-in feature in React that allows components to store dynamic data that can change over time. When the state changes, the component re-renders to reflect the new data.
 
-- Think of state as the “memory” of a component.  
+- Think of state as the “memory” of a component.
 - It is local by default and scoped to the component in which it's defined.
 
 ---
@@ -15,15 +15,15 @@ State is a built-in feature in React that allows components to store dynamic dat
 
 Hooks are functions that let you "hook into" React features from functional components. Before hooks, most dynamic behavior relied on class components. Now, hooks allow functional components to manage state, lifecycle, and side effects.
 
-- Hooks work only in functional components (not classes)  
-- They follow strict rules to ensure consistent behavior  
+- Hooks work only in functional components (not classes)
+- They follow strict rules to ensure consistent behavior
 - They allow reusable logic via custom hooks
 
 ---
 
 ## Core Rules of Hooks
 
-- Only call hooks at the top level — never inside loops, conditions, or nested functions.  
+- Only call hooks at the top level — never inside loops, conditions, or nested functions.
 - Only call hooks from React functions — either your component or a custom hook.
 
 These rules ensure consistent state handling and predictable behavior.
@@ -94,8 +94,8 @@ function Counter() {
 }
 ```
 
-- <span class="codeSnip">count</span> is the current state value.  
-- <span class="codeSnip">setCount</span> is the function that updates <span class="codeSnip">count</span>.  
+- <span class="codeSnip">count</span> is the current state value.
+- <span class="codeSnip">setCount</span> is the function that updates <span class="codeSnip">count</span>.
 - <span class="codeSnip">useState(0)</span> sets the initial value to <span class="codeSnip">0</span>.
 
 ---
@@ -104,9 +104,9 @@ function Counter() {
 
 Use state when a component needs to:
 
-- Respond to user input  
-- Track dynamic values (like counters, forms, toggles)  
-- Handle component-specific behavior that changes over time  
+- Respond to user input
+- Track dynamic values (like counters, forms, toggles)
+- Handle component-specific behavior that changes over time
 
 ---
 
@@ -114,8 +114,8 @@ Use state when a component needs to:
 
 <span class="codeSnip">useReducer</span> is an alternative to <span class="codeSnip">useState</span> for managing more complex state logic.
 
-- Ideal when the next state depends on the previous one  
-- Works well when handling multiple related values  
+- Ideal when the next state depends on the previous one
+- Works well when handling multiple related values
 
 ### Example: Basic useReducer Skeleton
 
@@ -140,8 +140,8 @@ const [state, dispatch] = useReducer(reducer, initialState);
 
 To share state across many components without prop drilling, use the Context API:
 
-- Combine <span class="codeSnip">useContext</span> with <span class="codeSnip">useState</span> or <span class="codeSnip">useReducer</span>  
-- Common use cases: authentication, themes, user preferences  
+- Combine <span class="codeSnip">useContext</span> with <span class="codeSnip">useState</span> or <span class="codeSnip">useReducer</span>
+- Common use cases: authentication, themes, user preferences
 
 ---
 
@@ -155,9 +155,21 @@ If you don't follow this naming pattern, React can't verify that the rules of ho
 
 ## Summary
 
-- State stores dynamic values inside components  
-- <span class="codeSnip">useState</span> handles local, simple values  
-- <span class="codeSnip">useReducer</span> is better for complex logic  
-- <span class="codeSnip">useContext</span> enables shared/global state  
-- Hooks enable reactivity in functional components  
-- Changing state causes re-rendering  
+- State stores dynamic values inside components
+- <span class="codeSnip">useState</span> handles local, simple values
+- <span class="codeSnip">useReducer</span> is better for complex logic
+- <span class="codeSnip">useContext</span> enables shared/global state
+- Hooks enable reactivity in functional components
+- Changing state causes re-rendering
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/props-and-state/props">← Back</a>
+    <div class="xrefTitle">Props</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/forms/controlled">Next →</a>
+    <div class="xrefTitle">Forms</div>
+  </div>
+</div>

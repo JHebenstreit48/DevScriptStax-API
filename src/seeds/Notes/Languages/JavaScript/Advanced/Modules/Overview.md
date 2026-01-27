@@ -4,7 +4,7 @@
 
 ### What are Modules?
 
-<span class="emphasis">Modules</span> are reusable blocks of code that help organize and isolate functionality in a JavaScript application.  
+<span class="emphasis">Modules</span> are reusable blocks of code that help organize and isolate functionality in a JavaScript application.
 They allow developers to split complex programs into smaller, manageable parts and load only what is needed.
 
 ✅ Think of a module as a self-contained file that exports logic and can be imported into other files.
@@ -31,9 +31,21 @@ They allow developers to split complex programs into smaller, manageable parts a
 
 ### Summary
 
-✅ Modules help structure your code.  
-✅ Each module has its own scope, separate from the global scope.  
-✅ Use import and export statements to share functionality between files.  
+✅ Modules help structure your code.
+✅ Each module has its own scope, separate from the global scope.
+✅ Use import and export statements to share functionality between files.
 ✅ Modern ES Modules are the preferred way to build modular JavaScript.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/advanced/oop/classes">← Back</a>
+    <div class="xrefTitle">Object-Oriented Programming</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/advanced/modules/syntax">Next →</a>
+    <div class="xrefTitle">Import/Export Syntax</div>
+  </div>
+</div>

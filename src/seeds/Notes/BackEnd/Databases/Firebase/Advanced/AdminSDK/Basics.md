@@ -4,7 +4,7 @@
 ## Firebase Admin SDK Basics
 ---
 
-The Firebase Admin SDK allows server-side access to Firebase services with elevated privileges.  
+The Firebase Admin SDK allows server-side access to Firebase services with elevated privileges.
 Use it for data migrations, import/export scripts, or backend tools that require full administrative access.
 
 ---
@@ -14,14 +14,14 @@ Use it for data migrations, import/export scripts, or backend tools that require
 Install the Admin SDK and related tools.
 
 ```bash
-npm i firebase-admin  
-npm i -D ts-node fast-glob marked  
+npm i firebase-admin
+npm i -D ts-node fast-glob marked
 ```
 
 **Notes:**
 
-- <span class="codeSnip">firebase-admin</span> is a runtime dependency.  
-- <span class="codeSnip">ts-node</span>, <span class="codeSnip">fast-glob</span>, and <span class="codeSnip">marked</span> are typical dev tools for scripting.  
+- <span class="codeSnip">firebase-admin</span> is a runtime dependency.
+- <span class="codeSnip">ts-node</span>, <span class="codeSnip">fast-glob</span>, and <span class="codeSnip">marked</span> are typical dev tools for scripting.
 - Adjust dependencies as needed for your workflow.
 
 ---
@@ -53,8 +53,8 @@ export { app, db };
 
 **Key Points:**
 
-- Never hardcode credentials.  
-- Store JSON securely via environment variables or secret managers.  
+- Never hardcode credentials.
+- Store JSON securely via environment variables or secret managers.
 - Reuse a single app instance to prevent duplicate initialization.
 
 ---
@@ -78,8 +78,8 @@ pingFirestore().catch((err) => {
 ```
 
 ```bash
-npm run build  
-npm run ping:firebase  
+npm run build
+npm run ping:firebase
 ```
 
 This ensures credentials and network access are valid before import/export jobs.
@@ -88,6 +88,18 @@ This ensures credentials and network access are valid before import/export jobs.
 
 **When to Use the Admin SDK**
 
-- Server-side imports or exports.  
-- Automated scheduled jobs (cron, CI/CD, or Cloud Run).  
-- Secure user management or batch operations.  
+- Server-side imports or exports.
+- Automated scheduled jobs (cron, CI/CD, or Cloud Run).
+- Secure user management or batch operations.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/advanced/rules-emulator/emulator-suite">← Back</a>
+    <div class="xrefTitle">Rules & Emulator</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/advanced/admin-sdk/server-auth-claims">Next →</a>
+    <div class="xrefTitle">Server Auth & Claims</div>
+  </div>
+</div>

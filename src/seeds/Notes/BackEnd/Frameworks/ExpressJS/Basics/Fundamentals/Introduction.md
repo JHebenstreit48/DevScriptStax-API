@@ -41,3 +41,15 @@ Examples:
 Express allows you to decide how your server responds to each request by creating routes.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/django/advanced/deployment/scaling">← Back</a>
+    <div class="xrefTitle">Deployment</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/express/basics/fundamentals/install-setup">Next →</a>
+    <div class="xrefTitle">Install & Setup</div>
+  </div>
+</div>

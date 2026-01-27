@@ -200,3 +200,15 @@ Pseudo-elements like ::before and ::after can be used for decorative elements in
 - Useful for **adding visual separators, icons, or custom styles** inside the grid.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/layouts/flexbox">← Back</a>
+    <div class="xrefTitle">Flexbox</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/effects/transforms">Next →</a>
+    <div class="xrefTitle">Effects</div>
+  </div>
+</div>
