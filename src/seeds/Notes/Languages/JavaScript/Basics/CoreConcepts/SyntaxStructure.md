@@ -10,6 +10,21 @@
 🔹 Even though JavaScript is forgiving compared to stricter languages like C++, writing clean and consistent syntax improves readability and maintenance.
 
 ---
+### Context Matters in Programming
+---
+
+In programming, the same character or symbol can mean different things depending on context.
+
+For example:
+- A period <span class="codeSnip">.</span> can access object properties
+- Parentheses <span class="codeSnip">()</span> can call functions or group expressions
+- Curly braces <span class="codeSnip">{}</span> can define blocks, objects, or scopes
+
+🔹 Meaning is determined by where and how a symbol is used — not just the symbol itself.
+
+Understanding context helps reduce confusion when learning new syntax.
+
+---
 ### Basic Syntax Rules
 ---
 

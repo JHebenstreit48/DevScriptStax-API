@@ -46,7 +46,21 @@ console.log(obj.name);         // "Alice"
 console.log(obj["full name"]); // "Alice A"
 ```
 
-A period <span class="codeSnip">.</span> is used to look inside an object.  
+A period <span class="codeSnip">.</span> is used to look inside an object.
+
+Example:
+
+```js
+document.body.style.backgroundColor
+```
+
+This means:
+- <span class="codeSnip">document</span> has a property called <span class="codeSnip">body</span>
+- <span class="codeSnip">body</span> has a property called <span class="codeSnip">style</span>
+- <span class="codeSnip">style</span> has a property called <span class="codeSnip">backgroundColor</span>
+
+- Note: <span class="codeSnip">backgroundColor</span> is the JavaScript version of the CSS property <span class="codeSnip">background-color</span>.
+
 Brackets allow dynamic or complex keys (e.g., from variables).
 
 ---

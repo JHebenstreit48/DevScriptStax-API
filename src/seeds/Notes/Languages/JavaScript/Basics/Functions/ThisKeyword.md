@@ -204,7 +204,7 @@ cat.speak(); // "This animal is a cat"
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/javascript/intermediate/dom/dom-manipulation">Next →</a>
-    <div class="xrefTitle">DOM and Events</div>
+    <a class="xrefBtn" href="/javascript/basics/arrays/introduction">Next →</a>
+    <div class="xrefTitle">Next Section: JavaScript Basics → Introduction to Arrays</div>
   </div>
 </div>

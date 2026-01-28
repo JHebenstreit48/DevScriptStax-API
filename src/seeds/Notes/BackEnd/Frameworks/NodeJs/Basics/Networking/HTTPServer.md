@@ -13,9 +13,9 @@ This page covers:
 - Understanding req and res
 - Why /about or other paths do not change the output yet
 
-✅ No npm required
-✅ Uses built-in Node modules
-✅ Foundation for learning routing and frameworks like Express
+✅ No npm required  
+✅ Uses built-in Node modules  
+✅ Foundation for learning routing and frameworks like Express  
 
 ---
 ### Running a Node Script (No npm)
@@ -104,6 +104,7 @@ ourApp.listen(3000)
 ---
 
 ### Importing the HTTP Module
+---
 
 ```js
 let http = require("http")
@@ -199,6 +200,15 @@ ourApp.listen(3000)
   http://localhost:3000
 
 The process stays active as long as the server is listening.
+
+---
+### Stopping a Running Server
+---
+
+To stop the currently running Node process:
+
+- Windows / VS Code terminal: Ctrl + C
+- macOS terminal: Ctrl + C
 
 ---
 ### Ports (Quick Concept)
