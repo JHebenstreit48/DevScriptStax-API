@@ -9,8 +9,8 @@ You can think of a function as an <span class="secondEmphasis">"action word"</sp
 Functions help us organize logic into named steps, making code reusable and more readable.
 
 ---
-
 ### Function Declaration Syntax
+---
 
 A <span class="emphasis">function declaration</span> is the traditional way to define a function in JavaScript:
 
@@ -20,11 +20,13 @@ function greet(name) {
 }
 ```
 
-✅ The keyword <span class="codeSnip">function</span> is followed by the function name, parentheses, and a block wrapped in <span class="codeSnip">{}</span>.
+The code inside a function’s curly braces <span class="codeSnip">{}</span> is called the function body.
+
+The keyword <span class="codeSnip">function</span> is followed by the function name, parentheses, and a block wrapped in <span class="codeSnip">{}</span>.
 
 ---
-
 ### Calling vs Referencing a Function
+---
 
 Using parentheses after a function's name <span class="emphasis">calls</span> or <span class="secondEmphasis">invokes</span> the function.  
 This is how you execute the logic inside it and optionally pass values (arguments).

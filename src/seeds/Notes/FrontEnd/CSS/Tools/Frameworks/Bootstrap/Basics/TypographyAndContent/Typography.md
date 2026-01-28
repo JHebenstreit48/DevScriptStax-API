@@ -66,7 +66,7 @@ Bootstrap provides **six font size classes** to control text size.
 
 #### **Example:**
 
-```html  
+```html
 <p>This is normal text. <span class="small">This text is smaller.</span></p>
 ```
 
@@ -78,19 +78,29 @@ Bootstrap provides **six font size classes** to control text size.
 - Commonly used for **subtle descriptions or secondary content**.
 
 #### **Example:**
-html  
+html
 <p>This is normal text. <span class="text-muted">This text is muted.</span></p>
 
-✅ The **.text-muted** class applies **a gray color** to de-emphasize text.  
+✅ The **.text-muted** class applies **a gray color** to de-emphasize text.
 
 ---
 
 ### **Key Takeaways**
 ---
-✅ **.fs-* classes** adjust **font sizes** (1 = largest, 6 = smallest).  
-✅ **.small makes text smaller** than the default size.  
-✅ **.text-muted de-emphasizes text** by reducing contrast.  
+✅ **.fs-* classes** adjust **font sizes** (1 = largest, 6 = smallest).
+✅ **.small makes text smaller** than the default size.
+✅ **.text-muted de-emphasizes text** by reducing contrast.
 
 ---
 
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/utilities/display-and-visibility">← Back</a>
+    <div class="xrefTitle">Utilities</div>
+  </div>
 
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/typography-and-content/images-and-figures">Next →</a>
+    <div class="xrefTitle">Images & Figures</div>
+  </div>
+</div>

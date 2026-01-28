@@ -21,3 +21,15 @@ Apollo Client often acts as a data layer that can:
 - Fetch GraphQL data
 - Cache results for fast reuse
 - Keep UI in sync with server data
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/graphql/advanced/composition/schema-stitching">← Back</a>
+    <div class="xrefTitle">GraphQL</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/client/basics/fundamentals/install-setup">Next →</a>
+    <div class="xrefTitle">Install & Setup</div>
+  </div>
+</div>

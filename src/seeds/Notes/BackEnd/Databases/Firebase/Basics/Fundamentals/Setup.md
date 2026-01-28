@@ -4,7 +4,7 @@
 ## Introduction
 ---
 
-You’re about to begin using Firebase in your app.  
+You’re about to begin using Firebase in your app.
 This guide walks you through installing the SDK, setting up your environment, and initializing the app—so you’re ready to build features confidently.
 
 ---
@@ -19,8 +19,8 @@ npm i firebase
 
 **Notes:**
 
-- Use <span class="codeSnip">-D</span> (or <span class="codeSnip">--save-dev</span>) only if you are installing for build tools, not runtime.  
-- Global installs (<span class="codeSnip">npm i -g</span>) are rarely needed for SDKs bound to your app.  
+- Use <span class="codeSnip">-D</span> (or <span class="codeSnip">--save-dev</span>) only if you are installing for build tools, not runtime.
+- Global installs (<span class="codeSnip">npm i -g</span>) are rarely needed for SDKs bound to your app.
 - Make sure your project’s <span class="codeSnip">package.json</span> and lock file are committed so others install identical versions.
 
 ---
@@ -32,15 +32,15 @@ Create or update your <span class="codeSnip">.env</span> (or other secrets file)
 Typical variables you might set:
 
 ```ini
-VITE_FIREBASE_API_KEY=your_api_key  
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain  
-VITE_FIREBASE_PROJECT_ID=your_project_id  
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
 ```
 
 **Remember:**
 
-- Never commit real credentials—use environment variables or secret management.  
-- In CI/CD, configure these values in your deployment environment.  
+- Never commit real credentials—use environment variables or secret management.
+- In CI/CD, configure these values in your deployment environment.
 - The <span class="codeSnip">projectId</span> ties into your Firebase project; the API key identifies your app but still should be treated carefully.
 
 ---
@@ -66,8 +66,8 @@ export default app;
 
 **Tips:**
 
-- Keep all Firebase initialization in one place to avoid duplicate apps.  
-- For multiple Firebase projects (dev/stage/prod), swap config values via env vars.  
+- Keep all Firebase initialization in one place to avoid duplicate apps.
+- For multiple Firebase projects (dev/stage/prod), swap config values via env vars.
 - Do not hardcode secrets directly in source.
 
 ---
@@ -76,8 +76,20 @@ export default app;
 
 From here you can:
 
-- Enable and configure **Authentication**.  
-- Set up **Firestore** or **Realtime Database**.  
-- Configure **Storage** and basic security rules.  
+- Enable and configure **Authentication**.
+- Set up **Firestore** or **Realtime Database**.
+- Configure **Storage** and basic security rules.
 
 Each feature will build on this initialization.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/basics/fundamentals/use-cases">← Back</a>
+    <div class="xrefTitle">Use Cases for Firebase</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/firebase/basics/firestore/introduction">Next →</a>
+    <div class="xrefTitle">Firestore</div>
+  </div>
+</div>

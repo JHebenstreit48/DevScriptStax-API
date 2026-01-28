@@ -286,3 +286,15 @@ div:hover {
 </table>
 
 ## More to be added as transitions are completed...
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/effects/transforms">← Back</a>
+    <div class="xrefTitle">Transforms</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/effects/animations">Next →</a>
+    <div class="xrefTitle">Animations</div>
+  </div>
+</div>

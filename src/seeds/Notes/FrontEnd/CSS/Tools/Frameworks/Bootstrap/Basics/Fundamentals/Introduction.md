@@ -7,12 +7,12 @@ Bootstrap is a **CSS and JavaScript framework** designed to make web development
 ---
 
 ### Why Use Bootstrap?
-✅ Pre-styled Components → Includes buttons, modals, forms, and more.  
-✅ Responsive Design → Adapts to all screen sizes automatically.  
-✅ Grid System → Helps create structured layouts easily.  
-✅ CSS & JavaScript Utilities → Predefined spacing, colors, and typography.  
-✅ Industry Standard → Used by millions of developers worldwide.  
-✅ CDN Available → No need for installation; just include a link.  
+✅ Pre-styled Components → Includes buttons, modals, forms, and more.
+✅ Responsive Design → Adapts to all screen sizes automatically.
+✅ Grid System → Helps create structured layouts easily.
+✅ CSS & JavaScript Utilities → Predefined spacing, colors, and typography.
+✅ Industry Standard → Used by millions of developers worldwide.
+✅ CDN Available → No need for installation; just include a link.
 
 ---
 
@@ -26,21 +26,33 @@ Bootstrap is a **CSS and JavaScript framework** designed to make web development
 ### Adding Bootstrap to Your Project
 To use Bootstrap, you need to include its CSS and JavaScript files.
 
-#### 1. Go to Bootstrap’s official website  
-📌 [https://getbootstrap.com](https://getbootstrap.com)  
+#### 1. Go to Bootstrap’s official website
+📌 [https://getbootstrap.com](https://getbootstrap.com)
 
-#### 2. Copy the Bootstrap CDN links  
+#### 2. Copy the Bootstrap CDN links
 On the main page, find the CDN (Content Delivery Network) links.
 
-#### 3. Paste them inside your HTML file  
+#### 3. Paste them inside your HTML file
 Add these links inside the head for CSS, and before the closing body tag for JavaScript.
 
-```html  
-<!-- Bootstrap CSS -->  
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
+```html
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Bootstrap JavaScript -->  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 Now Bootstrap is ready to use! 🚀
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/tools/postprocessors/advanced/compat-and-migration/legacy-build-migration">← Back</a>
+    <div class="xrefTitle">Compat & Migration</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/fundamentals/install-setup">Next →</a>
+    <div class="xrefTitle">Install & Setup</div>
+  </div>
+</div>

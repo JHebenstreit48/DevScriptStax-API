@@ -60,5 +60,17 @@ Which system is used depends on configuration such as:
 
 ### Summary
 
-Both CommonJS and ES Modules allow modular code organization in Node.js.  
+Both CommonJS and ES Modules allow modular code organization in Node.js.
 Understanding the differences is important when working with modern Node projects and tooling.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/fundamentals/runtime-globals">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/modules-packages/package-json-scripts">Next →</a>
+    <div class="xrefTitle">package.json & Scripts</div>
+  </div>
+</div>

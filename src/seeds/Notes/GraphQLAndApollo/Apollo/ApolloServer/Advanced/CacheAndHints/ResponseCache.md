@@ -35,3 +35,15 @@ Performance improvements are usually paired with:
 - Monitoring slow operations
 - Logging failures and latency trends
 - Identifying high-cost resolvers and frequent queries
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/server/advanced/cache-hints/cache-hints">← Back</a>
+    <div class="xrefTitle">Cache Hints</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/server/advanced/observability/studio-metrics">Next →</a>
+    <div class="xrefTitle">Observability</div>
+  </div>
+</div>

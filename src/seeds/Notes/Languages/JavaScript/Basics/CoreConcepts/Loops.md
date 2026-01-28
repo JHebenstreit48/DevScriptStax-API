@@ -8,7 +8,7 @@
 
 <span class="emphasis">Loops</span> allow you to execute a block of code repeatedly based on a condition or until a specified limit is reached.
 
-Loops reduce repetition and make code more efficient.  
+Loops reduce repetition and make code more efficient.
 JavaScript supports several types of loops — each with its ideal use case.
 
 ---
@@ -23,7 +23,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-Initialization → condition → update  
+Initialization → condition → update
 Runs until the condition is false
 
 ---
@@ -158,9 +158,21 @@ for (let i = 0; i < 5; i++) {
 
 ### Best Practices
 
-Use <span class="codeSnip">for</span> when you know how many times to iterate.  
-Use <span class="codeSnip">for...of</span> for cleaner iteration over arrays.  
-Avoid nesting too many loops — consider combining logic or using <span class="codeSnip">break</span>.  
+Use <span class="codeSnip">for</span> when you know how many times to iterate.
+Use <span class="codeSnip">for...of</span> for cleaner iteration over arrays.
+Avoid nesting too many loops — consider combining logic or using <span class="codeSnip">break</span>.
 Don’t mutate the array you’re looping over — unless intentionally.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/conditionals">← Back</a>
+    <div class="xrefTitle">Conditionals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/scope-and-context">Next →</a>
+    <div class="xrefTitle">Scope / Context</div>
+  </div>
+</div>

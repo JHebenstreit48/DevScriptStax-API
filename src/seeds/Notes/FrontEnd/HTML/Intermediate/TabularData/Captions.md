@@ -72,6 +72,18 @@ Use these elements to logically separate table content:
 
 ## Summary
 
-- Use <span class="codeSnip">&lt;caption&gt;</span> to describe the table’s purpose  
-- Organize large tables with <span class="codeSnip">&lt;thead&gt;</span>, <span class="codeSnip">&lt;tbody&gt;</span>, and <span class="codeSnip">&lt;tfoot&gt;</span>  
+- Use <span class="codeSnip">&lt;caption&gt;</span> to describe the table’s purpose
+- Organize large tables with <span class="codeSnip">&lt;thead&gt;</span>, <span class="codeSnip">&lt;tbody&gt;</span>, and <span class="codeSnip">&lt;tfoot&gt;</span>
 - Improves accessibility and readability
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/intermediate/tabular-data/tables">← Back</a>
+    <div class="xrefTitle">Tables</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/intermediate/head-and-meta/head">Next →</a>
+    <div class="xrefTitle">Head and Metadata</div>
+  </div>
+</div>

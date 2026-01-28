@@ -162,3 +162,5 @@ This ensures safe access with a fallback strategy when a key might not exist.
 - 📚 Use index signatures and dynamic keys when shape is unknown
 - 🌐 Place global declarations in <span class="codeSnip">.d.ts</span> files for reuse
 - 🧩 Use <span class="codeSnip">declare</span> to define ambient modules and types
+
+---

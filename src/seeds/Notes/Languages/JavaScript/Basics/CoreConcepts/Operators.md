@@ -4,22 +4,22 @@
 
 ### Introduction to Operators
 
-<span class="emphasis">Operators</span> are special symbols or keywords used to perform operations on operands (variables and values).  
+<span class="emphasis">Operators</span> are special symbols or keywords used to perform operations on operands (variables and values).
 In <span class="emphasis">JavaScript</span>, operators are used to assign values, compare values, perform arithmetic operations, and more.
 
-✅ Understanding operators is essential to building logic inside your JavaScript programs.  
+✅ Understanding operators is essential to building logic inside your JavaScript programs.
 ✅ Operators are grouped by the type of operation they perform.
 
 ---
 
 ### Types of Operators
 
-🔹 **Arithmetic Operators** → Perform mathematical calculations.  
-🔹 **Assignment Operators** → Assign values to variables.  
-🔹 **Comparison Operators** → Compare two values and return a boolean result.  
-🔹 **Logical Operators** → Combine multiple boolean expressions.  
-🔹 **String Operators** → Concatenate (combine) text values.  
-🔹 **Unary Operators** → Operate on a single operand (e.g., increment, typeof).  
+🔹 **Arithmetic Operators** → Perform mathematical calculations.
+🔹 **Assignment Operators** → Assign values to variables.
+🔹 **Comparison Operators** → Compare two values and return a boolean result.
+🔹 **Logical Operators** → Combine multiple boolean expressions.
+🔹 **String Operators** → Concatenate (combine) text values.
+🔹 **Unary Operators** → Operate on a single operand (e.g., increment, typeof).
 🔹 **Ternary Operator** → A shorthand conditional operator.
 
 ---
@@ -247,17 +247,17 @@ let fullName = firstName + " " + lastName; // "Alice Johnson"
 
 ### Ternary Operator
 
-The <span class="emphasis">ternary operator</span> is a concise way to write conditional logic in JavaScript.  
+The <span class="emphasis">ternary operator</span> is a concise way to write conditional logic in JavaScript.
 It allows developers to evaluate a condition and return one value if the condition is <span class="secondEmphasis">true</span>, and a different value if it is <span class="secondEmphasis">false</span>.
 
 #### Explanation:
 
-The ternary operator simplifies the structure of conditional logic, making it easier to write and read.  
+The ternary operator simplifies the structure of conditional logic, making it easier to write and read.
 It is especially useful in dynamic rendering, conditional assignments, or inline logic within expressions.
 
 ```javascript
-let age = 20;  
-let canVote = (age >= 18) ? "Yes" : "No";  
+let age = 20;
+let canVote = (age >= 18) ? "Yes" : "No";
 console.log(canVote); // "Yes"
 ```
 
@@ -271,7 +271,7 @@ condition ? valueIfTrue : valueIfFalse;
 
 ### Spread Operator
 
-The <span class="codeSnip">...</span> spread operator is used to "unpack" elements from arrays or properties from objects into individual items.  
+The <span class="codeSnip">...</span> spread operator is used to "unpack" elements from arrays or properties from objects into individual items.
 It’s commonly used to **copy**, **merge**, or **expand** data structures.
 
 ---
@@ -315,7 +315,7 @@ console.log(updatedUser);
 
 #### Spread vs. Rest
 
-- <span class="emphasis">Spread</span> breaks things apart  
+- <span class="emphasis">Spread</span> breaks things apart
 - <span class="emphasis">Rest</span> (also <span class="codeSnip">...</span>) collects them
 
 Spread:
@@ -337,16 +337,28 @@ function sum(...values) {
 
 ### Summary
 
-✅ Spread operator expands arrays or objects  
-✅ Useful for copying and merging  
-✅ Be mindful of property overwrites when merging objects  
+✅ Spread operator expands arrays or objects
+✅ Useful for copying and merging
+✅ Be mindful of property overwrites when merging objects
 ✅ Same syntax (<span class="codeSnip">...</span>) is used for both spread and rest, but the context determines the behavior
 
 ### Best Practices with Operators
 
-✅ Prefer <span class="codeSnip">===</span> and <span class="codeSnip">!==</span> over <span class="codeSnip">==</span> and <span class="codeSnip">!=</span> to avoid unexpected type coercion.  
-✅ Always group complex logic with parentheses <span class="codeSnip">()</span> to clarify evaluation order.  
-✅ Use template literals <span class="codeSnip">`Hello, ${name}`</span> instead of <span class="codeSnip">+</span> string concatenation where possible for better readability.  
+✅ Prefer <span class="codeSnip">===</span> and <span class="codeSnip">!==</span> over <span class="codeSnip">==</span> and <span class="codeSnip">!=</span> to avoid unexpected type coercion.
+✅ Always group complex logic with parentheses <span class="codeSnip">()</span> to clarify evaluation order.
+✅ Use template literals <span class="codeSnip">`Hello, ${name}`</span> instead of <span class="codeSnip">+</span> string concatenation where possible for better readability.
 ✅ Keep operator precedence in mind — for example, multiplication <span class="codeSnip">*</span> happens before addition <span class="codeSnip">+</span>.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/variables">← Back</a>
+    <div class="xrefTitle">Variables</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/methods">Next →</a>
+    <div class="xrefTitle">Built-in Methods</div>
+  </div>
+</div>

@@ -169,3 +169,15 @@ This allows:
 to all be treated as the same correct answer.
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/backend/frameworks/express/basics/fundamentals/project-structure">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/backend/frameworks/express/basics/routing/params-query">Next →</a>
+    <div class="xrefTitle">Params & Query</div>
+  </div>
+</div>

@@ -13,3 +13,15 @@
 <a href="https://example.com">Visit Example</a>
 <img src="image.jpg" alt="Description of image">
 ```
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/basics/structure/elements">← Back</a>
+    <div class="xrefTitle">Elements / Tags</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/basics/structure/text-and-links">Next →</a>
+    <div class="xrefTitle">Text & Links</div>
+  </div>
+</div>

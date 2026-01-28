@@ -1,7 +1,7 @@
 ## Selectors
 
 ### Basic Selectors
----  
+---
 
 CSS selectors target specific <span class="emphasis">HTML elements</span> for styling:
 
@@ -19,7 +19,7 @@ p {
 ---
 
 ### Descendant Selectors
- 
+
 
 Descendant selectors target elements nested within a specific parent:
 
@@ -36,10 +36,10 @@ header p span {
 ```
 ---
 ### Advanced Selectors
- 
+
 <br>
 
-#### Universal Selector 
+#### Universal Selector
 
 ```css
 * {
@@ -85,3 +85,15 @@ p::first-line {
 ```
 
 - Targets specific parts of elements, such as <span class="secondEmphasis">::first-line</span> or <span class="secondEmphasis">::before</span>.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/introduction-and-selectors/introduction-and-syntax">← Back</a>
+    <div class="xrefTitle">Introduction and Syntax</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/box-model-and-position/box-model">Next →</a>
+    <div class="xrefTitle">Box Model & Positioning</div>
+  </div>
+</div>

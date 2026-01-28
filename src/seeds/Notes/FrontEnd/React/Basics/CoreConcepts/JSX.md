@@ -6,8 +6,8 @@
 
 JSX (JavaScript XML) is a syntax extension for JavaScript that lets you write HTML-like elements directly inside JavaScript.
 
-- Makes your UI structure more readable  
-- Transpiles down to <span class="codeSnip">React.createElement()</span> calls  
+- Makes your UI structure more readable
+- Transpiles down to <span class="codeSnip">React.createElement()</span> calls
 - Can include JavaScript expressions inside <span class="codeSnip">{ }</span>
 
 ### Example
@@ -56,7 +56,7 @@ function FruitList() {
 }
 ```
 
-- <span class="codeSnip">key</span> helps React identify which items changed, added, or removed  
+- <span class="codeSnip">key</span> helps React identify which items changed, added, or removed
 - Keys should be stable and unique per element in the list
 
 ---
@@ -67,7 +67,7 @@ When rendering lists, React needs a way to track each item uniquely. The <span c
 
 Use a unique identifier if possible (like an ID), but if unavailable, you can use the index as a fallback.
 
-<span class="codeSnip">&lt;li key={item.id}&gt;</span> ✅  
+<span class="codeSnip">&lt;li key={item.id}&gt;</span> ✅
 <span class="codeSnip">&lt;li key={index}&gt;</span> ⚠️ (only use if the list is static and will not be reordered)
 
 ---
@@ -82,9 +82,9 @@ Lifecycle methods describe the different phases a component goes through during 
 
 Class components have special methods triggered during specific lifecycle stages:
 
-- <span class="codeSnip">constructor()</span> – Setup logic and initial state.  
-- <span class="codeSnip">componentDidMount()</span> – Runs after the first render.  
-- <span class="codeSnip">componentDidUpdate()</span> – Runs after any update.  
+- <span class="codeSnip">constructor()</span> – Setup logic and initial state.
+- <span class="codeSnip">componentDidMount()</span> – Runs after the first render.
+- <span class="codeSnip">componentDidUpdate()</span> – Runs after any update.
 - <span class="codeSnip">componentWillUnmount()</span> – Runs before removal from the DOM.
 
 ### Example
@@ -177,15 +177,27 @@ useEffect(() => {
 }, [dependency]);
 ```
 
-- Perfect for setting up and cleaning up subscriptions, timers, etc.  
+- Perfect for setting up and cleaning up subscriptions, timers, etc.
 - Runs once on mount and again whenever <span class="codeSnip">dependency</span> changes.
 
 ---
 
 ## Summary
 
-- JSX blends HTML with JavaScript  
-- Use <span class="codeSnip">className</span> instead of <span class="codeSnip">class</span>  
-- Use <span class="codeSnip">.map()</span> to render lists dynamically  
-- Always assign a <span class="codeSnip">key</span> to repeated elements  
-- Lifecycle behavior can be achieved in both class and function components  
+- JSX blends HTML with JavaScript
+- Use <span class="codeSnip">className</span> instead of <span class="codeSnip">class</span>
+- Use <span class="codeSnip">.map()</span> to render lists dynamically
+- Always assign a <span class="codeSnip">key</span> to repeated elements
+- Lifecycle behavior can be achieved in both class and function components
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/setup-and-structure/structure">← Back</a>
+    <div class="xrefTitle">Setup & Structure</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/event-handling">Next →</a>
+    <div class="xrefTitle">Event Handling</div>
+  </div>
+</div>

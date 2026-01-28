@@ -46,11 +46,11 @@ Event handling in React isn’t just about clicks. You can respond to a wide var
 
 <div class="bullet1">
 
-- <span class="codeSnip">onChange</span> — Fires when the value of an input, select, or textarea changes  
-- <span class="codeSnip">onInput</span> — Triggers on every input keystroke (more immediate than <span class="codeSnip">onChange</span>)  
-- <span class="codeSnip">onSubmit</span> — Used for form submissions  
-- <span class="codeSnip">onBlur</span> — When an input loses focus  
-- <span class="codeSnip">onFocus</span> — When an input gains focus  
+- <span class="codeSnip">onChange</span> — Fires when the value of an input, select, or textarea changes
+- <span class="codeSnip">onInput</span> — Triggers on every input keystroke (more immediate than <span class="codeSnip">onChange</span>)
+- <span class="codeSnip">onSubmit</span> — Used for form submissions
+- <span class="codeSnip">onBlur</span> — When an input loses focus
+- <span class="codeSnip">onFocus</span> — When an input gains focus
 
 </div>
 
@@ -150,15 +150,15 @@ Why not use &lt;a href="/about"&gt;?
 - React normalizes event behavior across browsers
 - You can still access the synthetic event object in handlers
 - Always use function references — don’t invoke them directly
-  - i.e., 
-  
+  - i.e.,
+
   ✅
   ```jsx
   onClick={handleClick}
   ```
 
-  NOT  
-  
+  NOT
+
   <br>
 
   ❌
@@ -176,3 +176,15 @@ Use camelCase event names like <span class="codeSnip">onClick</span>, <span clas
 Handlers trigger functions that often update state
 Use React Router’s <span class="codeSnip">&lt;Link&gt;</span> component for navigation
 Avoid full-page reloads with proper routing and event handling
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/jsx">← Back</a>
+    <div class="xrefTitle">JSX</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/core/props-and-state/props">Next →</a>
+    <div class="xrefTitle">Props/State</div>
+  </div>
+</div>

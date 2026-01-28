@@ -37,3 +37,15 @@ For command-line usage and basic administration, see:
 ### Summary
 
 Installing PostgreSQL prepares the system for database creation and management using built-in tools and clients.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/fundamentals/features-use-cases">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/setup-and-config/basic-configuration">Next →</a>
+    <div class="xrefTitle">Basic Configuration</div>
+  </div>
+</div>

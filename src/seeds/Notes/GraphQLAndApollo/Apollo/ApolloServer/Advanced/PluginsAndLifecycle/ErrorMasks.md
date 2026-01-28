@@ -28,3 +28,15 @@ Common approaches include:
 
 - Returning a clear client-facing error message
 - Logging the operation and relevant metadata for investigation
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/server/advanced/plugins-lifecycle/plugin-api">← Back</a>
+    <div class="xrefTitle">Plugin API</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/apollo/server/advanced/cache-hints/cache-hints">Next →</a>
+    <div class="xrefTitle">Cache & Hints</div>
+  </div>
+</div>

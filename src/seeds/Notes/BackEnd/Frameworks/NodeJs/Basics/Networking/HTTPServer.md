@@ -15,7 +15,7 @@ This page covers:
 
 ✅ No npm required  
 ✅ Uses built-in Node modules  
-✅ Foundation for learning routing and frameworks like Express
+✅ Foundation for learning routing and frameworks like Express  
 
 ---
 ### Running a Node Script (No npm)
@@ -66,8 +66,8 @@ If test.js exists, Node runs it.
 ### Should You Rely on This?
 ---
 
-- For learning demos: ✅ fine  
-- For real projects / notes / muscle memory: ❌ better to be explicit  
+- For learning demos: ✅ fine
+- For real projects / notes / muscle memory: ❌ better to be explicit
 
 Best practice:
 
@@ -104,6 +104,7 @@ ourApp.listen(3000)
 ---
 
 ### Importing the HTTP Module
+---
 
 ```js
 let http = require("http")
@@ -201,6 +202,15 @@ ourApp.listen(3000)
 The process stays active as long as the server is listening.
 
 ---
+### Stopping a Running Server
+---
+
+To stop the currently running Node process:
+
+- Windows / VS Code terminal: Ctrl + C
+- macOS terminal: Ctrl + C
+
+---
 ### Ports (Quick Concept)
 ---
 
@@ -260,3 +270,17 @@ A port is a numbered communication channel on your computer.
     </tr>
   </tbody>
 </table>
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/files-streams/streams-basics">← Back</a>
+    <div class="xrefTitle">Files & Streams</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/networking-core/http-client">Next →</a>
+    <div class="xrefTitle">HTTP Client</div>
+  </div>
+</div>
