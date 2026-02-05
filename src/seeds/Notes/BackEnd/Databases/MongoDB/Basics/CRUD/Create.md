@@ -1,23 +1,23 @@
-<br>
-
----
-### Create (Insert) Operations
+# Create (Insert) Operations
 ---
 
-Use <span class="emphasis">insertOne</span> or <span class="emphasis">insertMany</span> to add documents. If no <span class="emphasis">_id</span> is supplied, MongoDB generates an <span class="emphasis">ObjectId</span>.
+Create operations add new documents to a MongoDB collection.
+
+If no <span class="emphasis">_id</span> is provided, MongoDB automatically generates an <span class="emphasis">ObjectId</span>.
 
 ---
 ### insertOne
 ---
 
-```js  
+```js
 db.collectionName.insertOne({ key1: value1, key2: value2 });
 ```
 
 <div class="fullWidthBullet">
 
-🔹 Returns acknowledgement and inserted <span class="emphasis">_id</span>  
-🔹 Fails on duplicate <span class="emphasis">_id</span>  
+🔹 Inserts a single document  
+🔹 Returns an acknowledgement and the generated <span class="emphasis">_id</span>  
+🔹 Fails if a duplicate <span class="codeSnip">_id</span> is provided  
 
 </div>
 
@@ -25,21 +25,22 @@ db.collectionName.insertOne({ key1: value1, key2: value2 });
 ### insertMany
 ---
 
-```js  
-db.collectionName.insertMany(  
-  [  
-    { key1: 'v1' },  
-    { key1: 'v2', _id: ObjectId() }  
-  ],  
-  { ordered: true }  
+```js
+db.collectionName.insertMany(
+  [
+    { key1: 'v1' },
+    { key1: 'v2', _id: ObjectId() }
+  ],
+  { ordered: true }
 );
 ```
 
 <div class="fullWidthBullet">
 
-🔹 Inserts multiple documents in one round trip (faster than looping <span class="codeSnip">insertOne</span>)  
-🔹 <span class="codeSnip">ordered: true</span> → stop at first error (default)  
-🔹 <span class="codeSnip">ordered: false</span> → continue remaining ops after an error  
-🔹 Missing <span class="codeSnip">_id</span> values are auto-generated as <span class="codeSnip">ObjectId</span>s  
+🔹 Inserts multiple documents in one operation  
+🔹 Faster than calling <span class="codeSnip">insertOne</span> repeatedly  
+🔹 <span class="codeSnip">ordered: true</span> stops on first error (default)  
+🔹 <span class="codeSnip">ordered: false</span> continues after errors  
+🔹 Missing <span class="codeSnip">_id</span> values are auto-generated  
 
 </div>
