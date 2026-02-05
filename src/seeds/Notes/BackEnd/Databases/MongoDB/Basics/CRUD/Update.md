@@ -1,16 +1,26 @@
-<br>
-
----
-### Update Operations
+# Update Operations
 ---
 
-Use <span class="emphasis">updateOne</span> or <span class="emphasis">updateMany</span> to modify documents in place.
+Update operations modify existing documents in a collection.
 
 <div class="fullWidthBullet">
 
-🔹 <span class="codeSnip">updateOne</span> → updates the first match  
-🔹 <span class="codeSnip">updateMany</span> → updates all matches  
-🔹 Combine with update operators like <span class="codeSnip">$set</span> or <span class="codeSnip">$inc</span>  
-🔹 Equivalent to a REST <span class="emphasis">PUT/PATCH</span> operation  
+🔹 Change one or more fields  
+🔹 Leave unspecified fields untouched  
+🔹 Target documents using filter criteria  
 
 </div>
+
+---
+### Conceptual Behavior
+---
+
+<div class="fullWidthBullet">
+
+🔹 Updates apply to existing documents only  
+🔹 You do not need to resubmit the entire document  
+🔹 Multiple documents can be updated at once  
+
+</div>
+
+Update operations are conceptually similar to REST <span class="emphasis">PUT</span> or <span class="emphasis">PATCH</span> requests.

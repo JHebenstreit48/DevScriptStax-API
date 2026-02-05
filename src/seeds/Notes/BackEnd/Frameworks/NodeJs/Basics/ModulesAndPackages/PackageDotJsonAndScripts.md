@@ -53,7 +53,6 @@ Both commands do the same thing:
 - Use the lockfile (if present) to install exact versions
 
 ---
-
 ### Scripts Section
 ---
 
@@ -66,6 +65,7 @@ Example:
   "start": "node server.js",
   "watch": "nodemon server.js"
 }
+```
 
 Scripts are run using:
 

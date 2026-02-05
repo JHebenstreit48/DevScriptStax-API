@@ -1,15 +1,24 @@
-<br>
-
----
-### Delete (Remove) Operations
+# Delete (Remove) Operations
 ---
 
-Use <span class="emphasis">deleteOne</span> or <span class="emphasis">deleteMany</span> to remove documents from a collection.
+Delete operations remove documents from a collection.
 
 <div class="fullWidthBullet">
 
-🔹 <span class="codeSnip">deleteOne</span> → deletes the first matching document  
-🔹 <span class="codeSnip">deleteMany</span> → deletes all matching documents  
+🔹 Permanently removes data  
+🔹 Can target one or many documents  
+🔹 Uses filter conditions to select documents  
+
+</div>
+
+---
+### Conceptual Notes
+---
+
+<div class="fullWidthBullet">
+
+🔹 Deleting a document does not affect other documents  
+🔹 Collections remain even if all documents are removed  
 🔹 Equivalent to a REST <span class="emphasis">DELETE</span> operation  
 
 </div>
