@@ -1,21 +1,21 @@
-## HTTP Server (Node Core)
+# HTTP Server (Node Core)
 
 ---
 ### Overview
 ---
 
-Node.js can create servers using the built-in HTTP module without frameworks like Express.
+Node.js can create HTTP servers using the built-in <span class="emphasis">http</span> module, without frameworks like Express.
 
 This page covers:
 
 - Running a Node script from the CLI
 - Creating a basic HTTP server with the http module
-- Understanding req and res
-- Why /about or other paths do not change the output yet
+- Understanding <span class="emphasis">req</span> and <span class="emphasis">res</span>
+- Why different URLs do not change output yet
 
 ✅ No npm required  
 ✅ Uses built-in Node modules  
-✅ Foundation for learning routing and frameworks like Express  
+✅ Foundation for routing and frameworks like Express  
 
 ---
 ### Running a Node Script (No npm)
@@ -43,9 +43,9 @@ You may sometimes see this work:
 node test
 ```
 
-If the file is named test.js, Node may still run it.
+If the file is named <span class="emphasis">test.js</span>, Node may still run it.
 
-This works because Node attempts to resolve the filename similarly to how require() works.
+This works because Node attempts to resolve the filename similarly to how <span class="emphasis">require()</span> works.
 
 When you type:
 
@@ -60,14 +60,14 @@ Node checks for:
 - test.json
 - test.node
 
-If test.js exists, Node runs it.
+If <span class="emphasis">test.js</span> exists, Node runs it.
 
 ---
 ### Should You Rely on This?
 ---
 
-- For learning demos: ✅ fine
-- For real projects / notes / muscle memory: ❌ better to be explicit
+- For learning demos: ✅ fine  
+- For real projects / notes / muscle memory: ❌ better to be explicit  
 
 Best practice:
 
@@ -85,29 +85,39 @@ The job of a server is to:
 2. Handle each request
 3. Send back a response
 
+You can think of a server like someone answering a phone:
+- A call comes in (request)
+- The server listens
+- The server responds
+
 ---
 ### Creating a Basic HTTP Server
 ---
 
 ```js
-let http = require("http")
+const http = require("http")
 
-let ourApp = http.createServer(function (req, res) {
+const server = http.createServer((req, res) => {
+  res.statusCode = 200
+  res.setHeader("Content-Type", "text/plain")
   res.end("Hello, and welcome to our website.")
 })
 
-ourApp.listen(3000)
+server.listen(3000, () => {
+  console.log("Server running at http://localhost:3000/")
+})
 ```
 
 ---
 ### Breaking Down the Code
 ---
 
+---
 ### Importing the HTTP Module
 ---
 
 ```js
-let http = require("http")
+const http = require("http")
 ```
 
 - Loads Node’s built-in HTTP module
@@ -119,13 +129,13 @@ let http = require("http")
 ---
 
 ```js
-let ourApp = http.createServer(function (req, res) {
+http.createServer((req, res) => {
   res.end("Hello, and welcome to our website.")
 })
 ```
 
-- createServer creates an HTTP server
-- It accepts a function as an argument
+- <span class="emphasis">createServer</span> creates an HTTP server
+- It accepts a callback function
 - That function runs every time the server receives a request
 
 ---
@@ -134,13 +144,26 @@ let ourApp = http.createServer(function (req, res) {
 
 Inside the callback:
 
-- req (request)
+- <span class="emphasis">req</span> (request)
   - Information about the incoming request
   - Examples: URL, HTTP method, headers
 
-- res (response)
+- <span class="emphasis">res</span> (response)
   - Used to send data back to the client
-  - Controls what the browser receives
+  - Controls status codes, headers, and response content
+
+---
+### Status Codes and Headers (Quick Intro)
+---
+
+```js
+res.statusCode = 200
+res.setHeader("Content-Type", "text/plain")
+```
+
+- <span class="emphasis">statusCode</span> tells the browser if the request succeeded
+- <span class="emphasis">Content-Type</span> tells the browser what kind of data is being sent
+- These become more important as responses grow more complex
 
 ---
 ### Why the Page Does Not Change for /about or Other URLs
@@ -157,7 +180,7 @@ You are making different requests, but the server sends the same response.
 This happens because:
 
 - The callback runs for every request
-- The code always calls res.end with the same message
+- The code always calls <span class="emphasis">res.end</span> with the same message
 - The requested path is never checked
 
 The requested path is stored in:
@@ -171,7 +194,7 @@ Examples:
 - "/about" for the about page
 - "/pizza" for the pizza page
 
-Since the code does not use req.url, every request gets the same output.
+Since the code does not use <span class="emphasis">req.url</span>, every request gets the same output.
 
 At this stage, the server has no routing logic.
 
@@ -179,7 +202,7 @@ At this stage, the server has no routing logic.
 ### Sending a Response
 ---
 
-```javascript
+```js
 res.end("Hello, and welcome to our website.")
 ```
 
@@ -191,15 +214,15 @@ res.end("Hello, and welcome to our website.")
 ### Starting the Server
 ---
 
-```javascript
-ourApp.listen(3000)
-```
+```js
+server.listen(3000)
 
 - Starts the server on port 3000
 - Accessible at:
   http://localhost:3000
+```
 
-The process stays active as long as the server is listening.
+The Node process stays active as long as the server is listening.
 
 ---
 ### Stopping a Running Server
@@ -218,7 +241,7 @@ A port is a numbered communication channel on your computer.
 
 - Your computer has an IP address
 - Ports act like individual doors
-- This server listens on door 3000
+- This server listens on door <span class="emphasis">3000</span>
 
 ---
 ### VS Code Terminal Shortcut
