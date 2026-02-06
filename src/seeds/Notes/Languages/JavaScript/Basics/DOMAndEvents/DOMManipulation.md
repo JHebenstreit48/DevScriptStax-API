@@ -122,3 +122,4 @@ element.classList.contains("active")
 This allows JavaScript to control visual state through CSS.
 
 ---
+
