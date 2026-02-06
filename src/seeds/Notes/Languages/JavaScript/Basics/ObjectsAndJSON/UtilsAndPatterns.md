@@ -6,6 +6,7 @@
 
 Object destructuring lets you extract properties from an object into individual variables.
 
+```js
 let user = {
   name: "Alice",
   age: 30,
@@ -16,19 +17,22 @@ let { name, age } = user;
 
 console.log(name); // "Alice"
 console.log(age);  // 30
+```
 
 ✅ Destructuring makes your code cleaner and reduces repetition.
 
 ---
-
 ### Renaming While Destructuring
+---
 
 You can rename properties when destructuring:
 
+```js
 let { name: userName, age: userAge } = user;
 
 console.log(userName); // "Alice"
 console.log(userAge);  // 30
+```
 
 ---
 

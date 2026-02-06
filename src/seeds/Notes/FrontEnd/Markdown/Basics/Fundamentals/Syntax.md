@@ -83,7 +83,19 @@ Horizontal rules (---) create visual breaks.
 
 These are the core syntax elements used in almost every Markdown document. More advanced features (tables, code blocks, task lists, etc.) are covered in later sections.
 
-<div>  
-Next Topic:  
-<a href="/markdown/basics/content-elements/formatting"><span class="emphasis">Content Elements → Formatting</span></a>  
+<div>
+Next Topic:
+<a href="/markdown/basics/content-elements/formatting"><span class="emphasis">Content Elements → Formatting</span></a>
+</div>
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/markdown/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/markdown/basics/content-elements/formatting">Next →</a>
+    <div class="xrefTitle">Content Elements</div>
+  </div>
 </div>

@@ -149,31 +149,31 @@ If you set the value to alternate, the animation will **switch directions on eac
 
 This creates a **smooth back-and-forth effect** without needing extra keyframes.
 
-<table class="notesTable">  
-    <thead>  
-        <tr class="tableHeader">  
-            <th class="tableCellHeader">Value</th>  
-            <th class="tableCellHeader">Effect</th>  
-        </tr>  
-    </thead>  
-    <tbody>  
-        <tr class="tableRow">  
-            <td class="tableCell"><span class="codeSnip">normal</span></td>  
-            <td class="tableCell">Default. The animation plays **from 0% to 100%**, then restarts.</td>  
-        </tr>  
-        <tr class="tableRow">  
-            <td class="tableCell"><span class="codeSnip">reverse</span></td>  
-            <td class="tableCell">The animation **plays backward**, starting at 100% and ending at 0%.</td>  
-        </tr>  
-        <tr class="tableRow">  
-            <td class="tableCell"><span class="codeSnip">alternate</span></td>  
-            <td class="tableCell">The animation **switches direction** on each loop—first forward (0% → 100%), then backward (100% → 0%).</td>  
-        </tr>  
-        <tr class="tableRow">  
-            <td class="tableCell"><span class="codeSnip">alternate-reverse</span></td>  
-            <td class="tableCell">Like <span class="codeSnip">alternate</span>, but **starts in reverse** (100% → 0%) before switching directions.</td>  
-        </tr>  
-    </tbody>  
+<table class="notesTable">
+    <thead>
+        <tr class="tableHeader">
+            <th class="tableCellHeader">Value</th>
+            <th class="tableCellHeader">Effect</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="tableRow">
+            <td class="tableCell"><span class="codeSnip">normal</span></td>
+            <td class="tableCell">Default. The animation plays **from 0% to 100%**, then restarts.</td>
+        </tr>
+        <tr class="tableRow">
+            <td class="tableCell"><span class="codeSnip">reverse</span></td>
+            <td class="tableCell">The animation **plays backward**, starting at 100% and ending at 0%.</td>
+        </tr>
+        <tr class="tableRow">
+            <td class="tableCell"><span class="codeSnip">alternate</span></td>
+            <td class="tableCell">The animation **switches direction** on each loop—first forward (0% → 100%), then backward (100% → 0%).</td>
+        </tr>
+        <tr class="tableRow">
+            <td class="tableCell"><span class="codeSnip">alternate-reverse</span></td>
+            <td class="tableCell">Like <span class="codeSnip">alternate</span>, but **starts in reverse** (100% → 0%) before switching directions.</td>
+        </tr>
+    </tbody>
 </table>
 
 ---
@@ -319,3 +319,15 @@ The following is an example of a simple and completed bounce animation.
   }
 }
 ```
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/effects/transitions">← Back</a>
+    <div class="xrefTitle">Transitions</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/responsive-and-variables/media-queries">Next →</a>
+    <div class="xrefTitle">Responsive & Variables</div>
+  </div>
+</div>

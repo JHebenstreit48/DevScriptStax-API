@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Basics: Subpage = {
   name: "Basics",
@@ -7,8 +7,8 @@ const Basics: Subpage = {
       name: "Fundamentals",
       subpages: [
         {
-          name: "Intro",
-          path: "/languages/ruby/basics/fundamentals/intro"
+          name: "Introduction",
+          path: "/languages/ruby/basics/fundamentals/introduction"
         },
         {
           name: "Syntax & Types",

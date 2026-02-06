@@ -1,16 +1,26 @@
-<br>
-
----
-### Read (Query) Operations
+# Read (Query) Operations
 ---
 
-Use <span class="emphasis">find</span> and related helpers to retrieve documents.
+Read operations retrieve documents from a collection.
 
 <div class="fullWidthBullet">
 
-🔹 <span class="codeSnip">find()</span> → returns all matching documents  
-🔹 <span class="codeSnip">findOne()</span> → returns the first matching document  
-🔹 Supports filtering, projection, and pagination  
-🔹 Equivalent to a REST <span class="emphasis">GET</span> operation  
+🔹 Load existing data  
+🔹 Retrieve matching documents  
+🔹 Query based on conditions  
 
 </div>
+
+---
+### Common Read Examples
+---
+
+<div class="fullWidthBullet">
+
+🔹 Searching documents in <span class="emphasis">MongoDB Atlas</span>  
+🔹 Filtering collections in <span class="emphasis">MongoDB Compass</span>  
+🔹 Viewing documents via the shell or UI tools  
+
+</div>
+
+Read operations are conceptually equivalent to a REST <span class="emphasis">GET</span> request.

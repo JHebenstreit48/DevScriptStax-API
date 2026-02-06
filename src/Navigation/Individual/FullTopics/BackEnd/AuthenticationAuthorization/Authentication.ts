@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Basics from '@/Navigation/Individual/Granularized/BackEnd/AuthenticationAuthorization/Authentication/Basics';
 import Intermediate from '@/Navigation/Individual/Granularized/BackEnd/AuthenticationAuthorization/Authentication/Intermediate';

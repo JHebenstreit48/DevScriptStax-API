@@ -42,11 +42,11 @@ We’ll explore details in later sections:
 
 <div class="fullWidthBullet">
 
-🔹 <a href="/databases/mongodb/basics/mongoose/schemas-models">Schemas & Models</a> → defining structure  
-🔹 <a href="/databases/mongodb/basics/mongoose/queries">Queries & Filters</a> → retrieving data  
-🔹 <a href="/databases/mongodb/basics/mongoose/updates">Updates & Write Ops</a> → modifying data  
-🔹 <a href="/databases/mongodb/basics/mongoose/validation-middleware">Validation & Middleware</a> → enforcing rules  
-🔹 <a href="/databases/mongodb/basics/mongoose/populate">Populate & Relationships</a> → linking collections  
+🔹 <a href="/mongodb/basics/mongoose/schemas-and-models">Schemas & Models</a> → defining structure  
+🔹 <a href="/mongodb/basics/mongoose/queries">Queries & Filters</a> → retrieving data  
+🔹 <a href="/mongodb/basics/mongoose/updates">Updates & Write Ops</a> → modifying data  
+🔹 <a href="/mongodb/basics/mongoose/validation-middleware">Validation & Middleware</a> → enforcing rules  
+🔹 <a href="/mongodb/basics/mongoose/populate">Populate & Relationships</a> → linking collections  
 
 </div>
 

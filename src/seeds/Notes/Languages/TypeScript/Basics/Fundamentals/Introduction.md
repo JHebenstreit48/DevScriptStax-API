@@ -49,10 +49,10 @@ TypeScript is a **superset of JavaScript**—meaning it includes all of JavaScri
 
 ### Why Use TypeScript?
 
-✅ **Catch errors early** — Type mismatches and bugs are flagged before your app runs  
-✅ **Improve maintainability** — Strong typing makes collaboration and refactoring safer  
-✅ **Boost productivity** — Editors give better IntelliSense, autocomplete, and docs  
-✅ **Modern tooling** — TS supports latest JS features, modules, and strict settings  
+✅ **Catch errors early** — Type mismatches and bugs are flagged before your app runs
+✅ **Improve maintainability** — Strong typing makes collaboration and refactoring safer
+✅ **Boost productivity** — Editors give better IntelliSense, autocomplete, and docs
+✅ **Modern tooling** — TS supports latest JS features, modules, and strict settings
 ✅ **Scales well** — Teams can work with confidence in shared codebases
 
 ---
@@ -61,9 +61,9 @@ TypeScript is a **superset of JavaScript**—meaning it includes all of JavaScri
 
 > Understanding what TypeScript does—and doesn’t—do helps you avoid frustration.
 
-- 🚫 **Not a runtime checker** — TypeScript won’t stop runtime bugs; it only helps prevent them  
-- 🧩 **Not all or nothing** — You can adopt TypeScript incrementally, file by file  
-- 🛠️ **Not a bug shield** — You can still write incorrect logic even with perfect types  
+- 🚫 **Not a runtime checker** — TypeScript won’t stop runtime bugs; it only helps prevent them
+- 🧩 **Not all or nothing** — You can adopt TypeScript incrementally, file by file
+- 🛠️ **Not a bug shield** — You can still write incorrect logic even with perfect types
 - ⚙️ **No performance penalty** — TypeScript disappears after compile time
 
 ---
@@ -76,7 +76,19 @@ The rest of this section will walk you through setting up TypeScript, configurin
 
 ### Summary
 
-- TypeScript builds on JavaScript without replacing it  
-- It adds static typing and powerful tools for devs  
-- It’s safe, scalable, and already industry standard  
+- TypeScript builds on JavaScript without replacing it
+- It adds static typing and powerful tools for devs
+- It’s safe, scalable, and already industry standard
 - But: it’s still up to you to write smart, clean logic
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/testing/advanced/ci-and-debug/debugging-techniques">← Back</a>
+    <div class="xrefTitle">JavaScript</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/fundamentals/setup">Next →</a>
+    <div class="xrefTitle">Setup</div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Storage: Subpage = {
   name: "Storage",
@@ -18,6 +18,10 @@ const Storage: Subpage = {
     {
       name: "Managing Storage Costs",
       path: "/firebase/basics/storage/costs",
+    },
+    {
+      name: "Auditing & File Counts",
+      path: "/firebase/basics/storage/auditing-counts",
     },
   ],
 };

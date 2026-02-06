@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import FileAndData from '@/Navigation/Individual/Granularized/Languages/Python/Intermediate/FileAndData';
 import Async from '@/Navigation/Individual/Granularized/Languages/Python/Intermediate/Async';

@@ -1,1 +1,0 @@
-## Template Rendering Optimization

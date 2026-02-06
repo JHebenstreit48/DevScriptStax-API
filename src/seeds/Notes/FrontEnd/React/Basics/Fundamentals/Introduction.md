@@ -46,3 +46,15 @@ And in **2019**, React introduced Hooks—such as <span class="codeSnip">useStat
 - Public release: **2013**, followed by React Native (**2015**), Fiber (**2017**), and Hooks (**2019**).
 - Its design goal: efficient, component-based UI updates.
 - React remains one of the most influential tools in modern web development.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/nextjs/deployment/custom-platforms">← Back</a>
+    <div class="xrefTitle">Next.js</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/fundamentals/history">Next →</a>
+    <div class="xrefTitle">History & Evolution</div>
+  </div>
+</div>

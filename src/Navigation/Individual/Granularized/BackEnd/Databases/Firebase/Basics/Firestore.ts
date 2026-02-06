@@ -1,11 +1,11 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Firestore: Subpage = {
   name: "Firestore",
   subpages: [
     {
-      name: "Overview",
-      path: "/firebase/basics/firestore/overview",
+      name: "Introduction",
+      path: "/firebase/basics/firestore/introduction",
     },
     {
       name: "Firestore vs Realtime",

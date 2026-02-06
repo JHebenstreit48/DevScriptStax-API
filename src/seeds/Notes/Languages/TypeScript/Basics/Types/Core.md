@@ -112,3 +112,17 @@ let id: string = "user-123";
 - 🎯 Use core types to define the shape and intent of your values.
 - 🧠 Let TypeScript infer types where it improves readability.
 - ⚠️ Explicitly annotate when inference isn't clear or when exporting/shared across modules.
+
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/fundamentals/tsconfig">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/types/interfaces">Next →</a>
+    <div class="xrefTitle">Interfaces & Declarations</div>
+  </div>
+</div>

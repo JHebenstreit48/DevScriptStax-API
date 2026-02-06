@@ -1,9 +1,7 @@
 <br>
 
 ---
-
 ### What is JavaScript?
-
 ---
 
 <span class="emphasis">JavaScript</span> is a <span class="secondEmphasis">dynamic, high-level programming language</span> primarily used for creating <span class="emphasis">interactive and dynamic web applications</span>.
@@ -16,9 +14,7 @@ Supports both <span class="secondEmphasis">object-oriented programming (OOP)</sp
 Plays a critical role alongside <span class="secondEmphasis">HTML</span> and <span class="secondEmphasis">CSS</span> in the core technologies of web development.
 
 ---
-
 ### Key Characteristics of JavaScript
-
 ---
 
 **Interpreted Language** → Runs directly without needing prior compilation.  
@@ -39,9 +35,7 @@ greet("World"); // Output: Hello, World!
 ```
 
 ---
-
 ### Why Use JavaScript?
-
 ---
 
 - **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.
@@ -51,9 +45,7 @@ greet("World"); // Output: Hello, World!
 - **Continuous Evolution** → New features added regularly via ECMAScript (ES6+ updates).
 
 ---
-
 ### JavaScript in the Browser
-
 ---
 
 <table class="notesTable">
@@ -88,8 +80,8 @@ greet("World"); // Output: Hello, World!
 </table>
 
 ---
-
 ### JavaScript on the Server (Node.js)
+---
 
 <table class="notesTable">
   <thead>
@@ -123,3 +115,12 @@ greet("World"); // Output: Hello, World!
 </table>
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem"></div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/fundamentals/history">Next →</a>
+    <div class="xrefTitle">JavaScript Fundamentals → History</div>
+  </div>
+</div>

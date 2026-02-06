@@ -1,10 +1,10 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const Fundamentals: Subpage = {
   name: 'Fundamentals',
   subpages: [
     {
-      name: 'Introduction?',
+      name: 'Introduction',
       path: '/postgresql/basics/fundamentals/introduction',
     },
     {

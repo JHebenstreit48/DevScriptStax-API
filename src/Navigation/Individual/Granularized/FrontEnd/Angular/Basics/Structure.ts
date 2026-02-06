@@ -1,11 +1,11 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Structure: Subpage = {
   name: "Structure",
   subpages: [
     {
       name: "Project Structure",
-      path: "/angular/basics/structure/structure",
+      path: "/angular/basics/structure/project-structure",
     },
     {
       name: "Configuration Files",

@@ -6,11 +6,11 @@
 
 Before installing React with Vite, make sure the following are installed on your system:
 
-1. **Node.js (LTS version recommended)**  
+1. **Node.js (LTS version recommended)**
    Download from: https://nodejs.org/
 
-2. **Package Manager**  
-   Comes with Node.js: <span class="codeSnip">npm</span>  
+2. **Package Manager**
+   Comes with Node.js: <span class="codeSnip">npm</span>
    Optionally install Yarn: <span class="codeSnip">npm install -g yarn</span>
 
 ---
@@ -31,7 +31,7 @@ npm create vite@latest
 
 When prompted:
 
-```shell  
+```shell
 ? Project name: › .
 ```
 
@@ -47,7 +47,7 @@ Use arrow keys to select:
 >React
 ```
 
-or  
+or
 
 ```shell
 >React + TypeScript
@@ -63,7 +63,7 @@ Then press **Enter**.
 
 Once the project is scaffolded, install all necessary dependencies:
 
-```shell  
+```shell
 npm install
 ```
 ---
@@ -72,7 +72,7 @@ npm install
 
 Run the following to start your local server:
 
-```shell  
+```shell
 npm run dev
 ```
 
@@ -88,9 +88,21 @@ This should show something to the effect of:
 
 ## Optional: Add a Favicon
 
-1. Place your favicon file (e.g., <span class="codeSnip">favicon.ico</span>) in the <span class="codeSnip">public</span> folder  
+1. Place your favicon file (e.g., <span class="codeSnip">favicon.ico</span>) in the <span class="codeSnip">public</span> folder
 2. In your <span class="codeSnip">index.html</span>, add this inside the <span class="codeSnip">&lt;head&gt;</span>:
 
 ```html
 <link rel="icon" href="/favicon.ico" />
 ```
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/fundamentals/history">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/react/basics/setup-and-structure/structure">Next →</a>
+    <div class="xrefTitle">Project Structure</div>
+  </div>
+</div>

@@ -4,11 +4,11 @@
 
 ### Overview
 
-Arrays in JavaScript come with many built-in methods that help you manipulate, search, and iterate over elements.  
+Arrays in JavaScript come with many built-in methods that help you manipulate, search, and iterate over elements.
 This file focuses on practical, commonly used array methods you'll encounter early and often.
 
-✅ These methods help with adding, removing, searching, and transforming array contents.  
-✅ Most of them are beginner-friendly and mutate or return new arrays depending on usage.
+🔹 These methods help with adding, removing, searching, and transforming array contents.
+🔹 Most of them are beginner-friendly and mutate or return new arrays depending on usage.
 
 ---
 
@@ -35,14 +35,13 @@ Some array methods **modify the original array** (mutate), while others **return
   </tbody>
 </table>
 
-
 ### push()
 
 Adds one or more elements to the end of the array.
 
-```javascript  
-let colors = ["red", "green"];  
-colors.push("blue");  
+```javascript
+let colors = ["red", "green"];
+colors.push("blue");
 console.log(colors); // ["red", "green", "blue"]
 ```
 
@@ -52,10 +51,10 @@ console.log(colors); // ["red", "green", "blue"]
 
 Removes the last element from the array and returns it.
 
-```javascript  
-let numbers = [1, 2, 3];  
-let last = numbers.pop();  
-console.log(last);    // 3  
+```javascript
+let numbers = [1, 2, 3];
+let last = numbers.pop();
+console.log(last); // 3
 console.log(numbers); // [1, 2]
 ```
 
@@ -63,25 +62,47 @@ console.log(numbers); // [1, 2]
 
 ### shift() and unshift()
 
-<span class="codeSnip">shift()</span> removes the first element.  
+<span class="codeSnip">shift()</span> removes the first element.
 <span class="codeSnip">unshift()</span> adds one or more elements to the beginning.
 
-```javascript  
-let names = ["Alice", "Bob"];  
-names.shift();         // Removes "Alice"  
-names.unshift("Zara"); // Adds "Zara" to the start  
-console.log(names);    // ["Zara", "Bob"]
+```javascript
+let names = ["Alice", "Bob"];
+names.shift(); // Removes "Alice"
+names.unshift("Zara"); // Adds "Zara" to the start
+console.log(names); // ["Zara", "Bob"]
 ```
+
+---
+
+### splice()
+
+---
+
+The <span class="codeSnip">splice()</span> method removes (or replaces) items in an array.
+
+🔹 First argument: the index to start from  
+🔹 Second argument: how many items to remove
+
+```js
+let myWords = ["red", "orange", "yellow"];
+myWords.splice(1, 1);
+console.log(myWords); // ["red", "yellow"]
+```
+
+✅ This removes "orange".  
+⚠️ <span class="emphasis">splice()</span> mutates the original array.
 
 ---
 
 ### includes()
 
+---
+
 Checks if the array contains a specified value and returns a boolean.
 
-```javascript  
-let pets = ["dog", "cat", "rabbit"];  
-console.log(pets.includes("cat"));  // true  
+```javascript
+let pets = ["dog", "cat", "rabbit"];
+console.log(pets.includes("cat")); // true
 console.log(pets.includes("bird")); // false
 ```
 
@@ -95,12 +116,14 @@ These methods take a <span class="emphasis">callback function</span> and apply i
 
 ### forEach()
 
+---
+
 Runs a function on every element of the array. Does not return a new array.
 
-```javascript  
-let nums = [1, 2, 3];  
-nums.forEach((n) => {  
-  console.log(n * 2); // 2, 4, 6  
+```js
+let nums = [1, 2, 3];
+nums.forEach((n) => {
+  console.log(n * 2); // 2, 4, 6
 });
 ```
 
@@ -108,13 +131,15 @@ nums.forEach((n) => {
 
 ### map()
 
+---
+
 Creates a new array by applying a function to each element.
 
 The function is called once per array item. Whatever the function returns is added to the new array.
 
-```javascript  
-let nums = [1, 2, 3];  
-let doubled = nums.map(n => n * 2);  
+```javascript
+let nums = [1, 2, 3];
+let doubled = nums.map((n) => n * 2);
 console.log(doubled); // [2, 4, 6]
 ```
 
@@ -126,10 +151,9 @@ Returns a new array with elements that pass a test condition.
 
 The callback function must return <span class="emphasis">true</span> (or any truthy value) for an item to be included in the new array.
 
-
-```javascript  
-let nums = [1, 2, 3, 4, 5];  
-let even = nums.filter(n => n % 2 === 0);  
+```javascript
+let nums = [1, 2, 3, 4, 5];
+let even = nums.filter((n) => n % 2 === 0);
 console.log(even); // [2, 4]
 ```
 
@@ -153,13 +177,33 @@ let dogs = pets.filter(onlyDogs);
 
 ---
 
+### join()
+
+---
+
+The <span class="codeSnip">join()</span> method converts an array into a string using a custom separator.
+
+```javascript
+let items = ["Hello", "World"];
+items.join(" "); // "Hello World"
+```
+
+🔹 The argument defines what goes between items  
+🔹 An empty string <span class="codeSnip">""</span> removes commas entirely
+
+This is useful when rendering HTML or text dynamically without unwanted commas.
+
+---
+
 ### find()
+
+---
 
 Returns the first element that matches a condition.
 
-```javascript  
-let people = ["Adam", "Eve", "Zoe"];  
-let match = people.find(name => name.startsWith("Z"));  
+```javascript
+let people = ["Adam", "Eve", "Zoe"];
+let match = people.find((name) => name.startsWith("Z"));
 console.log(match); // "Zoe"
 ```
 
@@ -197,6 +241,11 @@ console.log(match); // "Zoe"
       <td class="tableCell">New length of array</td>
     </tr>
     <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">splice()</span></td>
+      <td class="tableCell">Removes/replaces items by index (mutates array)</td>
+      <td class="tableCell">Array of removed items</td>
+    </tr>
+    <tr class="tableRow">
       <td class="tableCell"><span class="codeSnip">includes()</span></td>
       <td class="tableCell">Checks if value exists</td>
       <td class="tableCell">Boolean</td>
@@ -221,7 +270,24 @@ console.log(match); // "Zoe"
       <td class="tableCell">Finds first match</td>
       <td class="tableCell">Single item or <span class="codeSnip">undefined</span></td>
     </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">join()</span></td>
+      <td class="tableCell">Converts array into a string with a separator</td>
+      <td class="tableCell">String</td>
+    </tr>
   </tbody>
 </table>
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/arrays/introduction">← Back</a>
+    <div class="xrefTitle">Introduction to Arrays</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/arrays/advanced-techniques">Next →</a>
+    <div class="xrefTitle">Advanced Array Techniques</div>
+  </div>
+</div>

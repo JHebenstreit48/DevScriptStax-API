@@ -50,3 +50,12 @@ The <span class="emphasis">&lt;html&gt;</span> element serves as the root of an 
   ...
 </html>
 ```
+
+<div class="xrefNav">
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/html/basics/fundamentals/history">Next →</a>
+    <div class="xrefTitle">HTML Fundamentals → History</div>
+  </div>
+
+</div>

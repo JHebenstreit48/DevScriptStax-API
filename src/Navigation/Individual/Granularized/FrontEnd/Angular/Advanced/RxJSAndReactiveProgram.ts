@@ -1,7 +1,7 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const RxJSAndReactive: Subpage = {
-  name: "RxJS and Reactive Programming",
+  name: "RxJS & Reactive Programming",
   subpages: [
     {
       name: "Observables Basics",

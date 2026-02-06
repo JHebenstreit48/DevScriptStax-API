@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import ReactTools from '@/Navigation/Individual/Granularized/FrontEnd/React/ToolsAndTesting/Tools';
 import ReactTesting from '@/Navigation/Individual/Granularized/FrontEnd/React/ToolsAndTesting/Testing';

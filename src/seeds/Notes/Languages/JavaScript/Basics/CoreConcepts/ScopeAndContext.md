@@ -4,21 +4,21 @@
 
 ### Overview
 
-Understanding scope and context is essential to writing clean, predictable JavaScript code.  
+Understanding scope and context is essential to writing clean, predictable JavaScript code.
 While they're often confused, they refer to different parts of how JavaScript code is interpreted and executed:
 
-✅ **Scope** is about _where variables are accessible_.  
+✅ **Scope** is about _where variables are accessible_.
 ✅ **Context** is about _what object this refers to during execution_.
 
 ---
 
 ### Scope: Where Variables Live
 
-Scope determines the visibility and lifetime of variables.  
+Scope determines the visibility and lifetime of variables.
 There are three main types of scope in JavaScript:
 
-- **Global Scope** – Variables declared outside any function or block.  
-- **Function Scope** – Variables declared within a function using var.  
+- **Global Scope** – Variables declared outside any function or block.
+- **Function Scope** – Variables declared within a function using var.
 - **Block Scope** – Variables declared using let or const within { }.
 
 ```javascript
@@ -94,7 +94,7 @@ function parent() {
 
 ### Context: What Is this?
 
-Context is determined by **how a function is called**, not where it's written.  
+Context is determined by **how a function is called**, not where it's written.
 It typically refers to the object that is executing the current function.
 
 ```javascript
@@ -131,7 +131,7 @@ boundIntro();          // "Hello, my name is Milo"
 
 ### Context in Arrow Functions
 
-Arrow functions do **not** bind their own this.  
+Arrow functions do **not** bind their own this.
 Instead, they inherit it from the surrounding scope.
 
 ```javascript
@@ -175,3 +175,15 @@ timer.start(); // <span class="emphasis">this<span> refers to 'timer', even insi
 </table>
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/loops">← Back</a>
+    <div class="xrefTitle">Loops</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/data-types/primitive">Next →</a>
+    <div class="xrefTitle">Data Types</div>
+  </div>
+</div>

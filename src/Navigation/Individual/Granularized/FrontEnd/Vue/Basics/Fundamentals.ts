@@ -1,11 +1,11 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const Fundamentals: Subpage = {
   name: 'Fundamentals',
   subpages: [
     {
       name: 'Introduction',
-      path: '/vue/basics/fundamentals/intro',
+      path: '/vue/basics/fundamentals/introduction',
     },
     {
       name: 'Vue CLI',

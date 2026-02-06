@@ -123,3 +123,15 @@ This time, the file deletion is staged and recorded correctly in the commit.
 ---
 
 By understanding these differences and failure points, you’ll avoid common frustrations when collaborating or syncing with a remote.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/git/basics/workflow/full-workflow">← Back</a>
+    <div class="xrefTitle">Topic: Git Workflow → Full Workflow</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/git/basics/commands/common">Next →</a>
+    <div class="xrefTitle">Topic: Git Commands → Common</div>
+  </div>
+</div>

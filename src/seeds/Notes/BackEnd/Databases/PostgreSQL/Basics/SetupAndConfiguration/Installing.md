@@ -1,15 +1,12 @@
 # Installing PostgreSQL
 
 ---
-### Placeholder
----
 
-<div class="fullWidthBullet">
+### Overview
 
-🔹 Installation steps will be added here (OS-specific)  
-🔹 Keep this section aligned with the rest of Setup & Configuration  
+Before using PostgreSQL, it must be installed and initialized on the system.
 
-</div>
+Installation methods vary by operating system, but once installed, PostgreSQL provides both command-line and graphical tools for managing databases.
 
 ---
 ### Creating a Database (After Install)
@@ -20,3 +17,43 @@ Once PostgreSQL is installed and you can access <span class="codeSnip">psql</spa
 ```sql
 CREATE DATABASE your_database_name;
 ```
+
+### After Installation
+
+Once PostgreSQL is installed:
+
+- The PostgreSQL service is running
+- A default administrative user is created
+- Client tools such as psql are available
+
+The default administrative user is typically:
+
+postgres
+
+---
+
+### Next Steps
+
+After installation, you will typically connect to PostgreSQL using a client tool.
+
+For command-line usage and basic administration, see:
+
+<a href="/postgresql/tools/cli-admin/psql-basics">psql Basics</a>
+
+---
+
+### Summary
+
+Installing PostgreSQL prepares the system for database creation and management using built-in tools and clients.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/fundamentals/features-use-cases">← Back</a>
+    <div class="xrefTitle">Fundamentals</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/postgresql/basics/setup-and-config/basic-configuration">Next →</a>
+    <div class="xrefTitle">Basic Configuration</div>
+  </div>
+</div>

@@ -15,7 +15,7 @@ Common settings:
 
 ## Base Example: tsconfig.json
 
-```json  
+```json
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -46,7 +46,7 @@ Useful when:
 
 ## Base Example: tsconfig.node.json
 
-```json  
+```json
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
@@ -70,7 +70,7 @@ Useful when:
 
 ## Base Example: tsconfig.app.json
 
-```json  
+```json
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
@@ -94,7 +94,7 @@ This is especially helpful in React projects to keep imports clean and manageabl
 
 ### Path Alias Example in tsconfig.json
 
-```json  
+```json
 {
   "compilerOptions": {
     "baseUrl": "./",
@@ -113,10 +113,10 @@ This is especially helpful in React projects to keep imports clean and manageabl
 - <span class="codeSnip">baseUrl</span> sets the root for module resolution (typically the project root).
 - <span class="codeSnip">paths</span> define custom alias names and their corresponding folders.
 - This improves:
-  - 📦 Project structure scalability  
-  - 🧹 Readability and clarity of imports  
+  - 📦 Project structure scalability
+  - 🧹 Readability and clarity of imports
   - 🔁 Easier refactoring when moving files
-  
+
 ---
 
 ## Example Project Structure
@@ -138,8 +138,20 @@ Each config can be tailored to its context and linked via <span class="codeSnip"
 
 ## When to Split TSConfig
 
-✅ You're building both server and client code  
-✅ You need different module systems (e.g., <span class="emphasis">ESNext</span> vs <span class="emphasis">CommonJS</span>)  
+✅ You're building both server and client code
+✅ You need different module systems (e.g., <span class="emphasis">ESNext</span> vs <span class="emphasis">CommonJS</span>)
 ✅ You want to avoid compiling unnecessary files (e.g., exclude frontend during backend build)
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/fundamentals/setup">← Back</a>
+    <div class="xrefTitle">Setup</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/types/core">Next →</a>
+    <div class="xrefTitle">Types</div>
+  </div>
+</div>

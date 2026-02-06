@@ -27,6 +27,30 @@
   </tbody>
 </table>
 
+### Notes
+
+git switch is the newer, clearer way to switch/create branches.
+git checkout is older but still common in tutorials and still works.
+
+Branch naming:
+
+- Prefixes like feature/ are optional. If you skip them, keep names consistent and descriptive.
+- Prefer lowercase with hyphens (january-2026-updates) to avoid casing issues across systems.
+
+#### Example: Create and Switch to a Branch
+
+```shell
+git checkout -b feature/new-notes
+git status
+```
+
+#### Example: Create and Switch to a Branch
+
+```shell
+git switch -c january-2026-updates
+git status
+```
+
 ---
 
 ### Staging & Committing
@@ -53,6 +77,14 @@
     </tr>
   </tbody>
 </table>
+
+#### Example: Stage and Commit Changes
+
+```shell
+git status
+git add -A
+git commit -m "Update notes"
+```
 
 ---
 
@@ -81,6 +113,12 @@
   </tbody>
 </table>
 
+#### Example: Push a New Branch
+
+```shell
+git push --set-upstream origin feature/new-notes
+```
+
 ---
 
 ### Remote Configuration
@@ -101,7 +139,36 @@
       <td class="tableCell"><span class="codeSnip">git remote set-url origin &lt;url&gt;</span></td>
       <td class="tableCell">Change remote origin URL</td>
     </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">git fetch --all --prune</span></td>
+      <td class="tableCell">Update remote branch list and remove stale remote-tracking branches</td>
+    </tr>
   </tbody>
 </table>
 
+### Example: Verify Remote URL
+
+```shell
+git remote set-url origin <new-url>
+git remote -v
+```
+
 ---
+
+### Note
+
+Git commands behave the same across shells. Differences you may encounter usually come from the terminal itself.
+
+On Windows, Git Bash is commonly used for Git workflows because it supports Unix-style commands shown in many examples.
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/git/basics/workflow/nuances">← Back</a>
+    <div class="xrefTitle">Section: Git Workflow → Nuances</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/git/basics/commands/status-diff-log">Next →</a>
+    <div class="xrefTitle">Commands Status/Diff/Log</div>
+  </div>
+</div>

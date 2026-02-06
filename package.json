@@ -1,28 +1,27 @@
 {
   "name": "devscriptstax-api",
   "version": "1.0.0",
-  "description": "Backend API for DevScriptStax notes project",
-  "main": "src/server.ts",
+  "description": "Backend Notes seeder for DevScriptStax notes project",
+
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/server.ts",
-    "dev": "ts-node -r tsconfig-paths/register src/server.ts",
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:dry": "cross-env PRUNE=true PRUNE_DRY_RUN=true ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:write": "cross-env PRUNE=true PRUNE_DRY_RUN=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:noprune": "cross-env PRUNE=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "gen:md": "tsx -r tsconfig-paths/register src/scripts/cli/gen-md.ts",
+
+    "nav:btns": "tsx -r tsconfig-paths/register src/scripts/cli/sync-nav-btns.ts",
+    "nav:btns:dry": "tsx -r tsconfig-paths/register src/scripts/cli/sync-nav-btns.ts --dry-run",
+
     "ping:firebase": "node dist/scripts/pingFirestore.js",
-    "build": "tsc",
-    "start:watch": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
-    "start:dev": "npm run start:watch"
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
     "firebase-admin": "^13.6.0",
-    "gray-matter": "^4.0.3",
-    "mongoose": "^8.8.4"
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

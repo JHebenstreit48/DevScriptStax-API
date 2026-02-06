@@ -1,11 +1,11 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const RealtimeDatabase: Subpage = {
   name: "Realtime Database",
   subpages: [
     {
       name: "Introduction",
-      path: "/firebase/basics/realtime-db/overview",
+      path: "/firebase/basics/realtime-db/introduction",
     },
     {
       name: "Structure/Rules",

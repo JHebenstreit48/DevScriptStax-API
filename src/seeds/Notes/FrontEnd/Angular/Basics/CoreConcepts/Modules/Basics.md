@@ -23,19 +23,29 @@ import { SharedComponent } from './shared/shared.component'
 export class AppModule {}
 ```
 
-- <span class="codeSnip">declarations</span>: declares components and pipes  
-- <span class="codeSnip">imports</span>: brings in dependencies  
-- <span class="codeSnip">providers</span>: available services  
+- <span class="codeSnip">declarations</span>: declares components and pipes
+- <span class="codeSnip">imports</span>: brings in dependencies
+- <span class="codeSnip">providers</span>: available services
 - <span class="codeSnip">bootstrap</span>: root component that launches the app
 
 ---
 
 ## Why Use Modules
 
-- Improve **code organization** and separation  
-- Enable **lazy loading** of features  
+- Improve **code organization** and separation
+- Enable **lazy loading** of features
 - Prepare Angular for optimized builds (AOT)
 
 NgModules form the structural backbone of your application.
 
-> Next: Explore lazy-loaded feature modules.
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/basics/core-concepts/components/inputs-outputs">← Back</a>
+    <div class="xrefTitle">Section: Angular Components → Inputs/Outputs</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/angular/core-concepts/lazy-loading">Next →</a>
+    <div class="xrefTitle">Modules → Lazy Loading</div>
+  </div>
+</div>
