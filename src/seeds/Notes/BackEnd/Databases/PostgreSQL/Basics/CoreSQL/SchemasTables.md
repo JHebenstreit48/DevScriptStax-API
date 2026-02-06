@@ -1,8 +1,8 @@
-## Schemas & Tables
+# Schemas & Tables
 
 ---
-
 ### Overview
+---
 
 PostgreSQL organizes data using schemas and tables.
 
@@ -24,6 +24,12 @@ CREATE TABLE your_table_name (
 );
 ```
 
+<div class="fullWidthBullet">
+
+🔹 This structure can be modified based on your data needs  
+🔹 <span class="codeSnip">SERIAL</span> creates an auto-incrementing integer column (commonly used for primary keys)  
+
+</div>
 ---
 
 ### Column Types

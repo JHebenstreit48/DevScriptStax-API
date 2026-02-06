@@ -1,14 +1,12 @@
-## psql Basics
+# psql Basics
 
 ---
-
 ### Overview
+---
 
 psql is PostgreSQL’s interactive command-line interface.
 
 It allows users to connect to databases, execute SQL commands, and manage database objects.
-
----
 
 ### Connecting to PostgreSQL
 
@@ -18,13 +16,15 @@ To connect to PostgreSQL using psql:
 psql -U username
 ```
 
-The default administrative user is often:
+<div class="fullWidthBullet">
 
-postgres
+🔹 The default username is commonly: <span class="codeSnip">postgres</span>  
+
+</div>
 
 ---
-
 ### Creating a Database
+---
 
 Once connected, a new database can be created using SQL:
 

@@ -1,4 +1,4 @@
-## Installing PostgreSQL
+# Installing PostgreSQL
 
 ---
 
@@ -9,6 +9,14 @@ Before using PostgreSQL, it must be installed and initialized on the system.
 Installation methods vary by operating system, but once installed, PostgreSQL provides both command-line and graphical tools for managing databases.
 
 ---
+### Creating a Database (After Install)
+---
+
+Once PostgreSQL is installed and you can access <span class="codeSnip">psql</span>, you can create a database:
+
+```sql
+CREATE DATABASE your_database_name;
+```
 
 ### After Installation
 

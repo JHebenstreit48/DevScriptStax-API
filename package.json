@@ -5,6 +5,9 @@
 
   "scripts": {
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
+    "seed:dry": "cross-env PRUNE=true PRUNE_DRY_RUN=true ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
+    "seed:write": "cross-env PRUNE=true PRUNE_DRY_RUN=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
+    "seed:noprune": "cross-env PRUNE=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "gen:md": "tsx -r tsconfig-paths/register src/scripts/cli/gen-md.ts",
 
     "nav:btns": "tsx -r tsconfig-paths/register src/scripts/cli/sync-nav-btns.ts",
@@ -24,6 +27,7 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.15.21",
+    "cross-env": "^10.1.0",
     "fast-glob": "^3.3.3",
     "marked": "^16.4.1",
     "nodemon": "^3.1.7",
