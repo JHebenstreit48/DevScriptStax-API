@@ -14,13 +14,17 @@ In <span class="emphasis">JavaScript</span>, operators are used to assign values
 
 ### Types of Operators
 
-🔹 **Arithmetic Operators** → Perform mathematical calculations.
-🔹 **Assignment Operators** → Assign values to variables.
-🔹 **Comparison Operators** → Compare two values and return a boolean result.
-🔹 **Logical Operators** → Combine multiple boolean expressions.
-🔹 **String Operators** → Concatenate (combine) text values.
-🔹 **Unary Operators** → Operate on a single operand (e.g., increment, typeof).
-🔹 **Ternary Operator** → A shorthand conditional operator.
+<div class="twoColumnBullet">
+
+- 🔹 <span class="emphasis">Arithmetic Operators</span> → Perform mathematical calculations.
+- 🔹 **Assignment Operators** → Assign values to variables.
+- 🔹 **Comparison Operators** → Compare two values and return a boolean result.
+- 🔹 **Logical Operators** → Combine multiple boolean expressions.
+- 🔹 **String Operators** → Concatenate (combine) text values.
+- 🔹 **Unary Operators** → Operate on a single operand (e.g., increment, typeof).
+- 🔹 **Ternary Operator** → A shorthand conditional operator.
+
+</div>
 
 ---
 
@@ -346,7 +350,7 @@ function sum(...values) {
 
 ✅ Prefer <span class="codeSnip">===</span> and <span class="codeSnip">!==</span> over <span class="codeSnip">==</span> and <span class="codeSnip">!=</span> to avoid unexpected type coercion.
 ✅ Always group complex logic with parentheses <span class="codeSnip">()</span> to clarify evaluation order.
-✅ Use template literals <span class="codeSnip">`Hello, ${name}`</span> instead of <span class="codeSnip">+</span> string concatenation where possible for better readability.
+✅ Use template literals <span class="codeSnip">&#96;Hello, ${name}&#96;</span> instead of <span class="codeSnip">+</span> string concatenation where possible for better readability.
 ✅ Keep operator precedence in mind — for example, multiplication <span class="codeSnip">*</span> happens before addition <span class="codeSnip">+</span>.
 
 ---
@@ -354,11 +358,11 @@ function sum(...values) {
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/javascript/basics/core/variables">← Back</a>
-    <div class="xrefTitle">Variables</div>
+    <div class="xrefTitle">JavaScript Core Concepts → Variables</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/javascript/basics/core/methods">Next →</a>
-    <div class="xrefTitle">Built-in Methods</div>
+    <div class="xrefTitle">JavaScript Core Concpets → Built-in Methods</div>
   </div>
 </div>

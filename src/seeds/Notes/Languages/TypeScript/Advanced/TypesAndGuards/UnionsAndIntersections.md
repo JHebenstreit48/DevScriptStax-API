@@ -69,3 +69,15 @@ const example: User = {
 - 🧩 Use <span class="codeSnip">|</span> for flexibility (this or that)
 - 🧱 Use <span class="codeSnip">&</span> for composition (this and that)
 - ⚠️ Intersection types require all combined properties to be satisfied
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/types/guards-assertions">← Back</a>
+    <div class="xrefTitle">TypeScript Types → Guards & Assertions</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/generics/component-function">Next →</a>
+    <div class="xrefTitle">TypeScript Generics → Component & Function Generics</div>
+  </div>
+</div>

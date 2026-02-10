@@ -51,3 +51,15 @@ These practices improve long-term maintainability and reduce import path confusi
 - 🔐 Prefix exposed variables with <span class="codeSnip">VITE_</span> to use them in Vite projects
 - 🔎 Use <span class="codeSnip">import.meta.env</span> and augment types as needed
 - 🗂️ Keep structure predictable — scalable code starts with clean folders
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/best-practices/tooling/lintingstrict">← Back</a>
+    <div class="xrefTitle">TypeScript Best Practices → Linting & Strict Mode</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/best-practices/patterns/naming-conventions">Next →</a>
+    <div class="xrefTitle">TypeScript Patterns → Naming & Conventions</div>
+  </div>
+</div>

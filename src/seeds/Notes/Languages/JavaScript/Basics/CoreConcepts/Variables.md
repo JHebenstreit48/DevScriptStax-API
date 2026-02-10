@@ -112,11 +112,11 @@ const greeting = "Hello";
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/javascript/basics/core/syntax-and-structure">← Back</a>
-    <div class="xrefTitle">Syntax/Structure</div>
+    <div class="xrefTitle">JavaScript Core Concepts → Syntax/Structure</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/javascript/basics/core/operators">Next →</a>
-    <div class="xrefTitle">Operators</div>
+    <div class="xrefTitle">JavaScript Core Concepts → Operators</div>
   </div>
 </div>

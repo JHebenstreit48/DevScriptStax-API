@@ -118,11 +118,11 @@ let id: string = "user-123";
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/basics/fundamentals/tsconfig">← Back</a>
-    <div class="xrefTitle">Fundamentals</div>
+    <div class="xrefTitle">TypeScript Fundamentals → TSConfig</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/basics/types/interfaces">Next →</a>
-    <div class="xrefTitle">Interfaces & Declarations</div>
+    <div class="xrefTitle">TypeScript Types → Interfaces & Declarations</div>
   </div>
 </div>

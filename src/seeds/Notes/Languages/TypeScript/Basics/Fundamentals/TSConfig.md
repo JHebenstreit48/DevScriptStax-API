@@ -147,11 +147,11 @@ Each config can be tailored to its context and linked via <span class="codeSnip"
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/basics/fundamentals/setup">← Back</a>
-    <div class="xrefTitle">Setup</div>
+    <div class="xrefTitle">TypeScript Fundamentals → Setup</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/basics/types/core">Next →</a>
-    <div class="xrefTitle">Types</div>
+    <div class="xrefTitle">TypeScript Types → Core Types</div>
   </div>
 </div>

@@ -164,3 +164,15 @@ This ensures safe access with a fallback strategy when a key might not exist.
 - 🧩 Use <span class="codeSnip">declare</span> to define ambient modules and types
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/basics/types/core">← Back</a>
+    <div class="xrefTitle">TypeScript Types → Core Types</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/intermediate/functions/typing">Next →</a>
+    <div class="xrefTitle">TypeScript Intermediate → Typing Functions</div>
+  </div>
+</div>

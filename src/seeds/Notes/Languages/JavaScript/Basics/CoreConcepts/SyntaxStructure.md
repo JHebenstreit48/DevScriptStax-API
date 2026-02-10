@@ -87,3 +87,16 @@ greet();        // Output: Hello, World!
 
 ---
 
+---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/fundamentals/history">← Back</a>
+    <div class="xrefTitle">Section: JavaScript Fundamentals → History</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/core/variables">Next →</a>
+    <div class="xrefTitle">JavaScript Core Concepts → Variables</div>
+  </div>
+</div>
