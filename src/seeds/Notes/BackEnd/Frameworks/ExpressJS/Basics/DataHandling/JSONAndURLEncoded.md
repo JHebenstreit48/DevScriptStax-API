@@ -1,4 +1,4 @@
-## JSON & urlencoded
+# JSON & urlencoded
 
 ---
 ### Overview
@@ -14,45 +14,45 @@ Express does not automatically read form data unless it is configured to do so.
 
 Below the line:
 
-```javascript
+```js
 let ourApp = express();
 ```
 
 You add:
 
-```javascript
+```js
 ourApp.use(express.urlencoded({ extended: false }));
 ```
 
-This line enables the necessary feature in Express so that input is easily accessible from the request.body object.
-
-It allows:
-- Form submissions to be parsed
-- Submitted values to appear on req.body
+This line enables the necessary feature so that input is accessible from the <span class="emphasis">req.body</span> object.
 
 ---
 ### Accessing Form Data
 ---
 
-Once urlencoded parsing is enabled, form input values can be accessed using:
-
-```javascript
+```js
 req.body.skyColor
 ```
 
-The property name matches the name attribute of the input field.
-
-Example:
-
-- <span class="codeSnip">&lt;input name="skyColor"&gt;</span>
+The property name matches the <span class="emphasis">name</span> attribute of the input field.
 
 ---
 ### Why This Is Required
 ---
 
-Without express.urlencoded():
+Without <span class="emphasis">express.urlencoded()</span>:
 - req.body will be undefined
-- Form data cannot be read
-- Conditional logic using req.body will not work
+- form data cannot be read
+- conditional logic will fail
 
----
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/express/basics/middleware/custom">← Back</a>
+    <div class="xrefTitle">ExpressJs Middleware → Custom Middleware</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/express/basics/data/file-uploads">Next →</a>
+    <div class="xrefTitle">ExpressJs Data Handling → File Uploads</div>
+  </div>
+</div>

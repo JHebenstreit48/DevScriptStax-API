@@ -59,3 +59,15 @@ Use this lint rule to enforce consistency and avoid subtle bugs in shared codeba
 - ✅ Always enable <span class="codeSnip">strict</span> in serious projects
 - 🛡️ Combine TypeScript compiler rules with a linter (e.g., ESLint)
 - ⚠️ Watch for silent merging of interfaces—use <span class="codeSnip">no-redeclare</span> to stay safe
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/best-practices/tooling/organization">← Back</a>
+    <div class="xrefTitle">TypeScript Best Practices → Organization</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/typescript/advanced/best-practices/patterns/naming-conventions">Next →</a>
+    <div class="xrefTitle">TypeScript Patterns → Naming & Conventions</div>
+  </div>
+</div>

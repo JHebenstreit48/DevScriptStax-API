@@ -84,11 +84,11 @@ The rest of this section will walk you through setting up TypeScript, configurin
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/javascript/testing/advanced/ci-and-debug/debugging-techniques">← Back</a>
-    <div class="xrefTitle">JavaScript</div>
+    <div class="xrefTitle">Previous Topic: JavaScript CI & Debug → Debugging Techniques</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/basics/fundamentals/setup">Next →</a>
-    <div class="xrefTitle">Setup</div>
+    <div class="xrefTitle">TypeScript Fundamentals → Setup</div>
   </div>
 </div>

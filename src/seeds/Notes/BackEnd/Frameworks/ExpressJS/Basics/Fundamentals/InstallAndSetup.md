@@ -1,20 +1,35 @@
-## Install & Setup
+# Install & Setup
 
 ---
-
 ### Installing Express
+---
 
 Express is installed using npm.
 
+For details about npm and npx themselves, see:  
+<a class="emphasis" href="/frameworks/nodejs/basics/tooling/npm-npx">NodeJs Tooling → Npm & Npx</a>
+
 After installing, you can import it into your file and create an Express app instance.
 
----
+Full command:
 
+```shell
+npm install express
+```
+
+Shorthand version:
+
+```shell
+npm i express
+```
+
+---
 ### Creating an Express App (Legacy / CommonJS)
+---
 
 In the following code:
 
-```javascript
+```js
 let express = require("express");
 let ourApp = express();
 ```
@@ -28,17 +43,17 @@ let ourApp = express();
 - <span class="codeSnip">require("express")</span>: CommonJS loader; finds the installed express package in node_modules and returns its export (a function).
 
 ---
-
 ### Line 2 — let ourApp = express();
+---
 
 - Calls that exported function.
 - Returns an Express application object (your app instance) used for routes, middleware, and listening.
 
 ---
-
 ### Creating an Express App (Modern / ES Modules)
+---
 
-```javascript
+```js
 import express from "express";
 
 const ourApp = express();
@@ -48,10 +63,10 @@ This uses ES Modules instead of CommonJS. The Express app behaves the same way.
 The main difference is how Express is imported.
 
 ---
-
 ### Starting the Server
+---
 
-```javascript
+```js
 ourApp.listen(3000);
 ```
 
@@ -59,14 +74,12 @@ ourApp.listen(3000);
 - The server begins listening for incoming requests.
 
 ---
-
----
 ### Full Server Example (Legacy / CommonJS)
 ---
 
 This is a complete minimal server example using the legacy CommonJS import style.
 
-```javascript
+```js
 let express = require("express");
 let ourApp = express();
 
@@ -105,7 +118,7 @@ ourApp.listen(3000);
 
 This is the same server behavior, but using modern ES Modules import style.
 
-```javascript
+```js
 import express from "express";
 
 const ourApp = express();
@@ -140,3 +153,15 @@ ourApp.listen(3000);
 ```
 
 ---
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/express/basics/fundamentals/introduction">← Back</a>
+    <div class="xrefTitle">ExpressJs Fundamentals → Introduction</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/express/basics/fundamentals/project-structure">Next →</a>
+    <div class="xrefTitle">ExpressJs Fundamentals → Project Structure</div>
+  </div>
+</div>
