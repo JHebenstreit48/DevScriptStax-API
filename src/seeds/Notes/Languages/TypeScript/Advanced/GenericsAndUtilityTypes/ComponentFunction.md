@@ -173,6 +173,8 @@ Avoid generics when:
 - Use constraints (<span class="codeSnip">extends</span>) when you need required properties
 - Generic components are especially useful for reusable UI patterns
 
+---
+
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/typescript/advanced/types/guards-assertions">← Back</a>
