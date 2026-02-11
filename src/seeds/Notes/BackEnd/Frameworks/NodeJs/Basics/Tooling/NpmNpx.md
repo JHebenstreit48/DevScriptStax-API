@@ -20,7 +20,7 @@ Together, they form the core tooling for managing dependencies and workflows in 
 
 In any npm command, <span class="emphasis">npm</span> stands for <span class="emphasis">Node Package Manager</span>.
 
-You can think of npm as a giant <span class="secondEmphasis">grocery store</span> of prewritten JavaScript goodies that you can use in your servers.
+You can think of npm as a giant <span class="emphasis">grocery store</span> of prewritten JavaScript goodies that you can use in your servers.
 
 Instead of writing everything from scratch, npm lets you install packages that already solve common problems.
 
