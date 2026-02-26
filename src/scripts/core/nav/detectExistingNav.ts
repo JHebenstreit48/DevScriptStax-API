@@ -1,5 +1,3 @@
-// src/scripts/core/nav/detectExistingNav.ts
-
 export type FoundNav =
   | { kind: "marked"; start: number; end: number }
   | { kind: "xrefNav"; start: number; end: number }
