@@ -1,8 +1,6 @@
-<br>
 
----
-### What is Angular?
----
+# What is Angular?
+<hr class="dividerSection" />
 
 Angular is a **TypeScript-based front-end framework** for building dynamic, scalable web applications. Developed by Google, it provides powerful tools for handling components, state management, and client-server communication.
 

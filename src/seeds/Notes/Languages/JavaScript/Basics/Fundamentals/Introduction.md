@@ -1,8 +1,5 @@
-<br>
-
----
-### What is JavaScript?
----
+# What is JavaScript?
+<hr class="dividerSection" />
 
 <span class="emphasis">JavaScript</span> is a <span class="secondEmphasis">dynamic, high-level programming language</span> primarily used for creating <span class="emphasis">interactive and dynamic web applications</span>.
 
@@ -38,7 +35,7 @@ greet("World"); // Output: Hello, World!
 ### Why Use JavaScript?
 ---
 
-- **Enhances Web Interactivity** → Enables dynamic content like popups, forms, animations, and games.
+- <span class="emphasis">Enhances Web Interactivity</span> → Enables dynamic content like popups, forms, animations, and games.
 - **Full Stack Capabilities** → With Node.js, JavaScript can be used for both front-end and back-end development.
 - **Rich Ecosystem** → A vast number of libraries (like React, Angular, Vue) and frameworks help speed up development.
 - **Large Community Support** → Active community with millions of developers and open-source contributions.
