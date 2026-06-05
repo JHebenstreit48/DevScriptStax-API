@@ -16,12 +16,12 @@
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/html/basics/structure/elements">← Back</a>
-    <div class="xrefTitle">Elements / Tags</div>
+    <a class="xrefBtn" href="/html/basics/structure/elements-and-tags">← Back</a>
+    <div class="xrefTitle">HTML Basics - Structure - Elements & Tags</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/html/basics/structure/text-and-links">Next →</a>
-    <div class="xrefTitle">Text & Links</div>
+    <div class="xrefTitle">HTML Basics - Structure - Text & Links</div>
   </div>
 </div>

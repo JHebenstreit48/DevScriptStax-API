@@ -22,7 +22,7 @@ Cypress makes end-to-end testing straightforward.
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/testing/e2e/cypress/project-structure">Next →</a>
-    <div class="xrefTitle">Project Structure</div>
+    <a class="xrefBtn" href="/testing/e2e/cypress/basics/project-structure/structure">Next →</a>
+    <div class="xrefTitle">Section: Cypress Basics - Project Structure - Structure</div>
   </div>
 </div>
