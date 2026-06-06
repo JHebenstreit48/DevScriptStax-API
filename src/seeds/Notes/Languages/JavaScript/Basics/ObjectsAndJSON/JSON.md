@@ -1,24 +1,27 @@
-<br>
+# What Is JSON?
 
----
+<hr class="dividerSection" />
 
-### What Is JSON?
+<span class="emphasis">JSON</span> (JavaScript Object Notation) is a lightweight format for storing and exchanging data. It is based on JavaScript object syntax but follows stricter rules to ensure universal compatibility.
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>JSON is widely used to send data between a server and a web app.</li>
+    <li>It is easy for both humans and machines to read and write.</li>
+  </ul>
+</div>
 
-<span class="emphasis">JSON</span> (JavaScript Object Notation) is a lightweight format for storing and exchanging data.  
-It’s based on JavaScript object syntax but follows stricter rules to ensure universal compatibility.
+<hr class="dividerSection" />
 
-- JSON is widely used to send data between a server and a web app  
--  Easy for both humans and machines to read and write
+## Key Differences Between JSON and JavaScript Objects
 
----
+<hr class="dividerSection" />
 
-### Key Differences Between JSON and JavaScript Objects
+<hr class="dividerSubsection1" />
 
----
+### JavaScript Objects
 
-### JavaScript Objects – Differences from JSON
+<hr class="dividerSubsection1" />
 
 <table class="notesTable">
   <thead>
@@ -51,7 +54,11 @@ It’s based on JavaScript object syntax but follows stricter rules to ensure un
   </tbody>
 </table>
 
-### JSON – Differences from JavaScript Objects
+<hr class="dividerSubsection1" />
+
+### JSON
+
+<hr class="dividerSubsection1" />
 
 <table class="notesTable">
   <thead>
@@ -84,15 +91,19 @@ It’s based on JavaScript object syntax but follows stricter rules to ensure un
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-### Example Comparison
+## JavaScript vs JSON Objects
 
----
+<hr class="dividerSection" />
 
-#### JavaScript object:
+<hr class="dividerSubsection1" />
 
-```javascript
+### JavaScript Object
+
+<hr class="dividerSubsection1" />
+
+```js
 let jsObj = {
   name: "Alice",
   age: 30,
@@ -100,9 +111,13 @@ let jsObj = {
 };
 ```
 
-#### JSON equivalent:
+<hr class="dividerSubsection1" />
 
-```javascript
+### JSON Equivalent
+
+<hr class="dividerSubsection1" />
+
+```js
 {
   "name": "Alice",
   "age": 30,
@@ -110,38 +125,42 @@ let jsObj = {
 }
 ```
 
-#### Invalid JSON (missing quotes):
+<hr class="dividerSubsection1" />
 
-```javascript
+### Invalid JSON
+
+<hr class="dividerSubsection1" />
+
+```js
 {
-  name: "Alice"  // ❌ error: missing quotes around key
+  name: "Alice"  // error: missing quotes around key
 }
 ```
 
----
+<hr class="dividerSection" />
 
-### JSON Keys: Why Double Quotes?
+## JSON Keys: Why Double Quotes?
 
----
+<hr class="dividerSection" />
 
-JSON is a strict data format meant for interoperability between systems and languages.  
-Double quotes ensure that parsers in any programming language can reliably read the data.
+JSON is a strict data format meant for interoperability between systems and languages. Double quotes ensure that parsers in any programming language can reliably read the data.
 
-- JavaScript is more relaxed and developer-friendly.  
-- JSON must be predictable, so it enforces stricter rules.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>JavaScript is more relaxed and developer-friendly.</li>
+    <li>JSON must be predictable, so it enforces stricter rules.</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
-### JSON Values: When Are Quotes Required?
+## JSON Values: When Are Quotes Required?
 
----
+<hr class="dividerSection" />
 
-✅ Only strings need quotes  
-❌ Numbers, booleans, arrays, objects, or null do NOT need quotes
+Only strings need quotes. Numbers, booleans, arrays, objects, and null do not.
 
-#### Quotes Required?
-
-<table class="notesTable narrowTable">
+<table class="notesTable">
   <thead>
     <tr class="tableHeader">
       <th class="tableCellHeader">Value Type</th>
@@ -150,35 +169,33 @@ Double quotes ensure that parsers in any programming language can reliably read 
   </thead>
   <tbody>
     <tr class="tableRow">
-      <td class="tableCell"><strong>String</strong></td>
+      <td class="tableCell">String</td>
       <td class="tableCell">✅ Yes</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Number</strong></td>
+      <td class="tableCell">Number</td>
       <td class="tableCell">❌ No</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Boolean</strong></td>
+      <td class="tableCell">Boolean</td>
       <td class="tableCell">❌ No</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>null</strong></td>
+      <td class="tableCell">null</td>
       <td class="tableCell">❌ No</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Array</strong></td>
+      <td class="tableCell">Array</td>
       <td class="tableCell">❌ No</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Object</strong></td>
+      <td class="tableCell">Object</td>
       <td class="tableCell">❌ No</td>
     </tr>
   </tbody>
 </table>
 
-#### Example Values
-
-<table class="notesTable narrowTable">
+<table class="notesTable">
   <thead>
     <tr class="tableHeader">
       <th class="tableCellHeader">Value Type</th>
@@ -187,47 +204,55 @@ Double quotes ensure that parsers in any programming language can reliably read 
   </thead>
   <tbody>
     <tr class="tableRow">
-      <td class="tableCell"><strong>String</strong></td>
-      <td class="tableCell">"hello"</td>
+      <td class="tableCell">String</td>
+      <td class="tableCell"><span class="codeSnip">"hello"</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Number</strong></td>
-      <td class="tableCell">42</td>
+      <td class="tableCell">Number</td>
+      <td class="tableCell"><span class="codeSnip">42</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Boolean</strong></td>
-      <td class="tableCell">true</td>
+      <td class="tableCell">Boolean</td>
+      <td class="tableCell"><span class="codeSnip">true</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>null</strong></td>
       <td class="tableCell">null</td>
+      <td class="tableCell"><span class="codeSnip">null</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Array</strong></td>
-      <td class="tableCell">[1, 2, 3] or ["a", "b"]</td>
+      <td class="tableCell">Array</td>
+      <td class="tableCell"><span class="codeSnip">[1, 2, 3]</span> or <span class="codeSnip">["a", "b"]</span></td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><strong>Object</strong></td>
-      <td class="tableCell">{ "a": 1 }</td>
+      <td class="tableCell">Object</td>
+      <td class="tableCell"><span class="codeSnip">{ "a": 1 }</span></td>
     </tr>
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-### Common Pitfall: Numbers in Quotes
+## Common Pitfall: Numbers in Quotes
 
----
+<hr class="dividerSection" />
 
-#### ✅ Correct:
+<hr class="dividerSubsection1" />
 
-```javascript
+### Correct
+
+<hr class="dividerSubsection1" />
+
+```js
 {
   "quantity": 70
 }
 ```
 
-#### ❌ Incorrect (value is now a string):
+<hr class="dividerSubsection1" />
+
+### Incorrect — Value Becomes a String
+
+<hr class="dividerSubsection1" />
 
 ```js
 {
@@ -235,68 +260,91 @@ Double quotes ensure that parsers in any programming language can reliably read 
 }
 ```
 
-Even though this is valid JSON, using quotes turns the number into a string, which can break math logic.
+Even though this is valid JSON, using quotes turns the number into a string which can break math logic.
 
----
+<hr class="dividerSection" />
 
-### JSON.stringify()
+## JSON.stringify()
 
----
+<hr class="dividerSection" />
 
-Converts a JavaScript object into a JSON-formatted string.  
-Useful when you want to store or transmit structured data.
+Converts a JavaScript object into a JSON-formatted string. Useful when you want to store or transmit structured data.
 
-```javascript
+```js
 let obj = {
   name: "Alice",
   age: 30
 };
 
 let jsonStr = JSON.stringify(obj);
-console.log(jsonStr);  
+console.log(jsonStr);
 // Output: '{"name":"Alice","age":30}'
 ```
 
-Common use cases:  
+Common use cases:
 
-- Sending data in a POST request
-- Saving structured data in localStorage
-- Logging full object structures
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Sending data in a POST request.</li>
+    <li>Saving structured data in localStorage.</li>
+    <li>Logging full object structures.</li>
+    <li>Only enumerable own properties are included — functions are excluded.</li>
+  </ul>
+</div>
 
-⚠️ Only enumerable, own properties get included (functions are excluded).
+<hr class="dividerSection" />
 
----
+## JSON.parse()
 
-### JSON.parse()
-
----
+<hr class="dividerSection" />
 
 Takes a JSON string and turns it back into a JavaScript object.
 
-```javascript
+```js
 let jsonStr = '{"name":"Alice","age":30}';
 let parsedObj = JSON.parse(jsonStr);
 
 console.log(parsedObj.name); // "Alice"
 ```
 
-Common use cases:  
+Common use cases:
 
-- Reading data from an API response
-- Loading data from storage
-- Converting static config into usable variables
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Reading data from an API response.</li>
+    <li>Loading data from storage.</li>
+    <li>Converting static config into usable variables.</li>
+    <li><span class="codeSnip">JSON.parse()</span> will throw an error if the string is not properly formatted JSON.</li>
+  </ul>
+</div>
 
-⚠️ JSON.parse() will throw an error if the string isn’t properly formatted JSON.
+<hr class="dividerSection" />
 
----
+## Summary
 
-### Summary
+<hr class="dividerSection" />
 
-JSON is stricter than JS objects  
-Keys must use double quotes  
-Only string values need quotes  
-Use <span class="codeSnip">JSON.stringify()</span> to convert JS → JSON  
-Use <span class="codeSnip">JSON.parse()</span> to convert JSON → JS  
-Avoid quoting numbers unless you intend to treat them as strings
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>JSON is stricter than JavaScript objects.</li>
+    <li>Keys must use double quotes.</li>
+    <li>Only string values need quotes.</li>
+    <li>Use <span class="codeSnip">JSON.stringify()</span> to convert JavaScript to JSON.</li>
+    <li>Use <span class="codeSnip">JSON.parse()</span> to convert JSON to JavaScript.</li>
+    <li>Avoid quoting numbers unless you intend to treat them as strings.</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/objects-and-json/utils-and-patterns">← Back</a>
+    <div class="xrefTitle">Objects & JSON - Utilities and Patterns</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/javascript/basics/dom/dom-manipulation">Next →</a>
+    <div class="xrefTitle">Section: DOM and Events - DOM Manipulation</div>
+  </div>
+</div>

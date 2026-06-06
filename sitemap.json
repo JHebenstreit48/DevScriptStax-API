@@ -20,14 +20,14 @@
     "category": "BackEnd/Server"
   },
   {
-    "path": "GraphQLAndApollo/GraphQL/GraphQL",
-    "title": "GraphQL",
-    "category": "GraphQLAndApollo/GraphQL"
-  },
-  {
     "path": "Stacks/Mern/MernAndAuth",
     "title": "MernAndAuth",
     "category": "Stacks/Mern"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/GraphQL",
+    "title": "GraphQL",
+    "category": "GraphQLAndApollo/GraphQL"
   },
   {
     "path": "Tools/DeploymentCICD/CICDOps",
@@ -115,6 +115,31 @@
     "category": "Languages/JavaScript/Basics/Arrays"
   },
   {
+    "path": "Languages/JavaScript/Basics/DataTypes/Complex",
+    "title": "Complex",
+    "category": "Languages/JavaScript/Basics/DataTypes"
+  },
+  {
+    "path": "Languages/JavaScript/Basics/DataTypes/Primitives",
+    "title": "Primitives",
+    "category": "Languages/JavaScript/Basics/DataTypes"
+  },
+  {
+    "path": "Languages/JavaScript/Basics/DataTypes/TemplateLiterals",
+    "title": "TemplateLiterals",
+    "category": "Languages/JavaScript/Basics/DataTypes"
+  },
+  {
+    "path": "Languages/JavaScript/Basics/DOMAndEvents/DOMManipulation",
+    "title": "DOMManipulation",
+    "category": "Languages/JavaScript/Basics/DOMAndEvents"
+  },
+  {
+    "path": "Languages/JavaScript/Basics/DOMAndEvents/EventHandle",
+    "title": "EventHandle",
+    "category": "Languages/JavaScript/Basics/DOMAndEvents"
+  },
+  {
     "path": "Languages/JavaScript/Basics/CoreConcepts/BuiltInMethods",
     "title": "BuiltInMethods",
     "category": "Languages/JavaScript/Basics/CoreConcepts"
@@ -150,29 +175,14 @@
     "category": "Languages/JavaScript/Basics/CoreConcepts"
   },
   {
-    "path": "Languages/JavaScript/Basics/DataTypes/Complex",
-    "title": "Complex",
-    "category": "Languages/JavaScript/Basics/DataTypes"
+    "path": "Languages/JavaScript/Basics/Fundamentals/History",
+    "title": "History",
+    "category": "Languages/JavaScript/Basics/Fundamentals"
   },
   {
-    "path": "Languages/JavaScript/Basics/DataTypes/Primitives",
-    "title": "Primitives",
-    "category": "Languages/JavaScript/Basics/DataTypes"
-  },
-  {
-    "path": "Languages/JavaScript/Basics/DataTypes/TemplateLiterals",
-    "title": "TemplateLiterals",
-    "category": "Languages/JavaScript/Basics/DataTypes"
-  },
-  {
-    "path": "Languages/JavaScript/Basics/DOMAndEvents/DOMManipulation",
-    "title": "DOMManipulation",
-    "category": "Languages/JavaScript/Basics/DOMAndEvents"
-  },
-  {
-    "path": "Languages/JavaScript/Basics/DOMAndEvents/EventHandle",
-    "title": "EventHandle",
-    "category": "Languages/JavaScript/Basics/DOMAndEvents"
+    "path": "Languages/JavaScript/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "Languages/JavaScript/Basics/Fundamentals"
   },
   {
     "path": "Languages/JavaScript/Basics/Functions/Arrow",
@@ -203,16 +213,6 @@
     "path": "Languages/JavaScript/Basics/Functions/ThisKeyword",
     "title": "ThisKeyword",
     "category": "Languages/JavaScript/Basics/Functions"
-  },
-  {
-    "path": "Languages/JavaScript/Basics/Fundamentals/History",
-    "title": "History",
-    "category": "Languages/JavaScript/Basics/Fundamentals"
-  },
-  {
-    "path": "Languages/JavaScript/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "Languages/JavaScript/Basics/Fundamentals"
   },
   {
     "path": "Languages/JavaScript/Basics/ModernES6/Promises",
@@ -315,46 +315,6 @@
     "category": "Languages/TypeScript/BestPractices/ToolingAndConfig"
   },
   {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/FederationConcepts",
-    "title": "FederationConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/SchemaStitching",
-    "title": "SchemaStitching",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/BuiltIn",
-    "title": "BuiltIn",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/Custom",
-    "title": "Custom",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/CachingConcepts",
-    "title": "CachingConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/NPlusOneDataloader",
-    "title": "NPlusOneDataloader",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/CustomScalars",
-    "title": "CustomScalars",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/InterfacesUnions",
-    "title": "InterfacesUnions",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
-  },
-  {
     "path": "FrontEnd/Angular/Advanced/Animations/Basics",
     "title": "Basics",
     "category": "FrontEnd/Angular/Advanced/Animations"
@@ -413,46 +373,6 @@
     "path": "FrontEnd/Angular/Advanced/TypeScriptIntegration/PathAliases",
     "title": "PathAliases",
     "category": "FrontEnd/Angular/Advanced/TypeScriptIntegration"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/KeyConcepts",
-    "title": "KeyConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Mutations",
-    "title": "Mutations",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Queries",
-    "title": "Queries",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/Subscriptions",
-    "title": "Subscriptions",
-    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/VariablesFragments",
-    "title": "VariablesFragments",
-    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Resolvers",
-    "title": "Resolvers",
-    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Schema",
-    "title": "Schema",
-    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
   },
   {
     "path": "FrontEnd/Angular/Basics/Fundamentals/CLI",
@@ -655,6 +575,16 @@
     "category": "FrontEnd/Markdown/Advanced/Extending"
   },
   {
+    "path": "FrontEnd/Markdown/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "FrontEnd/Markdown/Basics/Fundamentals"
+  },
+  {
+    "path": "FrontEnd/Markdown/Basics/Fundamentals/Syntax",
+    "title": "Syntax",
+    "category": "FrontEnd/Markdown/Basics/Fundamentals"
+  },
+  {
     "path": "FrontEnd/Markdown/Basics/ContentElements/Formatting",
     "title": "Formatting",
     "category": "FrontEnd/Markdown/Basics/ContentElements"
@@ -668,16 +598,6 @@
     "path": "FrontEnd/Markdown/Basics/ContentElements/Tables",
     "title": "Tables",
     "category": "FrontEnd/Markdown/Basics/ContentElements"
-  },
-  {
-    "path": "FrontEnd/Markdown/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "FrontEnd/Markdown/Basics/Fundamentals"
-  },
-  {
-    "path": "FrontEnd/Markdown/Basics/Fundamentals/Syntax",
-    "title": "Syntax",
-    "category": "FrontEnd/Markdown/Basics/Fundamentals"
   },
   {
     "path": "FrontEnd/Markdown/Intermediate/ExtendedSyntax/CodeBlocks",
@@ -700,16 +620,6 @@
     "category": "FrontEnd/Markdown/Intermediate/InteractiveFeatures"
   },
   {
-    "path": "FrontEnd/React/Advanced/SEOAndMetadata/OpenGraph",
-    "title": "OpenGraph",
-    "category": "FrontEnd/React/Advanced/SEOAndMetadata"
-  },
-  {
-    "path": "FrontEnd/React/Advanced/SEOAndMetadata/RenderMarkdown",
-    "title": "RenderMarkdown",
-    "category": "FrontEnd/React/Advanced/SEOAndMetadata"
-  },
-  {
     "path": "FrontEnd/React/Advanced/ReactAndTS/Generics",
     "title": "Generics",
     "category": "FrontEnd/React/Advanced/ReactAndTS"
@@ -718,6 +628,16 @@
     "path": "FrontEnd/React/Advanced/ReactAndTS/Introduction",
     "title": "Introduction",
     "category": "FrontEnd/React/Advanced/ReactAndTS"
+  },
+  {
+    "path": "FrontEnd/React/Advanced/SEOAndMetadata/OpenGraph",
+    "title": "OpenGraph",
+    "category": "FrontEnd/React/Advanced/SEOAndMetadata"
+  },
+  {
+    "path": "FrontEnd/React/Advanced/SEOAndMetadata/RenderMarkdown",
+    "title": "RenderMarkdown",
+    "category": "FrontEnd/React/Advanced/SEOAndMetadata"
   },
   {
     "path": "FrontEnd/React/Basics/CoreConcepts/EventHandling",
@@ -765,14 +685,84 @@
     "category": "FrontEnd/Vue/Basics/Fundamentals"
   },
   {
-    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/FederationConcepts",
+    "title": "FederationConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
   },
   {
-    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/SessionVSToken",
-    "title": "SessionVSToken",
-    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/SchemaStitching",
+    "title": "SchemaStitching",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/BuiltIn",
+    "title": "BuiltIn",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/Custom",
+    "title": "Custom",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/CachingConcepts",
+    "title": "CachingConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/NPlusOneDataloader",
+    "title": "NPlusOneDataloader",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/CustomScalars",
+    "title": "CustomScalars",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/InterfacesUnions",
+    "title": "InterfacesUnions",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/KeyConcepts",
+    "title": "KeyConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Mutations",
+    "title": "Mutations",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Queries",
+    "title": "Queries",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/Subscriptions",
+    "title": "Subscriptions",
+    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/VariablesFragments",
+    "title": "VariablesFragments",
+    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Resolvers",
+    "title": "Resolvers",
+    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Schema",
+    "title": "Schema",
+    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
   },
   {
     "path": "BackEnd/Databases/Firebase/Advanced/AdminSDK/Basics",
@@ -783,6 +773,16 @@
     "path": "BackEnd/Databases/Firebase/Advanced/AdminSDK/ExportImport",
     "title": "ExportImport",
     "category": "BackEnd/Databases/Firebase/Advanced/AdminSDK"
+  },
+  {
+    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/SessionVSToken",
+    "title": "SessionVSToken",
+    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
   },
   {
     "path": "BackEnd/Databases/Firebase/Basics/Firestore/Introduction",
@@ -915,26 +915,6 @@
     "category": "BackEnd/Databases/MongoDB/Tools/ShellAndServer"
   },
   {
-    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/Ctes",
-    "title": "Ctes",
-    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
-  },
-  {
-    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/FullTextSearch",
-    "title": "FullTextSearch",
-    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
-  },
-  {
-    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/RecursiveQueries",
-    "title": "RecursiveQueries",
-    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
-  },
-  {
-    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/WindowFunctions",
-    "title": "WindowFunctions",
-    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
-  },
-  {
     "path": "BackEnd/Databases/PostgreSQL/Advanced/ExtensionsAndFDW/Fdw",
     "title": "Fdw",
     "category": "BackEnd/Databases/PostgreSQL/Advanced/ExtensionsAndFDW"
@@ -973,6 +953,26 @@
     "path": "BackEnd/Databases/PostgreSQL/Advanced/JSONJSONB/StoringQuerying",
     "title": "StoringQuerying",
     "category": "BackEnd/Databases/PostgreSQL/Advanced/JSONJSONB"
+  },
+  {
+    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/Ctes",
+    "title": "Ctes",
+    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
+  },
+  {
+    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/FullTextSearch",
+    "title": "FullTextSearch",
+    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
+  },
+  {
+    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/RecursiveQueries",
+    "title": "RecursiveQueries",
+    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
+  },
+  {
+    "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/WindowFunctions",
+    "title": "WindowFunctions",
+    "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
   },
   {
     "path": "BackEnd/Databases/PostgreSQL/Advanced/ViewsAndMaterializedViews/CreatingUsing",
@@ -1075,6 +1075,21 @@
     "category": "BackEnd/Databases/PostgreSQL/Tools/CLIAndAdmin"
   },
   {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/RedisClusterAndSharding",
+    "title": "RedisClusterAndSharding",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Replication",
+    "title": "Replication",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Sentinel",
+    "title": "Sentinel",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
     "path": "BackEnd/Databases/PostgreSQL/Tools/GUIClients/Datagrip",
     "title": "Datagrip",
     "category": "BackEnd/Databases/PostgreSQL/Tools/GUIClients"
@@ -1093,31 +1108,6 @@
     "path": "BackEnd/Databases/PostgreSQL/Tools/GUIClients/Tableplus",
     "title": "Tableplus",
     "category": "BackEnd/Databases/PostgreSQL/Tools/GUIClients"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/RedisClusterAndSharding",
-    "title": "RedisClusterAndSharding",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Replication",
-    "title": "Replication",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Sentinel",
-    "title": "Sentinel",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/PubsubPatterns",
-    "title": "PubsubPatterns",
-    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/StreamsAndConsumers",
-    "title": "StreamsAndConsumers",
-    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
   },
   {
     "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/EvictionPolicies",
@@ -1150,19 +1140,14 @@
     "category": "BackEnd/Databases/Redis/Advanced/Persistence"
   },
   {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/BackupAndRestore",
-    "title": "BackupAndRestore",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/PubsubPatterns",
+    "title": "PubsubPatterns",
+    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
   },
   {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/TlsAndAuth",
-    "title": "TlsAndAuth",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/UsersAndAcls",
-    "title": "UsersAndAcls",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/StreamsAndConsumers",
+    "title": "StreamsAndConsumers",
+    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
   },
   {
     "path": "BackEnd/Databases/Redis/Basics/DataStructures/HashesAndBitmaps",
@@ -1188,6 +1173,21 @@
     "path": "BackEnd/Databases/Redis/Basics/DataStructures/Strings",
     "title": "Strings",
     "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/BackupAndRestore",
+    "title": "BackupAndRestore",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/TlsAndAuth",
+    "title": "TlsAndAuth",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/UsersAndAcls",
+    "title": "UsersAndAcls",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
   },
   {
     "path": "BackEnd/Databases/Redis/Basics/Fundamentals/InstallSetup",
@@ -1250,11 +1250,6 @@
     "category": "BackEnd/Frameworks/ExpressJS/Basics/Routing"
   },
   {
-    "path": "BackEnd/Frameworks/ExpressJS/Basics/ViewsAndStatic/StaticFiles",
-    "title": "StaticFiles",
-    "category": "BackEnd/Frameworks/ExpressJS/Basics/ViewsAndStatic"
-  },
-  {
     "path": "BackEnd/Frameworks/NodeJs/Basics/Fundamentals/EventLoopAndAsync",
     "title": "EventLoopAndAsync",
     "category": "BackEnd/Frameworks/NodeJs/Basics/Fundamentals"
@@ -1268,6 +1263,11 @@
     "path": "BackEnd/Frameworks/NodeJs/Basics/Fundamentals/RuntimeAndGlobals",
     "title": "RuntimeAndGlobals",
     "category": "BackEnd/Frameworks/NodeJs/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/Frameworks/ExpressJS/Basics/ViewsAndStatic/StaticFiles",
+    "title": "StaticFiles",
+    "category": "BackEnd/Frameworks/ExpressJS/Basics/ViewsAndStatic"
   },
   {
     "path": "BackEnd/Frameworks/NodeJs/Basics/ModulesAndPackages/CommonJsVsEsm",
@@ -1308,6 +1308,131 @@
     "path": "BackEnd/Frameworks/NodeJs/Basics/Tooling/Versions",
     "title": "Versions",
     "category": "BackEnd/Frameworks/NodeJs/Basics/Tooling"
+  },
+  {
+    "path": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization/Authentication",
+    "title": "Authentication",
+    "category": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization"
+  },
+  {
+    "path": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization/RBAC",
+    "title": "RBAC",
+    "category": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization"
+  },
+  {
+    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/Basics",
+    "title": "Basics",
+    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
+  },
+  {
+    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/CSRFProtection",
+    "title": "CSRFProtection",
+    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
+  },
+  {
+    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/XSSProtection",
+    "title": "XSSProtection",
+    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/Communication",
+    "title": "Communication",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/InputsOutputs",
+    "title": "InputsOutputs",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/Introduction",
+    "title": "Introduction",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/ReusableDesign",
+    "title": "ReusableDesign",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/SmartDumb",
+    "title": "SmartDumb",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/Basics",
+    "title": "Basics",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/GuardsAndResolvers",
+    "title": "GuardsAndResolvers",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/LazyLoading",
+    "title": "LazyLoading",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Modules/Basics",
+    "title": "Basics",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Modules"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Modules/LazyLoading",
+    "title": "LazyLoading",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Modules"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Services/Basics",
+    "title": "Basics",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Services"
+  },
+  {
+    "path": "FrontEnd/Angular/Basics/CoreConcepts/Services/DependencyInjection",
+    "title": "DependencyInjection",
+    "category": "FrontEnd/Angular/Basics/CoreConcepts/Services"
+  },
+  {
+    "path": "FrontEnd/React/Basics/CoreConcepts/Forms/Forms",
+    "title": "Forms",
+    "category": "FrontEnd/React/Basics/CoreConcepts/Forms"
+  },
+  {
+    "path": "FrontEnd/React/Basics/CoreConcepts/PropsState/Props",
+    "title": "Props",
+    "category": "FrontEnd/React/Basics/CoreConcepts/PropsState"
+  },
+  {
+    "path": "FrontEnd/React/Basics/CoreConcepts/PropsState/State",
+    "title": "State",
+    "category": "FrontEnd/React/Basics/CoreConcepts/PropsState"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/CoreCommands/VisitGet",
+    "title": "VisitGet",
+    "category": "Testing/EndToEnd/Cypress/Basics/CoreCommands"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/FirstTest",
+    "title": "FirstTest",
+    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/Setup",
+    "title": "Setup",
+    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure/TestBlock",
+    "title": "TestBlock",
+    "category": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure"
   },
   {
     "path": "GraphQLAndApollo/Apollo/ApolloClient/Basics/CacheBasics/Store",
@@ -1368,131 +1493,6 @@
     "path": "GraphQLAndApollo/Apollo/ApolloServer/Basics/SchemasAndResolvers/Schema",
     "title": "Schema",
     "category": "GraphQLAndApollo/Apollo/ApolloServer/Basics/SchemasAndResolvers"
-  },
-  {
-    "path": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization/Authentication",
-    "title": "Authentication",
-    "category": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization"
-  },
-  {
-    "path": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization/RBAC",
-    "title": "RBAC",
-    "category": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization"
-  },
-  {
-    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/Basics",
-    "title": "Basics",
-    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
-  },
-  {
-    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/CSRFProtection",
-    "title": "CSRFProtection",
-    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
-  },
-  {
-    "path": "FrontEnd/Angular/Advanced/Security/Fundamentals/XSSProtection",
-    "title": "XSSProtection",
-    "category": "FrontEnd/Angular/Advanced/Security/Fundamentals"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/Communication",
-    "title": "Communication",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/InputsOutputs",
-    "title": "InputsOutputs",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/Introduction",
-    "title": "Introduction",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/ReusableDesign",
-    "title": "ReusableDesign",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Components/SmartDumb",
-    "title": "SmartDumb",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Components"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Modules/Basics",
-    "title": "Basics",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Modules"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Modules/LazyLoading",
-    "title": "LazyLoading",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Modules"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/Basics",
-    "title": "Basics",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/GuardsAndResolvers",
-    "title": "GuardsAndResolvers",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Routing/LazyLoading",
-    "title": "LazyLoading",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Routing"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Services/Basics",
-    "title": "Basics",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Services"
-  },
-  {
-    "path": "FrontEnd/Angular/Basics/CoreConcepts/Services/DependencyInjection",
-    "title": "DependencyInjection",
-    "category": "FrontEnd/Angular/Basics/CoreConcepts/Services"
-  },
-  {
-    "path": "FrontEnd/React/Basics/CoreConcepts/Forms/Forms",
-    "title": "Forms",
-    "category": "FrontEnd/React/Basics/CoreConcepts/Forms"
-  },
-  {
-    "path": "FrontEnd/React/Basics/CoreConcepts/PropsState/Props",
-    "title": "Props",
-    "category": "FrontEnd/React/Basics/CoreConcepts/PropsState"
-  },
-  {
-    "path": "FrontEnd/React/Basics/CoreConcepts/PropsState/State",
-    "title": "State",
-    "category": "FrontEnd/React/Basics/CoreConcepts/PropsState"
-  },
-  {
-    "path": "Testing/EndToEnd/Cypress/Basics/CoreCommands/VisitGet",
-    "title": "VisitGet",
-    "category": "Testing/EndToEnd/Cypress/Basics/CoreCommands"
-  },
-  {
-    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/FirstTest",
-    "title": "FirstTest",
-    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
-  },
-  {
-    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
-  },
-  {
-    "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/Setup",
-    "title": "Setup",
-    "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
-  },
-  {
-    "path": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure/TestBlock",
-    "title": "TestBlock",
-    "category": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure"
   },
   {
     "path": "Tools/Containerization/Git/Basics/Commands/Common",

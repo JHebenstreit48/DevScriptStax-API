@@ -1,25 +1,29 @@
-<br>
+# Populate & Relationships
 
----
-### Populate & Relationships
----
+<hr class="dividerSection" />
 
-<div class="fullWidthBullet">
+## Overview
 
-🔹 Referencing via <span class="emphasis">ObjectId</span> and <span class="emphasis">ref</span>
-🔹 Single vs array populate
-🔹 Nested populate and performance considerations
+<hr class="dividerSection" />
 
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Referencing via <span class="emphasis">ObjectId</span> and <span class="emphasis">ref</span>.</li>
+    <li>Single vs array populate.</li>
+    <li>Nested populate and performance considerations.</li>
+  </ul>
 </div>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mongodb/basics/mongoose/validation-middleware">← Back</a>
-    <div class="xrefTitle">Validation & Middleware</div>
+    <div class="xrefTitle">MongoDB - Basics - Mongoose - Validation & Middleware</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/mongodb/intermediate/indexes/overview">Next →</a>
-    <div class="xrefTitle">Indexes</div>
+    <a class="xrefBtn" href="/mongodb/intermediate/indexes/introduction">Next →</a>
+    <div class="xrefTitle">Section: MongoDB - Intermediate - Indexes - Introduction</div>
   </div>
 </div>

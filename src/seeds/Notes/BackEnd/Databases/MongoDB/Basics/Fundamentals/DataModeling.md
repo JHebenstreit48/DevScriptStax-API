@@ -1,56 +1,62 @@
-<br>
+# Introduction
 
----
-### Data Modeling in MongoDB
----
+<hr class="dividerSection" />
 
-MongoDB favors **flexible**, **document-based** models over rigid tables. Documents in the same collection can vary in fields and types.
+MongoDB favors <span class="emphasis">flexible</span>, <span class="emphasis">document-based</span> models over rigid tables. Documents in the same collection can vary in fields and types.
 
----
-### Collections
----
+<hr class="dividerSection" />
 
-<div class="fullWidthBullet">
+## Collections
 
-🔹 Collections ≈ SQL tables (conceptually), but with **no enforced schema**
-🔹 Documents can have different keys and types
-🔹 Related data often lives as **embedded** objects/arrays rather than separate tables
+<hr class="dividerSection" />
 
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Collections are conceptually similar to SQL tables but with <span class="emphasis">no enforced schema</span>.</li>
+    <li>Documents can have different keys and types.</li>
+    <li>Related data often lives as <span class="emphasis">embedded</span> objects or arrays rather than separate tables.</li>
+  </ul>
 </div>
 
----
-### Related Data: Embed vs Reference
----
+<hr class="dividerSection" />
 
-<div class="fullWidthBullet">
+## Related Data: Embed vs Reference
 
-🔹 <span class="emphasis">Embed</span> when data is accessed together frequently (read-optimized, one-to-few)
-🔹 <span class="emphasis">Reference</span> when data is shared broadly, large, or independent
-🔹 Arrays of embedded documents are common for tightly coupled sub-entities
+<hr class="dividerSection" />
 
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Embed</span> when data is accessed together frequently — read-optimized, one-to-few.</li>
+    <li><span class="emphasis">Reference</span> when data is shared broadly, large, or independent.</li>
+    <li>Arrays of embedded documents are common for tightly coupled sub-entities.</li>
+  </ul>
 </div>
 
----
-### One-to-One Relationships (Basics)
----
+<hr class="dividerSection" />
 
-A one-to-one can be modeled by:
+## One-to-One Relationships
 
-<div class="fullWidthBullet">
+<hr class="dividerSection" />
 
-🔹 <span class="emphasis">Embedding</span> the child subdocument directly
-🔹 <span class="emphasis">Referencing</span> the child via its <span class="emphasis">ObjectId</span> field (values must match; field names don’t need to)
+A one-to-one relationship can be modeled by:
 
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Embedding</span> the child subdocument directly.</li>
+    <li><span class="emphasis">Referencing</span> the child via its <span class="emphasis">ObjectId</span> field — values must match but field names do not need to.</li>
+  </ul>
 </div>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mongodb/basics/fundamentals/bson-objectid">← Back</a>
-    <div class="xrefTitle">BSON & ObjectId</div>
+    <div class="xrefTitle">MongoDB - Basics - Fundamentals - BSON & ObjectId</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/mongodb/basics/crud/create">Next →</a>
-    <div class="xrefTitle">CRUD Operations</div>
+    <div class="xrefTitle">Section: MongoDB - Basics - CRUD Operations - Create</div>
   </div>
 </div>
