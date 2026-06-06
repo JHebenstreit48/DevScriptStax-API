@@ -1,81 +1,110 @@
 # MongoDB Atlas
 
----
-### What MongoDB Atlas Is
----
+<hr class="dividerSection" />
 
-MongoDB Atlas is a fully managed, cloud-hosted MongoDB service.
+## What Is MongoDB Atlas?
 
-It allows you to run MongoDB without managing servers or infrastructure.
+<hr class="dividerSection" />
 
----
-### Clusters
----
+MongoDB Atlas is a fully managed, cloud-hosted MongoDB service. It allows you to run MongoDB without managing servers or infrastructure.
+
+<hr class="dividerSection" />
+
+## Clusters
+
+<hr class="dividerSection" />
 
 In Atlas, databases are hosted inside <span class="emphasis">clusters</span>.
 
-<div class="fullWidthBullet">
-
-🔹 A cluster can contain multiple databases  
-🔹 Cluster creation is typically the first step when setting up Atlas  
-🔹 Free-tier clusters are sufficient for learning and development  
-
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A cluster can contain multiple databases.</li>
+    <li>Cluster creation is typically the first step when setting up Atlas.</li>
+    <li>Free-tier clusters are sufficient for learning and development.</li>
+  </ul>
 </div>
 
----
-### Cloud Providers
----
+<hr class="dividerSection" />
+
+## Cloud Providers
+
+<hr class="dividerSection" />
 
 Atlas allows you to choose where your data is hosted.
 
-<div class="fullWidthBullet">
-
-🔹 Amazon Web Services (AWS)  
-🔹 Google Cloud  
-🔹 Microsoft Azure  
-
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Amazon Web Services (AWS)</span></li>
+    <li><span class="emphasis">Google Cloud</span></li>
+    <li><span class="emphasis">Microsoft Azure</span></li>
+  </ul>
 </div>
 
 The default region and configuration are usually adequate for getting started.
 
----
-### Users & Network Access
----
+<hr class="dividerSection" />
+
+## Users & Network Access
+
+<hr class="dividerSection" />
 
 Atlas requires configuration for access and security.
 
-<div class="fullWidthBullet">
-
-🔹 Database users define authentication credentials  
-🔹 Network access controls which IPs can connect  
-🔹 Development setups often relax restrictions for convenience  
-
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Database users define authentication credentials.</li>
+    <li>Network access controls which IPs can connect.</li>
+    <li>Development setups often relax restrictions for convenience.</li>
+  </ul>
 </div>
 
----
-### Connection Strings (Pointer)
----
+<hr class="dividerSection" />
+
+## Connection Strings
+
+<hr class="dividerSection" />
 
 Atlas provides connection strings for connecting tools and applications to your cluster.
 
-<div class="fullWidthBullet">
-
-🔹 Used by Compass and application code  
-🔹 Include host, authentication, and database information  
-🔹 Detailed usage is covered in <span class="emphasis">Connection Strings & Environments</span>  
-
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Used by Compass and application code.</li>
+    <li>Include host, authentication, and database information.</li>
+  </ul>
 </div>
 
----
-### Atlas CLI (High-Level)
----
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/mongodb/tools/dev-workflow/connection-strings">
+    MongoDB → Tools → Dev Workflow → Connection Strings & Environments
+  </a>
+</div>
+
+<hr class="dividerSection" />
+
+## Atlas CLI
+
+<hr class="dividerSection" />
 
 MongoDB also provides a command-line interface for interacting with Atlas.
 
-<div class="fullWidthBullet">
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Used for managing Atlas resources from the terminal.</li>
+    <li>Complements the Atlas web UI.</li>
+  </ul>
+</div>
 
-🔹 Used for managing Atlas resources from the terminal  
-🔹 Complements the Atlas web UI  
-🔹 Covered at a high level only in this section  
+<hr class="dividerSection" />
 
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/tools/gui-and-cli/compass">← Back</a>
+    <div class="xrefTitle">MongoDB - Tools - GUI & CLI - Compass</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/tools/data-move-backup/export-import">Next →</a>
+    <div class="xrefTitle">Section: MongoDB - Tools - Data Move & Backup - Export & Import</div>
+  </div>
 </div>
