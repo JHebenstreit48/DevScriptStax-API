@@ -1,23 +1,25 @@
-# package.json & Scripts
+# What Is package.json?
 
----
-### What Is package.json?
----
+<hr class="dividerSection" />
 
-<span class="emphasis">package.json</span> is a metadata file that describes a Node.js project.
+<span class="emphasis">package.json</span> is a metadata file that describes a Node.js project. You can think of it like a <span class="emphasis">grocery list</span> or <span class="emphasis">recipe list</span> — it keeps track of all the ingredients (packages and scripts) your application needs in order to run.
 
 It defines:
-- Project information
-- Dependencies
-- Scripts
-- Configuration settings
 
-You can think of <span class="emphasis">package.json</span> like a **grocery list** or **recipe list**:
-it keeps track of all the “ingredients” (packages and scripts) your application needs in order to run.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Project information</li>
+    <li>Dependencies</li>
+    <li>Scripts</li>
+    <li>Configuration settings</li>
+  </ul>
+</div>
 
----
-### Creating package.json
----
+<hr class="dividerSection" />
+
+## Creating package.json
+
+<hr class="dividerSection" />
 
 You can quickly generate a default <span class="emphasis">package.json</span> file using:
 
@@ -27,57 +29,65 @@ npm init -y
 
 This creates a ready-to-use file with sensible defaults that you can customize later.
 
----
-### Dependencies
----
+<hr class="dividerSection" />
+
+## Dependencies
+
+<hr class="dividerSection" />
 
 When packages are installed, they are recorded in <span class="emphasis">package.json</span>.
 
 Common sections include:
 
-- <span class="emphasis">dependencies</span> → required at runtime
-- <span class="emphasis">devDependencies</span> → used only during development
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">dependencies</span> — required at runtime.</li>
+    <li><span class="emphasis">devDependencies</span> — used only during development.</li>
+  </ul>
+</div>
 
-This allows others to install the same dependencies using:
-
-Full Command:
+This allows others to install the same dependencies using the full command:
 
 ```shell
 npm install
 ```
 
-or:
-
-Shorthand version:
+Or the shorthand version:
 
 ```shell
 npm i
 ```
 
 Both commands do the same thing:
-- Install all dependencies listed in <span class="emphasis">package.json</span>
-- Use the lockfile (if present) to install exact versions
 
----
-### Scripts Section
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Install all dependencies listed in <span class="emphasis">package.json</span>.</li>
+    <li>Use the lockfile (if present) to install exact versions.</li>
+  </ul>
+</div>
 
-The <span class="emphasis">scripts</span> section of <span class="emphasis">package.json</span> is where you define custom commands for a project.
+<hr class="dividerSection" />
 
+## Scripts Section
+
+<hr class="dividerSection" />
+
+The <span class="emphasis">scripts</span> section of <span class="emphasis">package.json</span> is where you define custom commands for a project.  
 Scripts act like shortcuts for longer terminal commands and help standardize how a project is run.
 
-Example:
-
-```json
+```js
 "scripts": {
   "start": "node server.js",
   "watch": "nodemon server.js"
 }
 ```
 
----
-### Running Scripts
----
+<hr class="dividerSection" />
+
+## Running Scripts
+
+<hr class="dividerSection" />
 
 Scripts are executed using <span class="emphasis">npm run</span> followed by the script name.
 
@@ -89,23 +99,57 @@ npm run watch
 
 As long as <span class="emphasis">node</span> or <span class="emphasis">nodemon</span> is pointing to the correct file, the script will start your server.
 
----
-### nodemon (Development Tool)
----
+<hr class="dividerSection" />
 
-<span class="emphasis">nodemon</span> is a development tool that automatically restarts a Node.js application when files change.
+## nodemon
 
-- Installed as a dev dependency
-- Used during development only
-- Not required in production
+<hr class="dividerSection" />
 
-This helps speed up development by removing the need to manually restart the server after every change.
+<span class="emphasis">nodemon</span> is a development tool that automatically restarts a Node.js application whenever it detects a file change. Install it using:
 
----
-### Summary
----
+```shell
+npm install nodemon
+```
 
-- <span class="emphasis">package.json</span> defines how a Node.js project works
-- Dependencies and scripts are centralized in one place
-- Scripts simplify and standardize common commands
-- <span class="emphasis">nodemon</span> improves developer workflow during development
+Or shorthand:
+
+```shell
+npm i nodemon
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Installed as a dev dependency.</li>
+    <li>Used during development only — not required in production.</li>
+    <li>Removes the need to manually restart the server after every change.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## Summary
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">package.json</span> defines how a Node.js project works.</li>
+    <li>Dependencies and scripts are centralized in one place.</li>
+    <li>Scripts simplify and standardize common commands.</li>
+    <li><span class="emphasis">nodemon</span> improves developer workflow during development by auto-restarting on file changes.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/modules-packages/commonjs-vs-esm">← Back</a>
+    <div class="xrefTitle">Node.js → Modules & Packages → CommonJS vs ESM</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/modules-packages/lockfiles-npm">Next →</a>
+    <div class="xrefTitle">Node.js → Modules & Packages → Lockfiles (npm)</div>
+  </div>
+</div>
