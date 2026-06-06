@@ -1,17 +1,12 @@
-# Install & Setup
+# Setting Up an Express Application
 
----
-### Installing Express
----
+<hr class="dividerSection" />
 
-Express is installed using npm.
+## Installing Express
 
-For details about npm and npx themselves, see:  
-<a class="emphasis" href="/frameworks/nodejs/basics/tooling/npm-npx">NodeJs Tooling → Npm & Npx</a>
+<hr class="dividerSection" />
 
-After installing, you can import it into your file and create an Express app instance.
-
-Full command:
+Express is installed using npm. Full command:
 
 ```shell
 npm install express
@@ -23,35 +18,42 @@ Shorthand version:
 npm i express
 ```
 
----
-### Creating an Express App (Legacy / CommonJS)
----
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/frameworks/nodejs/basics/tooling/npm-npx">Node.js → Basics → Tooling → npm & npx</a>
+</div>
 
-In the following code:
+<hr class="dividerSection" />
+
+## Creating an Express App
+
+<hr class="dividerSection" />
+
+After installing, import Express and create an app instance. There are two syntax styles depending on whether your project uses CommonJS or ES Modules.
+
+<hr class="dividerSubsection1" />
+
+### Legacy Syntax (CommonJS)
+
+<hr class="dividerSubsection1" />
 
 ```js
 let express = require("express");
 let ourApp = express();
 ```
 
----
-### Line 1 — let express = require("express");
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">let express = require("express")</span> — uses the CommonJS loader to find the installed Express package in node_modules and returns its export, which is a function.</li>
+    <li><span class="codeSnip">let ourApp = express()</span> — calls that exported function and returns an Express application object used for routes, middleware, and listening.</li>
+  </ul>
+</div>
 
-- <span class="codeSnip">let</span>: declares a variable (re-assignable).
-- <span class="codeSnip">express</span>: local variable name holding what the module exports.
-- <span class="codeSnip">require("express")</span>: CommonJS loader; finds the installed express package in node_modules and returns its export (a function).
+<hr class="dividerSubsection1" />
 
----
-### Line 2 — let ourApp = express();
----
+### Modern Syntax (ES Modules)
 
-- Calls that exported function.
-- Returns an Express application object (your app instance) used for routes, middleware, and listening.
-
----
-### Creating an Express App (Modern / ES Modules)
----
+<hr class="dividerSubsection1" />
 
 ```js
 import express from "express";
@@ -59,25 +61,31 @@ import express from "express";
 const ourApp = express();
 ```
 
-This uses ES Modules instead of CommonJS. The Express app behaves the same way.
-The main difference is how Express is imported.
+This uses ES Modules instead of CommonJS. The Express app behaves the same way — the main difference is how Express is imported.
 
----
-### Starting the Server
----
+<hr class="dividerSection" />
+
+## Starting the Server
+
+<hr class="dividerSection" />
 
 ```js
 ourApp.listen(3000);
 ```
 
-- Starts the server on port 3000.
-- The server begins listening for incoming requests.
+This starts the server on port 3000 and begins listening for incoming requests.
 
----
-### Full Server Example (Legacy / CommonJS)
----
+<hr class="dividerSection" />
 
-This is a complete minimal server example using the legacy CommonJS import style.
+## Full Server Example
+
+<hr class="dividerSection" />
+
+<hr class="dividerSubsection1" />
+
+### Legacy Syntax (CommonJS)
+
+<hr class="dividerSubsection1" />
 
 ```js
 let express = require("express");
@@ -112,11 +120,11 @@ ourApp.post("/answer", function (req, res) {
 ourApp.listen(3000);
 ```
 
----
-### Full Server Example (Modern / ES Modules)
----
+<hr class="dividerSubsection1" />
 
-This is the same server behavior, but using modern ES Modules import style.
+### Modern Syntax (ES Modules)
+
+<hr class="dividerSubsection1" />
 
 ```js
 import express from "express";
@@ -152,16 +160,16 @@ ourApp.post("/answer", (req, res) => {
 ourApp.listen(3000);
 ```
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/frameworks/express/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">ExpressJs Fundamentals → Introduction</div>
+    <div class="xrefTitle">Express → Fundamentals → Introduction</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/frameworks/express/basics/fundamentals/project-structure">Next →</a>
-    <div class="xrefTitle">ExpressJs Fundamentals → Project Structure</div>
+    <div class="xrefTitle">Express → Fundamentals → Project Structure</div>
   </div>
 </div>

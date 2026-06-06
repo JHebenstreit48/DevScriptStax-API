@@ -85,11 +85,11 @@ Each feature will build on this initialization.
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/firebase/basics/fundamentals/use-cases">← Back</a>
-    <div class="xrefTitle">Use Cases for Firebase</div>
+    <div class="xrefTitle">Firebase Fundamentals → Use Cases for Firebase</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/firebase/basics/firestore/introduction">Next →</a>
-    <div class="xrefTitle">Firestore</div>
+    <div class="xrefTitle">Section: Firestore → Introduction</div>
   </div>
 </div>

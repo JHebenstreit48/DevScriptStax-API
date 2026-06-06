@@ -307,11 +307,11 @@ Once you trust the underlying model, file counts become predictable and reliable
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/firebase/basics/storage/costs">← Back</a>
-    <div class="xrefTitle">Firebase Storage - Costs</div>
+    <div class="xrefTitle">Firebase Storage - Managing Storage Costs</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/firebase/advanced/data-modeling-performance/index-tuning-firestore">Next →</a>
-    <div class="xrefTitle">Section: Firebase Advanced - Index Tuning (Firestore)</div>
+    <a class="xrefBtn" href="/firebase/advanced/data-modeling-performance/modeling-strategies">Next →</a>
+    <div class="xrefTitle">Section: Firebase Data Modeling & Performance - Modeling Strategies</div>
   </div>
 </div>
