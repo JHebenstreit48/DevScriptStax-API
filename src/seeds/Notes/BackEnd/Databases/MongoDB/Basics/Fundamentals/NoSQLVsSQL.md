@@ -1,7 +1,4 @@
-<br>
-
----
-### NoSQL vs SQL
+# NoSQL vs SQL
 ---
 
 SQL and NoSQL databases differ in structure and approach:
@@ -12,16 +9,15 @@ SQL and NoSQL databases differ in structure and approach:
 🔹 <span class="emphasis">NoSQL</span> → non-relational, schema-flexible (documents, key-value, graph, etc.)
 🔹 SQL excels at strict consistency; NoSQL excels at flexibility and scalability
 
-</div>
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/mongodb/basics/fundamentals/introduction">← Back</a>
-    <div class="xrefTitle">Introduction</div>
+    <div class="xrefTitle">MongoDB → Fundamentals → Introduction</div>
   </div>
-
   <div class="xrefItem">
     <a class="xrefBtn" href="/mongodb/basics/fundamentals/setup">Next →</a>
-    <div class="xrefTitle">Setup</div>
+    <div class="xrefTitle">MongoDB → Fundamentals → Setup</div>
   </div>
 </div>

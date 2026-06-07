@@ -79,3 +79,16 @@ css
 - Use transform-origin to control how transformations behave.
 - z-index only applies to positioned elements (relative, absolute, fixed).
 - Absolute and fixed elements are removed from normal document flow.
+
+<div class="fullWidthBullet">
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/box-model-and-position/box-model">← Back</a>
+    <div class="xrefTitle">CSS Basics → Box Model & Positioning → Box Model</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/advanced/layouts/flexbox">Next →</a>
+    <div class="xrefTitle">Topic: CSS Advanced → Layouts → Flexbox</div>
+  </div>
+</div>

@@ -163,8 +163,8 @@ console.log(Array.isArray(list)); // true
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/javascript/basics/data-types/template-literals">← Back</a>
-    <div class="xrefTitle">JavaScript → Data Types → Template Literals</div>
+    <a class="xrefBtn" href="/javascript/basics/functions/this-keyword">← Back</a>
+    <div class="xrefTitle">Section: JavaScript → Functions → This Keyword</div>
   </div>
 
   <div class="xrefItem">
