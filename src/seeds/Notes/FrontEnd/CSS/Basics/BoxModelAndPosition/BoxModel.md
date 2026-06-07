@@ -136,3 +136,16 @@ border-radius: 15px 30px;
 - **Use box-shadow to add depth** and make UI elements more engaging.
 - **border-radius creates softer edges**, improving UI aesthetics.
 - **Combine box-shadow and border-radius** for stylized buttons, cards, and UI components.
+
+<div class="fullWidthBullet">
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/introduction-and-selectors/selectors">← Back</a>
+    <div class="xrefTitle">Section: CSS Basics → Introduction & Selectors → Selectors</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/basics/box-model-and-position/positioning">Next →</a>
+    <div class="xrefTitle">CSS Basics → Box Model & Positioning → Positioning</div>
+  </div>
+</div>

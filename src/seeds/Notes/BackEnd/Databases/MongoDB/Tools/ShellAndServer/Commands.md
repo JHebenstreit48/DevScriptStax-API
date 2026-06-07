@@ -140,4 +140,13 @@ rs.status()
 🔹 <span class="codeSnip">rs.initiate()</span> bootstraps a new replica set; <span class="codeSnip">rs.status()</span> inspects its state  
 🔹 For production, follow full replication/sharding best practices  
 
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/tools/shell-and-server/introduction">← Back</a>
+    <div class="xrefTitle">MongoDB → Shell & Server → Introduction</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/tools/gui-and-cli/compass">Next →</a>
+    <div class="xrefTitle">Section: MongoDB → GUI & CLI → Compass</div>
+  </div>
 </div>

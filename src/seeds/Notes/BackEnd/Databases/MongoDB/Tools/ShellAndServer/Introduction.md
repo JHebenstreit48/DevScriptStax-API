@@ -43,4 +43,13 @@ mongosh "mongodb://localhost:27017"
 🔹 <span class="emphasis">Connection Strings</span> → how to connect to different environments  
 🔹 <span class="emphasis">Monitoring Tools</span> → <span class="codeSnip">mongostat</span>, <span class="codeSnip">mongotop</span>  
 
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/advanced/aggregation/atlas-search">← Back</a>
+    <div class="xrefTitle">Section: MongoDB → Aggregation & Search → Atlas Search Integration</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/mongodb/tools/shell-and-server/commands">Next →</a>
+    <div class="xrefTitle">MongoDB → Shell & Server → Shell & Server Commands</div>
+  </div>
 </div>

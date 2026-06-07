@@ -199,7 +199,7 @@ cat.speak(); // "This animal is a cat"
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/javascript/basics/functions/higher-order">← Back</a>
+    <a class="xrefBtn" href="/javascript/basics/functions/higher-order-functions">← Back</a>
     <div class="xrefTitle">Higher-Order Functions</div>
   </div>
 
