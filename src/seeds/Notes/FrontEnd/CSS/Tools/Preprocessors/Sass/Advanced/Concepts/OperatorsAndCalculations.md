@@ -115,3 +115,16 @@ $enabled: true
 - **Operators allow calculations, logic, and conditions in Sass.**  
 - **Arithmetic operators (+, -, *, /, %) simplify calculations.**  
 - **Comparison and boolean operators make styles dynamic.**  
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/tools/preprocessors/sass/advanced/control-directives-loops">← Back</a>
+    <div class="xrefTitle">Sass → Concepts → Control Directives & Loops</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/tools/preprocessors/sass/advanced/extend-placeholder">Next →</a>
+    <div class="xrefTitle">Sass → Concepts → Extend & Placeholder</div>
+  </div>
+</div>

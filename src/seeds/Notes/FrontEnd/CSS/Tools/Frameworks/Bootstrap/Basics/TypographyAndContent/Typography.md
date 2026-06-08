@@ -91,16 +91,15 @@ html
 ✅ **.small makes text smaller** than the default size.
 ✅ **.text-muted de-emphasizes text** by reducing contrast.
 
----
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/frameworks/bootstrap/basics/utilities/display-and-visibility">← Back</a>
-    <div class="xrefTitle">Utilities</div>
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/utilities/buttons">← Back</a>
+    <div class="xrefTitle">Section: Bootstrap → Utilities → Buttons</div>
   </div>
-
   <div class="xrefItem">
     <a class="xrefBtn" href="/frameworks/bootstrap/basics/typography-and-content/images-and-figures">Next →</a>
-    <div class="xrefTitle">Images & Figures</div>
+    <div class="xrefTitle">Bootstrap → Typography & Content → Images & Figures</div>
   </div>
 </div>

@@ -179,3 +179,16 @@ You can use <span class="emphasis">responsive column classes</span> to <span cla
         </tr>
     </tbody>
 </table>
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/fundamentals/install-setup">← Back</a>
+    <div class="xrefTitle">Section: Bootstrap → Fundamentals → Install & Setup</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/layout/containers-and-breakpoints">Next →</a>
+    <div class="xrefTitle">Bootstrap → Layout → Containers & Breakpoints</div>
+  </div>
+</div>

@@ -45,14 +45,15 @@ Add these links inside the head for CSS, and before the closing body tag for Jav
 
 Now Bootstrap is ready to use! 🚀
 
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/css/tools/postprocessors/advanced/compat-and-migration/legacy-build-migration">← Back</a>
-    <div class="xrefTitle">Compat & Migration</div>
+    <a class="xrefBtn" href="/css/tools/postprocessors/lightning-css/advanced/migration/mixed-pipelines">← Back</a>
+    <div class="xrefTitle">Topic: LightningCSS → Migration → Mixed Pipelines</div>
   </div>
-
   <div class="xrefItem">
     <a class="xrefBtn" href="/frameworks/bootstrap/basics/fundamentals/install-setup">Next →</a>
-    <div class="xrefTitle">Install & Setup</div>
+    <div class="xrefTitle">Bootstrap → Fundamentals → Install & Setup</div>
   </div>
 </div>

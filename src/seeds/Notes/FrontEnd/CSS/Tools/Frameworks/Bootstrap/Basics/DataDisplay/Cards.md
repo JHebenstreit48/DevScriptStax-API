@@ -34,3 +34,16 @@ Cards also support list groups, overlays, horizontal layouts, and background uti
 - Cards are built with <span class="codeSnip">.card</span> and flexible interior elements.
 - Use for content previews, blog excerpts, dashboards, and user profiles.
 - Combine with grid or flexbox for responsive layouts.
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/overlays/accordions">← Back</a>
+    <div class="xrefTitle">Section: Bootstrap → Overlays → Accordions</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/data-display/tables">Next →</a>
+    <div class="xrefTitle">Bootstrap → Data Display → Tables</div>
+  </div>
+</div>

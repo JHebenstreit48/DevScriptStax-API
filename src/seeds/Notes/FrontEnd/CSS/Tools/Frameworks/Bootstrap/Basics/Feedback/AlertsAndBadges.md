@@ -86,4 +86,15 @@ You can add a **close button** to dismiss alerts.
 ✅ **Alerts can be dismissible** using **.alert-dismissible**.  
 ✅ **Each alert type has a distinct color** (e.g., success = green, danger = red).  
 
----
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/data-display/tables">← Back</a>
+    <div class="xrefTitle">Section: Bootstrap → Data Display → Tables</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/bootstrap/basics/feedback/spinners-and-progress">Next →</a>
+    <div class="xrefTitle">Bootstrap → Feedback → Spinners & Progress</div>
+  </div>
+</div>

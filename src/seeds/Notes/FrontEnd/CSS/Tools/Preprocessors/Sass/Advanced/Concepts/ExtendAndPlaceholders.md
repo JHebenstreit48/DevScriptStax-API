@@ -144,3 +144,16 @@ Placeholders (%) work **like @extend** but **do not appear in the final CSS** un
 - **Use @mixin instead of @extend when variables are needed.**  
 
 ✅ **Now you understand how to use @extend & Placeholder Selectors in Sass!** 🚀  
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/tools/preprocessors/sass/advanced/operators-calculations">← Back</a>
+    <div class="xrefTitle">Sass → Concepts → Operators & Calculations</div>
+  </div>
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/css/tools/preprocessors/sass/advanced/best-practices/optimization">Next →</a>
+    <div class="xrefTitle">Section: Sass → Best Practices → Optimization</div>
+  </div>
+</div>
