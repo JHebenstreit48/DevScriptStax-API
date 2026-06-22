@@ -1,49 +1,56 @@
-## Introduction to Bootstrap
----
+# Introduction to Bootstrap
 
-### What is Bootstrap?
-Bootstrap is a **CSS and JavaScript framework** designed to make web development **faster and easier**. It provides **pre-written styles, responsive layouts, and UI components**, allowing developers to build professional-looking websites with minimal effort.
+<hr class="dividerSection" />
 
----
+## What is Bootstrap?
+
+<hr class="dividerSection" />
+
+Bootstrap is a <span class="emphasis">CSS and JavaScript framework</span> designed to make web development <span class="emphasis">faster and easier</span>. It provides <span class="emphasis">pre-written styles</span>, <span class="secondEmphasis">responsive layouts</span>, and <span class="secondEmphasis">UI components</span>, allowing developers to build professional-looking websites with minimal effort.
+
+<hr class="dividerSection" />
 
 ### Why Use Bootstrap?
-✅ Pre-styled Components → Includes buttons, modals, forms, and more.
-✅ Responsive Design → Adapts to all screen sizes automatically.
-✅ Grid System → Helps create structured layouts easily.
-✅ CSS & JavaScript Utilities → Predefined spacing, colors, and typography.
-✅ Industry Standard → Used by millions of developers worldwide.
-✅ CDN Available → No need for installation; just include a link.
 
----
+<hr class="dividerSection" />
 
-### When NOT to Use Bootstrap
-- If your project requires highly customized styles, Bootstrap may introduce unwanted extra styles.
-- For small-scale websites, writing custom CSS might be simpler and more efficient.
-- If you need maximum performance, a lightweight CSS framework or utility-first approach (like Tailwind CSS) may be better.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">Pre-styled Components</span> — Includes buttons, modals, forms, and more.</li>
+    <li><span class="emphasis">Responsive Design</span> — Adapts to all screen sizes automatically.</li>
+    <li><span class="emphasis">Grid System</span> — Helps create structured layouts easily.</li>
+    <li><span class="emphasis">CSS & JavaScript Utilities</span> — Predefined spacing, colors, and typography.</li>
+    <li><span class="emphasis">Industry Standard</span> — Used by millions of developers worldwide.</li>
+    <li><span class="emphasis">CDN Available</span> — No installation required; just include a link in your HTML.</li>
+  </ul>
+</div>
 
----
+<hr class="dividerSection" />
 
-### Adding Bootstrap to Your Project
-To use Bootstrap, you need to include its CSS and JavaScript files.
+### When NOT to Use Bootstrap?
 
-#### 1. Go to Bootstrap’s official website
-📌 [https://getbootstrap.com](https://getbootstrap.com)
+<hr class="dividerSection" />
 
-#### 2. Copy the Bootstrap CDN links
-On the main page, find the CDN (Content Delivery Network) links.
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>If your project requires <span class="emphasis">highly customized styles</span>, Bootstrap may introduce unwanted extra styles.</li>
+    <li>For <span class="emphasis">small-scale websites</span>, writing custom CSS might be simpler and more efficient.</li>
+    <li>If you need <span class="emphasis">maximum performance</span>, a lightweight or utility-first framework like <span class="secondEmphasis">Tailwind CSS</span> may be a better fit.</li>
+  </ul>
+</div>
 
-#### 3. Paste them inside your HTML file
-Add these links inside the head for CSS, and before the closing body tag for JavaScript.
+<hr class="dividerSection" />
 
-```html
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+### How Bootstrap Gets Added to a Project
 
-<!-- Bootstrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-```
+<hr class="dividerSection" />
 
-Now Bootstrap is ready to use! 🚀
+Bootstrap can be included in a project either via a <span class="emphasis">CDN link</span> for quick setups, or installed as a <span class="emphasis">package via npm</span> for projects using a bundler or frontend framework. Full setup instructions are covered on the next page.
+
+<div class="xrefBox">
+  <span class="emphasis">See:</span>
+  <a href="/frameworks/bootstrap/basics/fundamentals/install-setup">Bootstrap → Fundamentals → Install & Setup</a>
+</div>
 
 <hr class="dividerSection" />
 
