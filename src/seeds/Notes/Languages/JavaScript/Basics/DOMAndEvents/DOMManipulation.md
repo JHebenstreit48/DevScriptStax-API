@@ -239,6 +239,35 @@ This allows a single event listener to handle multiple interaction types based o
 
 <hr class="dividerSection" />
 
+## Initial Page Load Rendering
+
+<hr class="dividerSection" />
+
+When a page first loads, client-side JavaScript can use raw data from the server to generate and insert HTML into the page without a page reload.
+
+The following pattern combines <span class="codeSnip">map()</span>, <span class="codeSnip">join()</span>, and <span class="codeSnip">insertAdjacentHTML()</span> to render a list of items on initial load:
+
+```js
+// Initial Page Load Render
+let ourHTML = items.map(function(item) {
+  return itemTemplate(item)
+}).join('')
+
+document.getElementById("item-list").insertAdjacentHTML("beforeend", ourHTML)
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">items</span> is an array of data from the server available in the global scope.</li>
+    <li><span class="codeSnip">.map()</span> runs the <span class="codeSnip">itemTemplate()</span> function once for each item in the array, returning an array of HTML strings.</li>
+    <li><span class="codeSnip">.join('')</span> converts that array of HTML strings into a single string with no separators between them.</li>
+    <li><span class="codeSnip">insertAdjacentHTML("beforeend", ourHTML)</span> inserts the full HTML string just before the closing tag of the target element.</li>
+    <li>The goal is to return the HTML template for each list item and render them all at once on page load.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 ## Summary
 
 <hr class="dividerSection" />

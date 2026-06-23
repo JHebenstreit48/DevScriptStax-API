@@ -107,7 +107,7 @@
 let jsObj = {
   name: "Alice",
   age: 30,
-  isMember: true
+  isMember: true,
 };
 ```
 
@@ -133,7 +133,7 @@ let jsObj = {
 
 ```js
 {
-  name: "Alice"  // error: missing quotes around key
+  name: "Alice"; // error: missing quotes around key
 }
 ```
 
@@ -268,12 +268,13 @@ Even though this is valid JSON, using quotes turns the number into a string whic
 
 <hr class="dividerSection" />
 
-Converts a JavaScript object into a JSON-formatted string. Useful when you want to store or transmit structured data.
+Converts a JavaScript object into a JSON-formatted string.  
+Useful when you want to store or transmit structured data.
 
 ```js
 let obj = {
   name: "Alice",
-  age: 30
+  age: 30,
 };
 
 let jsonStr = JSON.stringify(obj);
@@ -289,6 +290,11 @@ Common use cases:
     <li>Saving structured data in localStorage.</li>
     <li>Logging full object structures.</li>
     <li>Only enumerable own properties are included — functions are excluded.</li>
+    <li>Embedding server-side data into an HTML template using <span class="codeSnip">${JSON.stringify(items)}</span> inside a <span class="codeSnip">&lt;script&gt;</span> tag — makes that data available to client-side JavaScript without a separate request.
+      <ul class="diamondBullets fullWidthBullet">
+        <li><span class="codeSnip">items</span> in this example is an array of data from the server that gets converted into a string and embedded directly into the HTML.</li>
+      </ul>
+</li>
   </ul>
 </div>
 

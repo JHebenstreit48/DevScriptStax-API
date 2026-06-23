@@ -1,22 +1,31 @@
 # npm & npx
 
----
-### Overview
----
+<hr class="dividerSection" />
+
+## Overview
+
+<hr class="dividerSection" />
 
 Node.js includes two closely related tools:
 
-- <span class="emphasis">npm</span> (Node Package Manager)
-- <span class="emphasis">npx</span> (Node Package Execute)
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">npm</span> (Node Package Manager)</li>
+    <li><span class="emphasis">npx</span> (Node Package Execute)</li>
+  </ul>
+</div>
 
 npm is used to install, manage, and run packages.
+
 npx is used to run packages directly, often without installing them first.
 
 Together, they form the core tooling for managing dependencies and workflows in Node.js projects.
 
----
-### What npm Is
----
+<hr class="dividerSection" />
+
+## What npm Is
+
+<hr class="dividerSection" />
 
 In any npm command, <span class="emphasis">npm</span> stands for <span class="emphasis">Node Package Manager</span>.
 
@@ -24,9 +33,11 @@ You can think of npm as a giant <span class="emphasis">grocery store</span> of p
 
 Instead of writing everything from scratch, npm lets you install packages that already solve common problems.
 
----
-### Installing Packages
----
+<hr class="dividerSection" />
+
+## Installing Packages
+
+<hr class="dividerSection" />
 
 When you install a package, npm downloads it into a folder called <span class="emphasis">node_modules</span>.
 
@@ -46,9 +57,11 @@ npm i
 
 Both commands perform the same action and are commonly used interchangeably.
 
----
-### Installing a Specific Package
----
+<hr class="dividerSection" />
+
+## Installing a Specific Package
+
+<hr class="dividerSection" />
 
 To install a package locally in a project:
 
@@ -66,9 +79,11 @@ This adds the package to the project dependencies.
 
 When you install something like Express, you will see many other folders appear inside <span class="emphasis">node_modules</span> because Express depends on other packages that are installed alongside it.
 
----
-### Development Tools (nodemon)
----
+<hr class="dividerSection" />
+
+## Development Tools (nodemon)
+
+<hr class="dividerSection" />
 
 If you run:
 
@@ -76,29 +91,41 @@ If you run:
 npm install nodemon
 ```
 
-(or <span class="emphasis">npm i nodemon</span> for short)
+Or the shorthand version:
+
+```shell
+npm i nodemon
+```
 
 <span class="emphasis">nodemon</span> will automatically relaunch your Node application anytime it detects a file change.
 
 This makes it a popular development-only tool.
 
----
-### What Is npx?
----
+<hr class="dividerSection" />
+
+## What Is npx?
+
+<hr class="dividerSection" />
 
 <span class="emphasis">npx</span> allows you to run packages without installing them globally.
 
-You can think of npx as a way to “borrow” a tool, run it once, and move on—without adding it permanently to your system or project.
+You can think of npx as a way to borrow a tool, run it once, and move on — without adding it permanently to your system or project.
 
 npx is commonly used for:
 
-- Running project tools
-- Executing one-off commands
-- Avoiding global installs
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Running project tools</li>
+    <li>Executing one-off commands</li>
+    <li>Avoiding global installs</li>
+  </ul>
+</div>
 
----
-### Running Node Directly (No npm)
----
+<hr class="dividerSection" />
+
+## Running Node Directly (No npm)
+
+<hr class="dividerSection" />
 
 You can also run a Node file directly without using npm:
 
@@ -108,12 +135,75 @@ node app.js
 
 This executes the file immediately using the Node runtime.
 
----
-### Summary
----
+<hr class="dividerSection" />
 
-- <span class="emphasis">npm</span> is used to install, manage, and run packages
-- npm acts like a grocery store for reusable JavaScript tools
-- <span class="emphasis">npm install</span> is the full command, and <span class="emphasis">npm i</span> is the shorthand
-- <span class="emphasis">npx</span> allows running packages without installing them globally
-- Together, npm and npx support modern Node.js development workflows
+## Handling User Input with Inquirer
+
+<hr class="dividerSection" />
+
+<span class="emphasis">Inquirer</span> is an npm package used to prompt users for input directly in the terminal.
+
+It is commonly used in CLI tools and Node.js scripts that require interactive input.
+
+```shell
+npm install inquirer
+```
+
+```js
+const inquirer = require('inquirer');
+
+inquirer
+  .prompt([
+    {
+      type: 'input',
+      name: 'userName',
+      message: 'What is your name?',
+    },
+  ])
+  .then((answers) => {
+    console.log(`Hello, ${answers.userName}!`);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">inquirer.prompt()</span> takes an array of question objects and waits for user input.</li>
+    <li>The <span class="codeSnip">name</span> property defines the key used to access the answer.</li>
+    <li><span class="codeSnip">.then()</span> receives the answers object once the user responds.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## Summary
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="emphasis">npm</span> is used to install, manage, and run packages.</li>
+    <li>npm acts like a grocery store for reusable JavaScript tools.</li>
+    <li><span class="codeSnip">npm install</span> is the full command and <span class="codeSnip">npm i</span> is the shorthand.</li>
+    <li><span class="emphasis">npx</span> allows running packages without installing them globally.</li>
+    <li><span class="emphasis">nodemon</span> automatically restarts a Node app when file changes are detected.</li>
+    <li><span class="emphasis">Inquirer</span> enables interactive terminal prompts for collecting user input.</li>
+    <li>Together, npm and npx support modern Node.js development workflows.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/modules-packages/node-modules-resolution">← Back</a>
+    <div class="xrefTitle">Section: Node.js → Modules & Packages → node_modules & Resolution</div>
+  </div>
+
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/frameworks/nodejs/basics/tooling/nvm-versions">Next →</a>
+    <div class="xrefTitle">Node.js → Tooling → Node Versions (nvm)</div>
+  </div>
+</div>

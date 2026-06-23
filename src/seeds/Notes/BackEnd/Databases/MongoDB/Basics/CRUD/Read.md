@@ -50,6 +50,22 @@ db.collection('items').find().toArray()
   </ul>
 </div>
 
+## Data Availability After Read
+
+<hr class="dividerSection" />
+
+When data is retrieved from a MongoDB collection and stored in a variable outside of a function, it becomes available in the <span class="emphasis">global scope</span>.
+
+Any variable declared outside of a function is accessible anywhere in the script — this is a fundamental JavaScript scoping rule.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>In this context the <span class="codeSnip">items</span> variable holds an array of documents retrieved from the collection.</li>
+    <li>Because it is declared outside any function it is accessible anywhere in the script.</li>
+    <li>This is what makes client-side rendering possible — the browser has access to the raw data and can build the UI from it.</li>
+  </ul>
+</div>
+
 <hr class="dividerSection" />
 
 <div class="xrefNav">

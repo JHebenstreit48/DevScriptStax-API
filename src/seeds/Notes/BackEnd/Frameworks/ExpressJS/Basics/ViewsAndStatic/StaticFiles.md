@@ -6,7 +6,9 @@
 
 <hr class="dividerSection" />
 
-Static files are assets the server sends as-is, without any processing. Common examples include:
+Static files are assets the server sends as-is, without any processing.  
+  
+Common examples include:
 
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
@@ -23,13 +25,39 @@ Static files are assets the server sends as-is, without any processing. Common e
 
 <hr class="dividerSection" />
 
-Express can serve static files using its built-in <span class="codeSnip">express.static()</span> middleware. This creates a new middleware function that serves files from a given root directory.
+Express can serve static files using its built-in <span class="codeSnip">express.static()</span> middleware.  
+
+This creates a new middleware function that serves files from a given root directory.
 
 ```js
 app.use(express.static("public"))
 ```
 
-This tells Express to look inside the <span class="emphasis">public</span> folder when a request is made for a static file. For example, requesting <span class="codeSnip">/styles.css</span> will look for <span class="codeSnip">public/styles.css</span>.
+This tells Express to look inside the <span class="emphasis">public</span> folder when a request is made for a static file.  
+
+For example, requesting <span class="codeSnip">/styles.css</span> will look for <span class="codeSnip">public/styles.css</span>.
+
+## Sending a File as a Response
+
+<hr class="dividerSection" />
+
+The <span class="codeSnip">res.sendFile()</span> method sends a file directly from the server to the client as an HTTP response.
+
+```js
+const path = require('path');
+
+app.get('/file', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Useful for serving static HTML pages or downloadable files on a specific route.</li>
+    <li><span class="codeSnip">path.join()</span> ensures the file path is constructed correctly across different operating systems.</li>
+    <li><span class="codeSnip">__dirname</span> refers to the directory of the current file.</li>
+  </ul>
+</div>
 
 <hr class="dividerSection" />
 
