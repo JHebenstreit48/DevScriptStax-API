@@ -8,7 +8,7 @@
 
 ---
 
-## 🔐 Why It Matters
+## Why It Matters
 
 - Authentication is a **core building block of application security**.
 - It ensures that only valid users can access protected resources or systems.
@@ -16,7 +16,7 @@
 
 ---
 
-## 💡 Common Authentication Methods
+## Common Authentication Methods
 
 - **Username + Password** — The most basic and widely used method.
 - **Multi-Factor Authentication (MFA)** — Requires two or more types of credentials: something you know (password), something you have (device), or something you are (biometrics).
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧠 Authentication vs Authorization
+## Authentication vs Authorization
 
 - **Authentication (AuthN)**: Confirms *who* the user is.
 - **Authorization (AuthZ)**: Defines *what* the authenticated user is allowed to do.
@@ -37,7 +37,7 @@ Think of it like a bouncer at a nightclub:
 
 ---
 
-## ✅ Summary
+## Summary
 
 - Authentication is the **first step** in securing your app or system.
 - It ensures identity is verified before granting access.

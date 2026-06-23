@@ -10,19 +10,14 @@
     "category": "Testing"
   },
   {
-    "path": "Stacks/Mern/MernAndAuth",
-    "title": "MernAndAuth",
-    "category": "Stacks/Mern"
-  },
-  {
     "path": "GraphQLAndApollo/GraphQL/GraphQL",
     "title": "GraphQL",
     "category": "GraphQLAndApollo/GraphQL"
   },
   {
-    "path": "Tools/DeploymentCICD/CICDOps",
-    "title": "CICDOps",
-    "category": "Tools/DeploymentCICD"
+    "path": "Stacks/Mern/MernAndAuth",
+    "title": "MernAndAuth",
+    "category": "Stacks/Mern"
   },
   {
     "path": "FrontEnd/EnvironmentVariables/Frameworks/Vite",
@@ -60,14 +55,124 @@
     "category": "Testing/Framework/VitestNotes"
   },
   {
+    "path": "BackEnd/API/Basics/Fundamentals/CoreConcepts",
+    "title": "CoreConcepts",
+    "category": "BackEnd/API/Basics/Fundamentals"
+  },
+  {
     "path": "BackEnd/API/Basics/TypesOfAPIs/PublicVSPrivate",
     "title": "PublicVSPrivate",
     "category": "BackEnd/API/Basics/TypesOfAPIs"
   },
   {
-    "path": "BackEnd/API/Basics/Fundamentals/CoreConcepts",
-    "title": "CoreConcepts",
-    "category": "BackEnd/API/Basics/Fundamentals"
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/FederationConcepts",
+    "title": "FederationConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/SchemaStitching",
+    "title": "SchemaStitching",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/BuiltIn",
+    "title": "BuiltIn",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/Custom",
+    "title": "Custom",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/CachingConcepts",
+    "title": "CachingConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/NPlusOneDataloader",
+    "title": "NPlusOneDataloader",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/CustomScalars",
+    "title": "CustomScalars",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/InterfacesUnions",
+    "title": "InterfacesUnions",
+    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/KeyConcepts",
+    "title": "KeyConcepts",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Mutations",
+    "title": "Mutations",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Queries",
+    "title": "Queries",
+    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/Subscriptions",
+    "title": "Subscriptions",
+    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/VariablesFragments",
+    "title": "VariablesFragments",
+    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Resolvers",
+    "title": "Resolvers",
+    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
+  },
+  {
+    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Schema",
+    "title": "Schema",
+    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
+  },
+  {
+    "path": "Languages/Python/Advanced/DataModel/DunderMethods",
+    "title": "DunderMethods",
+    "category": "Languages/Python/Advanced/DataModel"
+  },
+  {
+    "path": "Languages/Python/Basics/CoreConcepts/FunctionsAndModules",
+    "title": "FunctionsAndModules",
+    "category": "Languages/Python/Basics/CoreConcepts"
+  },
+  {
+    "path": "Languages/Python/Basics/CoreConcepts/Oop",
+    "title": "Oop",
+    "category": "Languages/Python/Basics/CoreConcepts"
+  },
+  {
+    "path": "Languages/Python/Basics/CoreConcepts/VariablesAndTypes",
+    "title": "VariablesAndTypes",
+    "category": "Languages/Python/Basics/CoreConcepts"
+  },
+  {
+    "path": "Languages/Python/Basics/Fundamentals/BasicsAndSyntax",
+    "title": "BasicsAndSyntax",
+    "category": "Languages/Python/Basics/Fundamentals"
+  },
+  {
+    "path": "Languages/Python/Basics/Fundamentals/ControlFlow",
+    "title": "ControlFlow",
+    "category": "Languages/Python/Basics/Fundamentals"
   },
   {
     "path": "Languages/JavaScript/Advanced/Modules/DynamicImports",
@@ -230,44 +335,14 @@
     "category": "Languages/JavaScript/Basics/ObjectsAndJSON"
   },
   {
-    "path": "Languages/Python/Advanced/DataModel/DunderMethods",
-    "title": "DunderMethods",
-    "category": "Languages/Python/Advanced/DataModel"
-  },
-  {
-    "path": "Languages/Python/Basics/CoreConcepts/FunctionsAndModules",
-    "title": "FunctionsAndModules",
-    "category": "Languages/Python/Basics/CoreConcepts"
-  },
-  {
-    "path": "Languages/Python/Basics/CoreConcepts/Oop",
-    "title": "Oop",
-    "category": "Languages/Python/Basics/CoreConcepts"
-  },
-  {
-    "path": "Languages/Python/Basics/CoreConcepts/VariablesAndTypes",
-    "title": "VariablesAndTypes",
-    "category": "Languages/Python/Basics/CoreConcepts"
-  },
-  {
-    "path": "Languages/Python/Basics/Fundamentals/BasicsAndSyntax",
-    "title": "BasicsAndSyntax",
-    "category": "Languages/Python/Basics/Fundamentals"
-  },
-  {
-    "path": "Languages/Python/Basics/Fundamentals/ControlFlow",
-    "title": "ControlFlow",
-    "category": "Languages/Python/Basics/Fundamentals"
+    "path": "Languages/TypeScript/Advanced/GenericsAndUtilityTypes/ComponentFunction",
+    "title": "ComponentFunction",
+    "category": "Languages/TypeScript/Advanced/GenericsAndUtilityTypes"
   },
   {
     "path": "Languages/TypeScript/Advanced/TypesAndGuards/UnionsAndIntersections",
     "title": "UnionsAndIntersections",
     "category": "Languages/TypeScript/Advanced/TypesAndGuards"
-  },
-  {
-    "path": "Languages/TypeScript/Advanced/GenericsAndUtilityTypes/ComponentFunction",
-    "title": "ComponentFunction",
-    "category": "Languages/TypeScript/Advanced/GenericsAndUtilityTypes"
   },
   {
     "path": "Languages/TypeScript/Basics/Fundamentals/Introduction",
@@ -303,86 +378,6 @@
     "path": "Languages/TypeScript/BestPractices/ToolingAndConfig/Organization",
     "title": "Organization",
     "category": "Languages/TypeScript/BestPractices/ToolingAndConfig"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/FederationConcepts",
-    "title": "FederationConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Composition/SchemaStitching",
-    "title": "SchemaStitching",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Composition"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/CachingConcepts",
-    "title": "CachingConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Performance/NPlusOneDataloader",
-    "title": "NPlusOneDataloader",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Performance"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/CustomScalars",
-    "title": "CustomScalars",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign/InterfacesUnions",
-    "title": "InterfacesUnions",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/SchemaDesign"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Fundamentals/KeyConcepts",
-    "title": "KeyConcepts",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Fundamentals"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/BuiltIn",
-    "title": "BuiltIn",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Advanced/Directives/Custom",
-    "title": "Custom",
-    "category": "GraphQLAndApollo/GraphQL/Advanced/Directives"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/Subscriptions",
-    "title": "Subscriptions",
-    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/RealTime/VariablesFragments",
-    "title": "VariablesFragments",
-    "category": "GraphQLAndApollo/GraphQL/Basics/RealTime"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Resolvers",
-    "title": "Resolvers",
-    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution/Schema",
-    "title": "Schema",
-    "category": "GraphQLAndApollo/GraphQL/Basics/SchemaAndExecution"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Mutations",
-    "title": "Mutations",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
-  },
-  {
-    "path": "GraphQLAndApollo/GraphQL/Basics/Operations/Queries",
-    "title": "Queries",
-    "category": "GraphQLAndApollo/GraphQL/Basics/Operations"
   },
   {
     "path": "FrontEnd/Angular/Advanced/Animations/Basics",
@@ -605,16 +600,6 @@
     "category": "FrontEnd/HTML/Intermediate/MediaAndEmbeds"
   },
   {
-    "path": "FrontEnd/HTML/Intermediate/TabularData/Captions",
-    "title": "Captions",
-    "category": "FrontEnd/HTML/Intermediate/TabularData"
-  },
-  {
-    "path": "FrontEnd/HTML/Intermediate/TabularData/Tables",
-    "title": "Tables",
-    "category": "FrontEnd/HTML/Intermediate/TabularData"
-  },
-  {
     "path": "FrontEnd/Markdown/Advanced/BestPractices/Consistency",
     "title": "Consistency",
     "category": "FrontEnd/Markdown/Advanced/BestPractices"
@@ -630,19 +615,14 @@
     "category": "FrontEnd/Markdown/Advanced/BestPractices"
   },
   {
-    "path": "FrontEnd/Markdown/Advanced/Extending/CustomRendering",
-    "title": "CustomRendering",
-    "category": "FrontEnd/Markdown/Advanced/Extending"
+    "path": "FrontEnd/HTML/Intermediate/TabularData/Captions",
+    "title": "Captions",
+    "category": "FrontEnd/HTML/Intermediate/TabularData"
   },
   {
-    "path": "FrontEnd/Markdown/Advanced/Extending/Frontmatter",
-    "title": "Frontmatter",
-    "category": "FrontEnd/Markdown/Advanced/Extending"
-  },
-  {
-    "path": "FrontEnd/Markdown/Advanced/Extending/Plugins",
-    "title": "Plugins",
-    "category": "FrontEnd/Markdown/Advanced/Extending"
+    "path": "FrontEnd/HTML/Intermediate/TabularData/Tables",
+    "title": "Tables",
+    "category": "FrontEnd/HTML/Intermediate/TabularData"
   },
   {
     "path": "FrontEnd/Markdown/Basics/ContentElements/Formatting",
@@ -680,6 +660,21 @@
     "category": "FrontEnd/Markdown/Intermediate/ExtendedSyntax"
   },
   {
+    "path": "FrontEnd/Markdown/Advanced/Extending/CustomRendering",
+    "title": "CustomRendering",
+    "category": "FrontEnd/Markdown/Advanced/Extending"
+  },
+  {
+    "path": "FrontEnd/Markdown/Advanced/Extending/Frontmatter",
+    "title": "Frontmatter",
+    "category": "FrontEnd/Markdown/Advanced/Extending"
+  },
+  {
+    "path": "FrontEnd/Markdown/Advanced/Extending/Plugins",
+    "title": "Plugins",
+    "category": "FrontEnd/Markdown/Advanced/Extending"
+  },
+  {
     "path": "FrontEnd/Markdown/Intermediate/InteractiveFeatures/Footnotes",
     "title": "Footnotes",
     "category": "FrontEnd/Markdown/Intermediate/InteractiveFeatures"
@@ -710,16 +705,6 @@
     "category": "FrontEnd/React/Advanced/SEOAndMetadata"
   },
   {
-    "path": "FrontEnd/React/Basics/CoreConcepts/EventHandling",
-    "title": "EventHandling",
-    "category": "FrontEnd/React/Basics/CoreConcepts"
-  },
-  {
-    "path": "FrontEnd/React/Basics/CoreConcepts/JSX",
-    "title": "JSX",
-    "category": "FrontEnd/React/Basics/CoreConcepts"
-  },
-  {
     "path": "FrontEnd/React/Basics/Fundamentals/Introduction",
     "title": "Introduction",
     "category": "FrontEnd/React/Basics/Fundamentals"
@@ -733,6 +718,16 @@
     "path": "FrontEnd/React/Basics/SetupAndStructure/Structure",
     "title": "Structure",
     "category": "FrontEnd/React/Basics/SetupAndStructure"
+  },
+  {
+    "path": "FrontEnd/React/Basics/CoreConcepts/EventHandling",
+    "title": "EventHandling",
+    "category": "FrontEnd/React/Basics/CoreConcepts"
+  },
+  {
+    "path": "FrontEnd/React/Basics/CoreConcepts/JSX",
+    "title": "JSX",
+    "category": "FrontEnd/React/Basics/CoreConcepts"
   },
   {
     "path": "FrontEnd/React/Intermediate/Enchancements/FaviconAndTab",
@@ -780,21 +775,6 @@
     "category": "BackEnd/API/Basics/HTTPClients/Axios"
   },
   {
-    "path": "BackEnd/AuthenAndAuthor/Authentication/Advanced/WebFrameworks/NodeExpress",
-    "title": "NodeExpress",
-    "category": "BackEnd/AuthenAndAuthor/Authentication/Advanced/WebFrameworks"
-  },
-  {
-    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
-  },
-  {
-    "path": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals/SessionVSToken",
-    "title": "SessionVSToken",
-    "category": "BackEnd/AuthenAndAuthor/Authentication/Basics/Fundamentals"
-  },
-  {
     "path": "BackEnd/Databases/Firebase/Advanced/AdminSDK/Basics",
     "title": "Basics",
     "category": "BackEnd/Databases/Firebase/Advanced/AdminSDK"
@@ -840,16 +820,6 @@
     "category": "BackEnd/Databases/Firebase/Advanced/OfflinePatterns"
   },
   {
-    "path": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator/EmulatorSuite",
-    "title": "EmulatorSuite",
-    "category": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator"
-  },
-  {
-    "path": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator/SecurityRulesPatterns",
-    "title": "SecurityRulesPatterns",
-    "category": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator"
-  },
-  {
     "path": "BackEnd/Databases/Firebase/Basics/Authentication/Implementation",
     "title": "Implementation",
     "category": "BackEnd/Databases/Firebase/Basics/Authentication"
@@ -868,6 +838,16 @@
     "path": "BackEnd/Databases/Firebase/Basics/Authentication/UserManagement",
     "title": "UserManagement",
     "category": "BackEnd/Databases/Firebase/Basics/Authentication"
+  },
+  {
+    "path": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator/EmulatorSuite",
+    "title": "EmulatorSuite",
+    "category": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator"
+  },
+  {
+    "path": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator/SecurityRulesPatterns",
+    "title": "SecurityRulesPatterns",
+    "category": "BackEnd/Databases/Firebase/Advanced/RulesAndEmulator"
   },
   {
     "path": "BackEnd/Databases/Firebase/Basics/Firestore/Comparison",
@@ -910,6 +890,26 @@
     "category": "BackEnd/Databases/Firebase/Basics/Fundamentals"
   },
   {
+    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Introduction",
+    "title": "Introduction",
+    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
+  },
+  {
+    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Listeners",
+    "title": "Listeners",
+    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
+  },
+  {
+    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/ReadingWriting",
+    "title": "ReadingWriting",
+    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
+  },
+  {
+    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Structure",
+    "title": "Structure",
+    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
+  },
+  {
     "path": "BackEnd/Databases/Firebase/Basics/Storage/AuditingAndFileCounts",
     "title": "AuditingAndFileCounts",
     "category": "BackEnd/Databases/Firebase/Basics/Storage"
@@ -935,26 +935,6 @@
     "category": "BackEnd/Databases/Firebase/Basics/Storage"
   },
   {
-    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Introduction",
-    "title": "Introduction",
-    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
-  },
-  {
-    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Listeners",
-    "title": "Listeners",
-    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
-  },
-  {
-    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/ReadingWriting",
-    "title": "ReadingWriting",
-    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
-  },
-  {
-    "path": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase/Structure",
-    "title": "Structure",
-    "category": "BackEnd/Databases/Firebase/Basics/RealtimeDatabase"
-  },
-  {
     "path": "BackEnd/Databases/MongoDB/Advanced/AggregationAndSearch/AtlasSearch",
     "title": "AtlasSearch",
     "category": "BackEnd/Databases/MongoDB/Advanced/AggregationAndSearch"
@@ -963,6 +943,16 @@
     "path": "BackEnd/Databases/MongoDB/Advanced/AggregationAndSearch/WindowGraph",
     "title": "WindowGraph",
     "category": "BackEnd/Databases/MongoDB/Advanced/AggregationAndSearch"
+  },
+  {
+    "path": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents/ChangeStreams",
+    "title": "ChangeStreams",
+    "category": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents"
+  },
+  {
+    "path": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents/TriggersOutbox",
+    "title": "TriggersOutbox",
+    "category": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents"
   },
   {
     "path": "BackEnd/Databases/MongoDB/Advanced/ConsistencyDurabilityAndTransactions/Concerns",
@@ -1000,16 +990,6 @@
     "category": "BackEnd/Databases/MongoDB/Advanced/GlobalAndMultiRegion"
   },
   {
-    "path": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents/ChangeStreams",
-    "title": "ChangeStreams",
-    "category": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents"
-  },
-  {
-    "path": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents/TriggersOutbox",
-    "title": "TriggersOutbox",
-    "category": "BackEnd/Databases/MongoDB/Advanced/ChangeStreamsAndEvents"
-  },
-  {
     "path": "BackEnd/Databases/MongoDB/Advanced/IndexingAndQueryPlanner/Explain",
     "title": "Explain",
     "category": "BackEnd/Databases/MongoDB/Advanced/IndexingAndQueryPlanner"
@@ -1018,6 +998,21 @@
     "path": "BackEnd/Databases/MongoDB/Advanced/IndexingAndQueryPlanner/Special",
     "title": "Special",
     "category": "BackEnd/Databases/MongoDB/Advanced/IndexingAndQueryPlanner"
+  },
+  {
+    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/BackupPitr",
+    "title": "BackupPitr",
+    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
+  },
+  {
+    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/ShardingOps",
+    "title": "ShardingOps",
+    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
+  },
+  {
+    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/Upgrades",
+    "title": "Upgrades",
+    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
   },
   {
     "path": "BackEnd/Databases/MongoDB/Advanced/ScalabilityAndReplication/BestPractices",
@@ -1038,21 +1033,6 @@
     "path": "BackEnd/Databases/MongoDB/Advanced/ScalabilityAndReplication/Sharding",
     "title": "Sharding",
     "category": "BackEnd/Databases/MongoDB/Advanced/ScalabilityAndReplication"
-  },
-  {
-    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/BackupPitr",
-    "title": "BackupPitr",
-    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
-  },
-  {
-    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/ShardingOps",
-    "title": "ShardingOps",
-    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
-  },
-  {
-    "path": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale/Upgrades",
-    "title": "Upgrades",
-    "category": "BackEnd/Databases/MongoDB/Advanced/OperationsAtScale"
   },
   {
     "path": "BackEnd/Databases/MongoDB/Advanced/SecurityAndCompliance/Auditing",
@@ -1250,131 +1230,6 @@
     "category": "BackEnd/Databases/MongoDB/Tools/ShellAndServer"
   },
   {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/RedisClusterAndSharding",
-    "title": "RedisClusterAndSharding",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Replication",
-    "title": "Replication",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Sentinel",
-    "title": "Sentinel",
-    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/PubsubPatterns",
-    "title": "PubsubPatterns",
-    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/StreamsAndConsumers",
-    "title": "StreamsAndConsumers",
-    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/EvictionPolicies",
-    "title": "EvictionPolicies",
-    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/LatencyAndPipelining",
-    "title": "LatencyAndPipelining",
-    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/MemoryOptimization",
-    "title": "MemoryOptimization",
-    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/Persistence/Aof",
-    "title": "Aof",
-    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/Persistence/HybridAndTuning",
-    "title": "HybridAndTuning",
-    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/Persistence/RdbSnapshotting",
-    "title": "RdbSnapshotting",
-    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/BackupAndRestore",
-    "title": "BackupAndRestore",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/TlsAndAuth",
-    "title": "TlsAndAuth",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/UsersAndAcls",
-    "title": "UsersAndAcls",
-    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/DataStructures/HashesAndBitmaps",
-    "title": "HashesAndBitmaps",
-    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/DataStructures/HyperloglogAndStreams",
-    "title": "HyperloglogAndStreams",
-    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/DataStructures/Lists",
-    "title": "Lists",
-    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/DataStructures/SetsAndSortedSets",
-    "title": "SetsAndSortedSets",
-    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/DataStructures/Strings",
-    "title": "Strings",
-    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/InstallSetup",
-    "title": "InstallSetup",
-    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/Introduction",
-    "title": "Introduction",
-    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/UseCases",
-    "title": "UseCases",
-    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/KeysAndExpiration",
-    "title": "KeysAndExpiration",
-    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/PipeliningBasics",
-    "title": "PipeliningBasics",
-    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
-  },
-  {
-    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/ScanAndPatterns",
-    "title": "ScanAndPatterns",
-    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
-  },
-  {
     "path": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL/Ctes",
     "title": "Ctes",
     "category": "BackEnd/Databases/PostgreSQL/Advanced/AdvancedSQL"
@@ -1555,6 +1410,146 @@
     "category": "BackEnd/Databases/PostgreSQL/Tools/GUIClients"
   },
   {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/RedisClusterAndSharding",
+    "title": "RedisClusterAndSharding",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Replication",
+    "title": "Replication",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA/Sentinel",
+    "title": "Sentinel",
+    "category": "BackEnd/Databases/Redis/Advanced/ClusteringAndHA"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/PubsubPatterns",
+    "title": "PubsubPatterns",
+    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams/StreamsAndConsumers",
+    "title": "StreamsAndConsumers",
+    "category": "BackEnd/Databases/Redis/Advanced/MessagingAndStreams"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/EvictionPolicies",
+    "title": "EvictionPolicies",
+    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/LatencyAndPipelining",
+    "title": "LatencyAndPipelining",
+    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory/MemoryOptimization",
+    "title": "MemoryOptimization",
+    "category": "BackEnd/Databases/Redis/Advanced/PerformanceAndMemory"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/Persistence/Aof",
+    "title": "Aof",
+    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/Persistence/HybridAndTuning",
+    "title": "HybridAndTuning",
+    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/Persistence/RdbSnapshotting",
+    "title": "RdbSnapshotting",
+    "category": "BackEnd/Databases/Redis/Advanced/Persistence"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/BackupAndRestore",
+    "title": "BackupAndRestore",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/TlsAndAuth",
+    "title": "TlsAndAuth",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Advanced/SecurityAndOps/UsersAndAcls",
+    "title": "UsersAndAcls",
+    "category": "BackEnd/Databases/Redis/Advanced/SecurityAndOps"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/DataStructures/HashesAndBitmaps",
+    "title": "HashesAndBitmaps",
+    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/DataStructures/HyperloglogAndStreams",
+    "title": "HyperloglogAndStreams",
+    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/DataStructures/Lists",
+    "title": "Lists",
+    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/DataStructures/SetsAndSortedSets",
+    "title": "SetsAndSortedSets",
+    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/DataStructures/Strings",
+    "title": "Strings",
+    "category": "BackEnd/Databases/Redis/Basics/DataStructures"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/InstallSetup",
+    "title": "InstallSetup",
+    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/Fundamentals/UseCases",
+    "title": "UseCases",
+    "category": "BackEnd/Databases/Redis/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/KeysAndExpiration",
+    "title": "KeysAndExpiration",
+    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/PipeliningBasics",
+    "title": "PipeliningBasics",
+    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
+  },
+  {
+    "path": "BackEnd/Databases/Redis/Basics/WorkingWithData/ScanAndPatterns",
+    "title": "ScanAndPatterns",
+    "category": "BackEnd/Databases/Redis/Basics/WorkingWithData"
+  },
+  {
+    "path": "BackEnd/AuthenticationAndAuthorization/Authentication/Advanced/WebFrameworks/NodeExpress",
+    "title": "NodeExpress",
+    "category": "BackEnd/AuthenticationAndAuthorization/Authentication/Advanced/WebFrameworks"
+  },
+  {
+    "path": "BackEnd/AuthenticationAndAuthorization/Authentication/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "BackEnd/AuthenticationAndAuthorization/Authentication/Basics/Fundamentals"
+  },
+  {
+    "path": "BackEnd/AuthenticationAndAuthorization/Authentication/Basics/Fundamentals/SessionVSToken",
+    "title": "SessionVSToken",
+    "category": "BackEnd/AuthenticationAndAuthorization/Authentication/Basics/Fundamentals"
+  },
+  {
     "path": "BackEnd/Frameworks/ExpressJS/Basics/DataHandling/JSONAndURLEncoded",
     "title": "JSONAndURLEncoded",
     "category": "BackEnd/Frameworks/ExpressJS/Basics/DataHandling"
@@ -1670,26 +1665,6 @@
     "category": "GraphQLAndApollo/Apollo/ApolloClient/Basics/Mutations"
   },
   {
-    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/CacheAndHints/ResponseCache",
-    "title": "ResponseCache",
-    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/CacheAndHints"
-  },
-  {
-    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/PluginsAndLifecycle/ErrorMasks",
-    "title": "ErrorMasks",
-    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/PluginsAndLifecycle"
-  },
-  {
-    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SchemaGovernance/CheckAndContracts",
-    "title": "CheckAndContracts",
-    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SchemaGovernance"
-  },
-  {
-    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SubscriptionsTransport/WebSocketGraphQLWs",
-    "title": "WebSocketGraphQLWs",
-    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SubscriptionsTransport"
-  },
-  {
     "path": "GraphQLAndApollo/Apollo/ApolloServer/Basics/Fundamentals/Introduction",
     "title": "Introduction",
     "category": "GraphQLAndApollo/Apollo/ApolloServer/Basics/Fundamentals"
@@ -1708,6 +1683,26 @@
     "path": "GraphQLAndApollo/Apollo/ApolloServer/Basics/SchemasAndResolvers/Schema",
     "title": "Schema",
     "category": "GraphQLAndApollo/Apollo/ApolloServer/Basics/SchemasAndResolvers"
+  },
+  {
+    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/CacheAndHints/ResponseCache",
+    "title": "ResponseCache",
+    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/CacheAndHints"
+  },
+  {
+    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/PluginsAndLifecycle/ErrorMasks",
+    "title": "ErrorMasks",
+    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/PluginsAndLifecycle"
+  },
+  {
+    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SchemaGovernance/CheckAndContracts",
+    "title": "CheckAndContracts",
+    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SchemaGovernance"
+  },
+  {
+    "path": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SubscriptionsTransport/WebSocketGraphQLWs",
+    "title": "WebSocketGraphQLWs",
+    "category": "GraphQLAndApollo/Apollo/ApolloServer/Advanced/SubscriptionsTransport"
   },
   {
     "path": "FrontEnd/Angular/Advanced/Security/AuthenticationAuthorization/Authentication",
@@ -1810,11 +1805,6 @@
     "category": "FrontEnd/React/Basics/CoreConcepts/PropsState"
   },
   {
-    "path": "Testing/EndToEnd/Cypress/Basics/CoreCommands/VisitGet",
-    "title": "VisitGet",
-    "category": "Testing/EndToEnd/Cypress/Basics/CoreCommands"
-  },
-  {
     "path": "Testing/EndToEnd/Cypress/Basics/Fundamentals/FirstTest",
     "title": "FirstTest",
     "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
@@ -1830,9 +1820,24 @@
     "category": "Testing/EndToEnd/Cypress/Basics/Fundamentals"
   },
   {
-    "path": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure/TestBlock",
+    "path": "Testing/EndToEnd/Cypress/Basics/CoreCommands/VisitGet",
+    "title": "VisitGet",
+    "category": "Testing/EndToEnd/Cypress/Basics/CoreCommands"
+  },
+  {
+    "path": "Testing/EndToEnd/Cypress/Basics/Syntax/TestBlock",
     "title": "TestBlock",
-    "category": "Testing/EndToEnd/Cypress/Basics/SyntaxAndStructure"
+    "category": "Testing/EndToEnd/Cypress/Basics/Syntax"
+  },
+  {
+    "path": "Tools/CICD/CircleCI/Basics/Fundamentals/Concepts",
+    "title": "Concepts",
+    "category": "Tools/CICD/CircleCI/Basics/Fundamentals"
+  },
+  {
+    "path": "Tools/CICD/CircleCI/Basics/Fundamentals/Introduction",
+    "title": "Introduction",
+    "category": "Tools/CICD/CircleCI/Basics/Fundamentals"
   },
   {
     "path": "Tools/Containerization/Git/Basics/Commands/Common",
@@ -1915,6 +1920,26 @@
     "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Navigation"
   },
   {
+    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Accordions",
+    "title": "Accordions",
+    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Dropdowns",
+    "title": "Dropdowns",
+    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Modals",
+    "title": "Modals",
+    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Tooltips",
+    "title": "Tooltips",
+    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
+  },
+  {
     "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/TypographyAndContent/ImagesAndFigures",
     "title": "ImagesAndFigures",
     "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/TypographyAndContent"
@@ -1940,29 +1965,34 @@
     "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Utilities"
   },
   {
-    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Accordions",
-    "title": "Accordions",
-    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Dropdowns",
-    "title": "Dropdowns",
-    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Modals",
-    "title": "Modals",
-    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays/Tooltips",
-    "title": "Tooltips",
-    "category": "FrontEnd/CSS/Tools/Frameworks/Bootstrap/Basics/Overlays"
-  },
-  {
     "path": "FrontEnd/CSS/Tools/Frameworks/ReactBootstrap/Basics/Fundamentals/Introduction",
     "title": "Introduction",
     "category": "FrontEnd/CSS/Tools/Frameworks/ReactBootstrap/Basics/Fundamentals"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/ExtendMerge",
+    "title": "ExtendMerge",
+    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/GuardedMixinsLogic",
+    "title": "GuardedMixinsLogic",
+    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/ToolingBuildIntegration",
+    "title": "ToolingBuildIntegration",
+    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts/ImportsScope",
+    "title": "ImportsScope",
+    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts"
+  },
+  {
+    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts/OperationsColors",
+    "title": "OperationsColors",
+    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts"
   },
   {
     "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Basics/CoreFeatures/MixinsFunctions",
@@ -2013,31 +2043,6 @@
     "path": "FrontEnd/CSS/Tools/Preprocessors/Sass/Advanced/Concepts/OperatorsAndCalculations",
     "title": "OperatorsAndCalculations",
     "category": "FrontEnd/CSS/Tools/Preprocessors/Sass/Advanced/Concepts"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/ExtendMerge",
-    "title": "ExtendMerge",
-    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/GuardedMixinsLogic",
-    "title": "GuardedMixinsLogic",
-    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices/ToolingBuildIntegration",
-    "title": "ToolingBuildIntegration",
-    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/BestPractices"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts/ImportsScope",
-    "title": "ImportsScope",
-    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts"
-  },
-  {
-    "path": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts/OperationsColors",
-    "title": "OperationsColors",
-    "category": "FrontEnd/CSS/Tools/Preprocessors/Less/Advanced/Concepts"
   },
   {
     "path": "FrontEnd/CSS/Tools/Preprocessors/Sass/Basics/Fundamentals/Introduction",

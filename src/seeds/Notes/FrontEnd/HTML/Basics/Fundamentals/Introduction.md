@@ -2,10 +2,6 @@
 
 <hr class="dividerSection" />
 
-## What is HTML?
-
-<hr class="dividerSection" />
-
 <span class="emphasis">Hypertext Markup Language</span> <span class="secondEmphasis">(HTML)</span> is one of the cornerstone <span class="emphasis">languages</span> of the web.  
 It is the <span class="emphasis">standard</span> markup language for creating <span class="emphasis">documents</span> to be displayed in a <span class="emphasis">web browser</span>.
 
@@ -48,8 +44,6 @@ It must be the first line of an HTML document for proper browser rendering.
 <!DOCTYPE html>
 ```
 
----
-
 <hr class="dividerSection" />
 
 ## HTML Element
@@ -60,10 +54,11 @@ The <span class="codeSnip">&lt;html&gt;</span> element serves as the root of an 
 
 All other elements must be contained within this tag.
 
-html
+```html
 <html>
   ...
 </html>
+```
 
 <hr class="dividerSection" />
 
