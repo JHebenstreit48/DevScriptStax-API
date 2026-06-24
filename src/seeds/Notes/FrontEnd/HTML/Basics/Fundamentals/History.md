@@ -13,7 +13,7 @@ HTML has been revised so many times since then and has resulted in several diffe
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/html/basics/structure/elements">Next →</a>
-    <div class="xrefTitle">Topic: HTML Structure → Elements/Tags</div>
+    <a class="xrefBtn" href="/html/basics/structure/elements-and-tags">Next →</a>
+    <div class="xrefTitle">Section: HTML Structure → Elements & Tags</div>
   </div>
 </div>

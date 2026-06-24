@@ -64,3 +64,12 @@
   <a href="/e2e/cypress/basics/fundamentals/introduction">Cypress → Fundamentals → Introduction</a><br />
   <a href="/e2e/cypress/basics/fundamentals/first-test">Cypress → Fundamentals → Writing Your First Test</a>
 </div>
+
+<hr class="dividerSection" />
+
+<div class="xrefNav">
+  <div class="xrefItem">
+    <a class="xrefBtn" href="/glossary/testing/cypress/test-structure">Next →</a>
+    <div class="xrefTitle">Glossary → Testing → Cypress → Test Structure</div>
+  </div>
+</div>
