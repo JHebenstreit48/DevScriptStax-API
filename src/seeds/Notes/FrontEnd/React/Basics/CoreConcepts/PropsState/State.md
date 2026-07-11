@@ -1,175 +1,290 @@
-<br>
+# State in React
 
----
+<hr class="dividerSection" />
 
 ## What Is State?
 
-State is a built-in feature in React that allows components to store dynamic data that can change over time. When the state changes, the component re-renders to reflect the new data.
+<hr class="dividerSection" />
 
-- Think of state as the “memory” of a component.
-- It is local by default and scoped to the component in which it's defined.
+<span class="emphasis">State</span> is data that can change over time and affects what is rendered on screen.
 
----
+When state changes, React automatically re-renders the component to reflect the new data.
 
-## What Are Hooks?
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>State is <span class="emphasis">local</span> to the component that owns it.</li>
+    <li>When state updates, the component <span class="emphasis">re-renders</span> with the new value.</li>
+    <li>State is different from props. Props are passed in and state is managed internally.</li>
+  </ul>
+</div>
 
-Hooks are functions that let you "hook into" React features from functional components. Before hooks, most dynamic behavior relied on class components. Now, hooks allow functional components to manage state, lifecycle, and side effects.
+<hr class="dividerSection" />
 
-- Hooks work only in functional components (not classes)
-- They follow strict rules to ensure consistent behavior
-- They allow reusable logic via custom hooks
+## The useState Hook
 
----
+<hr class="dividerSection" />
 
-## Core Rules of Hooks
+<span class="codeSnip">useState</span> is a React Hook that lets you add state to a functional component.
 
-- Only call hooks at the top level — never inside loops, conditions, or nested functions.
-- Only call hooks from React functions — either your component or a custom hook.
+It returns an array with two elements: the current state value and a function to update it.
 
-These rules ensure consistent state handling and predictable behavior.
+```js
+import { useState } from 'react';
 
----
-
-## Common Built-in Hooks
+const [count, setCount] = useState(0);
+```
 
 <table class="notesTable">
   <thead>
     <tr class="tableHeader">
-      <th class="tableCellHeader">Hook</th>
-      <th class="tableCellHeader">Purpose</th>
+      <th class="tableCellHeader">Part</th>
+      <th class="tableCellHeader">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useState</span></td>
-      <td class="tableCell">Adds local component state</td>
+      <td class="tableCell"><span class="codeSnip">count</span></td>
+      <td class="tableCell">The current state value</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useEffect</span></td>
-      <td class="tableCell">Runs side effects after rendering</td>
+      <td class="tableCell"><span class="codeSnip">setCount</span></td>
+      <td class="tableCell">The function used to update the state</td>
     </tr>
     <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useContext</span></td>
-      <td class="tableCell">Accesses context values</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useReducer</span></td>
-      <td class="tableCell">Manages complex state logic</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useRef</span></td>
-      <td class="tableCell">References DOM elements or persistent values</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useMemo</span></td>
-      <td class="tableCell">Optimizes expensive calculations</td>
-    </tr>
-    <tr class="tableRow">
-      <td class="tableCell"><span class="codeSnip">useCallback</span></td>
-      <td class="tableCell">Memoizes callback functions</td>
+      <td class="tableCell"><span class="codeSnip">0</span></td>
+      <td class="tableCell">The initial value of the state</td>
     </tr>
   </tbody>
 </table>
 
----
+<hr class="dividerSection" />
 
-## Managing State with useState
+## How useState Works
 
-<span class="codeSnip">useState</span> is a React Hook that adds local state to functional components.
+<hr class="dividerSection" />
 
-### Example: Basic Counter
+When you call the state updating function, React schedules a re-render of the component with the new state value.
 
-```javascript
+<hr class="dividerExample" />
+
+#### Example — Counter
+
+```js
 import { useState } from 'react';
 
-function Counter() {
+export default function Counter() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
     </div>
   );
 }
 ```
 
-- <span class="codeSnip">count</span> is the current state value.
-- <span class="codeSnip">setCount</span> is the function that updates <span class="codeSnip">count</span>.
-- <span class="codeSnip">useState(0)</span> sets the initial value to <span class="codeSnip">0</span>.
+<hr class="dividerSection" />
 
----
+## Updating State Based on Previous State
 
-## When to Use State
+<hr class="dividerSection" />
 
-Use state when a component needs to:
+When your new state depends on the previous state, you should pass a <span class="emphasis">function</span> to the state updating function rather than a value directly.
 
-- Respond to user input
-- Track dynamic values (like counters, forms, toggles)
-- Handle component-specific behavior that changes over time
+React will automatically call that function and pass it the current existing state as an argument.
 
----
+<hr class="dividerExample" />
 
-## useReducer for Complex State
+#### Example — Functional State Update
 
-<span class="codeSnip">useReducer</span> is an alternative to <span class="codeSnip">useState</span> for managing more complex state logic.
+```js
+const [items, setItems] = useState([]);
 
-- Ideal when the next state depends on the previous one
-- Works well when handling multiple related values
-
-### Example: Basic useReducer Skeleton
-
-```javascript
-const initialState = { count: 0 };
-
-function reducer(state, action) {
-  switch (action.type) {
-    case 'increment':
-      return { count: state.count + 1 };
-    default:
-      return state;
-  }
+function addItemHandler() {
+  setItems((currentItems) => [
+    ...currentItems,
+    newItem,
+  ]);
 }
-
-const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
----
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The function passed to <span class="codeSnip">setItems</span> is automatically called by React.</li>
+    <li>React passes the <span class="emphasis">current state</span> as the argument.</li>
+    <li>The spread operator <span class="codeSnip">...</span> copies all existing array items into the new array.</li>
+    <li>The new item is then appended at the end.</li>
+    <li>This approach is safer than reading the state variable directly because React may batch state updates. The functional form guarantees you always receive the most up-to-date state.</li>
+  </ul>
+</div>
 
-## Global State with Context
+<hr class="dividerSection" />
 
-To share state across many components without prop drilling, use the Context API:
+## Rendering Lists from State
 
-- Combine <span class="codeSnip">useContext</span> with <span class="codeSnip">useState</span> or <span class="codeSnip">useReducer</span>
-- Common use cases: authentication, themes, user preferences
+<hr class="dividerSection" />
 
----
+You can use the <span class="codeSnip">.map()</span> method to dynamically render a list of items from a state array.
 
-## Hook Naming Convention
+<hr class="dividerExample" />
 
-React relies on naming to detect hooks. All custom hook functions must start with <span class="codeSnip">use</span> — like <span class="codeSnip">useAuth</span> or <span class="codeSnip">useFormData</span>.
+#### Example — Rendering a List
 
-If you don't follow this naming pattern, React can't verify that the rules of hooks are being followed.
+```js
+const [items, setItems] = useState(['Learn React', 'Build Projects']);
 
----
+return (
+  <ul>
+    {items.map((item) => (
+      <li key={item}>{item}</li>
+    ))}
+  </ul>
+);
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">.map()</span> transforms each item in the array into a JSX element.</li>
+    <li>Each rendered element must have a <span class="codeSnip">key</span> prop that uniquely identifies it.</li>
+    <li>The result is an array of JSX elements that React renders as a list.</li>
+  </ul>
+</div>
+
+<hr class="dividerSubsection1" />
+
+### The key Prop
+
+<hr class="dividerSubsection1" />
+
+When rendering a list using <span class="codeSnip">.map()</span>, every item must receive a <span class="codeSnip">key</span> prop that <span class="emphasis">uniquely identifies</span> that item.
+
+Without a <span class="codeSnip">key</span> prop, React will show a warning: <span class="codeSnip">Each child in a list should have a unique key prop.</span>
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The <span class="codeSnip">key</span> prop helps React efficiently update the list under the hood.</li>
+    <li>The value passed to <span class="codeSnip">key</span> must be <span class="emphasis">unique</span> among the items in the list.</li>
+    <li>Using the item value itself as a key works for simple cases but is not perfectly unique if duplicates are possible.</li>
+    <li>In real apps with database data, use a unique ID rather than the item value as the key.</li>
+  </ul>
+</div>
+
+<hr class="dividerSubsection1" />
+
+### Note — key Prop vs Key Value Pairs
+
+<hr class="dividerSubsection1" />
+
+The <span class="codeSnip">key</span> prop in React lists and <span class="emphasis">key value pairs</span> in JavaScript objects and JSON share the same word but serve completely different purposes.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>A <span class="emphasis">key value pair</span> in an object or JSON is a property name mapped to a value. For example: <span class="codeSnip">{ name: "Alice" }</span>. You access and use these in your code.</li>
+    <li>The <span class="codeSnip">key</span> <span class="emphasis">prop</span> in a React list is a hint to React's rendering engine to help it track which item is which when the list changes. You do not access it in your code. React uses it internally.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
+## Common State Patterns
+
+<hr class="dividerSection" />
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Pattern</th>
+      <th class="tableCellHeader">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">Toggle</span></td>
+      <td class="tableCell">Switch a boolean value between true and false</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">Counter</span></td>
+      <td class="tableCell">Increment or decrement a numeric value</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">Form Input</span></td>
+      <td class="tableCell">Track the value of an input field as the user types</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="emphasis">List Management</span></td>
+      <td class="tableCell">Add, remove, or update items in an array stored in state</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="dividerSection" />
+
+## Best Practices
+
+<hr class="dividerSection" />
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Use the <span class="emphasis">functional update form</span> when new state depends on previous state.</li>
+    <li>Never mutate state directly. Always create a new value using spread or other immutable patterns.</li>
+    <li>Keep state as minimal as possible. Only store what is necessary.</li>
+    <li>Lift state up to a parent component when multiple children need to share it.</li>
+    <li>Always add a <span class="codeSnip">key</span> prop to elements rendered inside <span class="codeSnip">.map()</span>.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
 
 ## Summary
 
-- State stores dynamic values inside components
-- <span class="codeSnip">useState</span> handles local, simple values
-- <span class="codeSnip">useReducer</span> is better for complex logic
-- <span class="codeSnip">useContext</span> enables shared/global state
-- Hooks enable reactivity in functional components
-- Changing state causes re-rendering
+<hr class="dividerSection" />
+
+<table class="notesTable">
+  <thead>
+    <tr class="tableHeader">
+      <th class="tableCellHeader">Concept</th>
+      <th class="tableCellHeader">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">useState</span></td>
+      <td class="tableCell">Adds local state to a functional component</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Setter function</td>
+      <td class="tableCell">Triggers a re-render with the new value when called</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Spread operator</td>
+      <td class="tableCell">Updates array state immutably by copying existing items</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell">Functional update form</td>
+      <td class="tableCell">Pass a function to the setter when new state depends on previous state</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">.map()</span></td>
+      <td class="tableCell">Renders arrays of state as lists of JSX elements</td>
+    </tr>
+    <tr class="tableRow">
+      <td class="tableCell"><span class="codeSnip">key</span> prop</td>
+      <td class="tableCell">Uniquely identifies each item in a rendered list so React can update it efficiently</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="dividerSection" />
 
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/react/basics/core/props-and-state/props">← Back</a>
-    <div class="xrefTitle">Props</div>
+    <div class="xrefTitle">React → Core Concepts → Props & State → Props</div>
   </div>
 
   <div class="xrefItem">
     <a class="xrefBtn" href="/react/basics/core/forms/controlled">Next →</a>
-    <div class="xrefTitle">Forms</div>
+    <div class="xrefTitle">Section: React → Core Concepts → Forms → Controlled vs Uncontrolled</div>
   </div>
 </div>
