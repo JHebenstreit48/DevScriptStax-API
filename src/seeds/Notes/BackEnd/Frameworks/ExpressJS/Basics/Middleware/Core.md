@@ -73,16 +73,30 @@ let sanitizeHTML = require('sanitize-html')
 
 <hr class="dividerSubsection1" />
 
-Passing empty arrays for <span class="codeSnip">allowedTags</span> and <span class="codeSnip">allowedAttributes</span> strips all HTML from the input entirely.
+The first argument is the user input to sanitize — in this case <span class="codeSnip">req.body.text</span>.
+
+The second argument is a JavaScript object containing options that control what is allowed.
+
+Setting <span class="codeSnip">allowedTags</span> to an empty array means no HTML tags are permitted:
+
+```js
+let safeText = sanitizeHTML(req.body.text, { allowedTags: [] })
+```
+
+Adding <span class="codeSnip">allowedAttributes</span> set to an empty object means no HTML attributes are permitted either:
 
 ```js
 let safeText = sanitizeHTML(req.body.text, { allowedTags: [], allowedAttributes: {} })
 ```
 
+Passing empty values for both strips all HTML from the input entirely.
+
 <div class="centeredBullet">
   <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">allowedTags: []</span> — prevents any HTML tags from being inserted into the page.</li>
+    <li><span class="codeSnip">allowedAttributes: {}</span> — prevents any HTML attributes from being added.</li>
+    <li>Together they ensure no HTML tags or attributes can be injected by the user.</li>
     <li>Always sanitize user input before storing it in a database or sending it back to the browser.</li>
-    <li>Setting <span class="codeSnip">allowedTags</span> to <span class="codeSnip">[]</span> and <span class="codeSnip">allowedAttributes</span> to <span class="codeSnip">{}</span> removes all HTML tags and attributes from the submitted text.</li>
     <li>The sanitized value is then safe to use in database operations and responses.</li>
   </ul>
 </div>
@@ -90,6 +104,29 @@ let safeText = sanitizeHTML(req.body.text, { allowedTags: [], allowedAttributes:
 <div class="xrefBox">
   <span class="emphasis">See:</span>
   <a href="/glossary/backend/frameworks/nodejs/common-packages">Glossary → Backend → Frameworks → Node.js → Common Packages</a>
+</div>
+
+<hr class="dividerSubsection1" />
+
+### Client-Side vs Server-Side Security
+
+<hr class="dividerSubsection1" />
+
+When a user edits an item and enters malicious HTML or JavaScript, it may appear to execute in the browser immediately.
+
+However if the server is properly sanitizing input with <span class="codeSnip">sanitize-html</span>, the malicious code is never actually stored in the database.
+
+Refreshing the page will confirm this — the malicious code disappears because it was never persisted.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>When updating an item, the client-side JavaScript uses whatever value the user typed as the display value. This is why malicious code may appear to execute briefly.</li>
+    <li>This is not a threat to other users because the malicious code is never stored in the database and never sent to anyone else.</li>
+    <li>It is impossible to stop a user from tampering with their own instance of a website. The goal is to stop them from affecting other users' instances.</li>
+    <li>You can fix the client-side display issue by having the update route use <span class="codeSnip">res.json()</span> to send back the <span class="codeSnip">safeText</span> value — just like the create route does — and updating the client-side JavaScript to use that server value for the display update instead of the raw user input.</li>
+    <li>A malicious person could trick an innocent user into pasting harmful code into the update field. While no malicious code would make it into the database, the innocent user could still be affected on their own browser.</li>
+    <li>You cannot stop a user from opening their browser console and pasting in malicious code directly. This is why platforms like Facebook display a warning in the browser console telling users not to paste code they find on the internet.</li>
+  </ul>
 </div>
 
 <hr class="dividerSection" />

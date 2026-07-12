@@ -28,6 +28,29 @@ db.collection('items').deleteOne({ _id: new ObjectId(id) })
 
 <hr class="dividerSection" />
 
+## Why sanitize-html Is Not Needed for Delete
+
+<hr class="dividerSection" />
+
+The delete route does not require sanitization because no user-submitted text is being written to the database.
+
+```js
+app.post("/delete-item", async function (req, res) {
+  await db.collection("items").deleteOne({ _id: new ObjectId(req.body.id) })
+  res.send("Success")
+})
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>The delete route only uses <span class="codeSnip">req.body.id</span> to locate the document to remove.</li>
+    <li>Since no text input is being stored or returned, there is nothing to sanitize.</li>
+    <li>Sanitization is only necessary on routes where user-submitted text is written to the database — such as create and update routes.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 ## Legacy: .remove()
 
 <hr class="dividerSection" />

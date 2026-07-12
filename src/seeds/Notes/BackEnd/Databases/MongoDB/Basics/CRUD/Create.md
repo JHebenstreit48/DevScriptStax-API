@@ -34,6 +34,31 @@ This allows the browser to access the new document's ID immediately after creati
 
 <hr class="dividerSection" />
 
+## Sanitizing Input Before Insert
+
+<hr class="dividerSection" />
+
+Before inserting user-submitted text into the database, sanitize it using <span class="codeSnip">sanitize-html</span> to prevent XSS attacks.
+
+Replace <span class="codeSnip">req.body.text</span> with <span class="codeSnip">safeText</span> in both the <span class="codeSnip">insertOne()</span> call and the <span class="codeSnip">res.json()</span> response.
+
+```js
+app.post("/create-item", async function (req, res) {
+  let safeText = sanitizeHTML(req.body.text, { allowedTags: [], allowedAttributes: {} })
+  const info = await db.collection("items").insertOne({ text: safeText })
+  res.json({ _id: info.insertedId, text: safeText })
+})
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">safeText</span> holds the sanitized version of what the user submitted.</li>
+    <li>Both <span class="codeSnip">insertOne()</span> and <span class="codeSnip">res.json()</span> use <span class="codeSnip">safeText</span> instead of <span class="codeSnip">req.body.text</span> to ensure no unsanitized data is stored or returned.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 ## insertMany()
 
 <hr class="dividerSection" />

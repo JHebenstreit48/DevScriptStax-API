@@ -53,6 +53,29 @@ db.collection('items').findOneAndUpdate(
 
 <hr class="dividerSection" />
 
+## Sanitizing Input Before Update
+
+<hr class="dividerSection" />
+
+Just like with create operations, sanitize user-submitted text before updating a document in the database.
+
+```js
+app.post("/update-item", async function (req, res) {
+  let safeText = sanitizeHTML(req.body.text, { allowedTags: [], allowedAttributes: {} })
+  await db.collection("items").findOneAndUpdate({ _id: new ObjectId(req.body.id) }, { $set: { text: safeText } })
+  res.send("Success")
+})
+```
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Sanitization should be applied to any route where user text is written to the database.</li>
+    <li><span class="codeSnip">safeText</span> replaces <span class="codeSnip">req.body.text</span> inside the <span class="codeSnip">$set</span> operator.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 ## Array Operators
 
 <hr class="dividerSection" />
