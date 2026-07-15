@@ -25,6 +25,23 @@ Signing in with a Git provider such as GitHub, GitLab, or Bitbucket is recommend
 
 <hr class="dividerSection" />
 
+## Connecting a Git Provider
+
+<hr class="dividerSection" />
+
+After creating your account, connect your Git provider to allow Render to access your repositories.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Render will request permission to access your repositories after signing in.</li>
+    <li>You can choose to grant access to <span class="emphasis">all repositories</span> or only <span class="emphasis">specific ones</span>.</li>
+    <li>Once connected, your repositories will appear in a list when creating a new service.</li>
+    <li>At first your dashboard will not show existing projects — that list only appears once you have created and deployed services.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 <div class="xrefNav">
   <div class="xrefItem">
     <a class="xrefBtn" href="/render/basics/fundamentals/pricing">← Back</a>
