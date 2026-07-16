@@ -1,8 +1,4 @@
-# Static Sites & Web Services
-
-<hr class="dividerSection" />
-
-## Choosing a Service Type
+# Choosing a Service Type
 
 <hr class="dividerSection" />
 
@@ -91,7 +87,7 @@ A <span class="emphasis">web service</span> on Render is used to deploy server-s
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/services/workers-cron-jobs">Next →</a>
+    <a class="xrefBtn" href="/render/basics/services/workers-and-cron-jobs">Next →</a>
     <div class="xrefTitle">Render → Services → Workers & Cron Jobs</div>
   </div>
 </div>

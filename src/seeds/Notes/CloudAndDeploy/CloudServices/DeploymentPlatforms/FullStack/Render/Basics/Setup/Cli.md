@@ -19,7 +19,7 @@ Coming soon — notes will be added after reviewing the Render CLI documentation
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/services/static-sites">Next →</a>
+    <a class="xrefBtn" href="/render/basics/services/static-sites-and-web-services">Next →</a>
     <div class="xrefTitle">Section: Render → Services → Static Sites</div>
   </div>
 </div>

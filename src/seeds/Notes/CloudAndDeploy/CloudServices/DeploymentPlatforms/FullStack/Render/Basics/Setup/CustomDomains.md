@@ -14,8 +14,8 @@ Coming soon — notes will be added after reviewing the Render custom domain set
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/setup/first-deployment">← Back</a>
-    <div class="xrefTitle">Render → Setup → First Deployment</div>
+    <a class="xrefBtn" href="/render/basics/setup/account-and-first-deployment">← Back</a>
+    <div class="xrefTitle">Render → Setup → Acccount Setup & First Deployment</div>
   </div>
 
   <div class="xrefItem">

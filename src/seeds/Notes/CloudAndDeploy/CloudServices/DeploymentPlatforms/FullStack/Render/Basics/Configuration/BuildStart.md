@@ -14,12 +14,12 @@ Coming soon — notes will be added after reviewing the Render build and start c
 
 <div class="xrefNav">
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/config/env-variables">← Back</a>
+    <a class="xrefBtn" href="/render/basics/configuration/env-variables">← Back</a>
     <div class="xrefTitle">Render → Config → Env Variables & Secrets</div>
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/data/postgresql-managed">Next →</a>
+    <a class="xrefBtn" href="/render/basics/data/managed-postgresql">Next →</a>
     <div class="xrefTitle">Section: Render → Data → Managed PostgreSQL</div>
   </div>
 </div>

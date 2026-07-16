@@ -19,7 +19,7 @@ Coming soon — notes will be added after reviewing the Render environment varia
   </div>
 
   <div class="xrefItem">
-    <a class="xrefBtn" href="/render/basics/config/build-start">Next →</a>
+    <a class="xrefBtn" href="/render/basics/configuration/build-start">Next →</a>
     <div class="xrefTitle">Render → Config → Build & Start</div>
   </div>
 </div>
