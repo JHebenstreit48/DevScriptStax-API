@@ -83,6 +83,41 @@ Scripts act like shortcuts for longer terminal commands and help standardize how
 }
 ```
 
+## Replacing package.json Safely
+
+<hr class="dividerSection" />
+
+Swapping in an entirely different <span class="codeSnip">package.json</span> file, such as one from a teammate or a known-good backup, replaces the <span class="emphasis">scripts</span> section as well, which means any custom scripts you had added yourself are lost unless preserved first.
+
+<div class="centeredNumberedList">
+
+1. <span class="emphasis">Copy Any Custom Scripts First</span>
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Before replacing the file, copy any custom entries from your current <span class="emphasis">scripts</span> section that you want to keep.</li>
+  </ul>
+</div>
+
+2. <span class="emphasis">Replace the File</span>
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Replace <span class="codeSnip">package.json</span> with the new version.</li>
+  </ul>
+</div>
+
+3. <span class="emphasis">Re-add the Custom Scripts</span>
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Paste the copied script entries back into the new file's <span class="emphasis">scripts</span> section.</li>
+    <li>This preserves any customizations without losing whatever else changed in the new file.</li>
+  </ul>
+</div>
+
+</div>
+
 <hr class="dividerSection" />
 
 ## Running Scripts

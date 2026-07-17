@@ -207,6 +207,49 @@ This allows:
 
 to all be treated as the same correct answer.
 
+## Splitting Routes into a Separate File
+
+<hr class="dividerSection" />
+
+As an application grows, routes can be moved out of the main application file and into a dedicated file, keeping the app's core setup separate from its route definitions.
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li>Express provides <span class="codeSnip">express.Router()</span>, a mini application object that can hold its own set of routes.</li>
+    <li>The router file defines routes the same way as before, but attaches them to the router instance instead of directly to the app.</li>
+  </ul>
+</div>
+
+js  
+const express = require('express');
+const router = express.Router();
+
+router.get('/', function(req, res) {
+  res.send('Homepage');
+});
+
+router.post('/answer', function(req, res) {
+  res.send('Thank you for submitting the form.');
+});
+
+module.exports = router;
+
+The main application file then imports and mounts the router.
+
+js  
+const router = require('./router');
+
+app.use(router);
+
+<div class="centeredBullet">
+  <ul class="diamondBullets fullWidthBullet">
+    <li><span class="codeSnip">app.use(router)</span> tells Express to use all the routes defined inside that router file.</li>
+    <li>A router can also be mounted under a specific base path, such as <span class="codeSnip">app.use('/api', router)</span>, prefixing every route inside it.</li>
+  </ul>
+</div>
+
+<hr class="dividerSection" />
+
 <hr class="dividerSection" />
 
 ## Server Responses — HTML vs Raw Data
