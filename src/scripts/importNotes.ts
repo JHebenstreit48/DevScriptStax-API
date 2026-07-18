@@ -27,6 +27,7 @@ async function main() {
   }
 
   const seenIds = new Set<string>();
+  const skippedFiles: string[] = [];
 
   for (const abs of files) {
     const fullPath = toFullPath(baseDir, abs);
@@ -34,7 +35,7 @@ async function main() {
 
     const parsed = parseNotes(abs, fullPath);
     if (!parsed) {
-      console.warn(`⚠️ Skipping empty file: ${abs}`);
+      skippedFiles.push(abs.replace(baseDir + "/", ""));
       continue;
     }
 
@@ -45,19 +46,20 @@ async function main() {
 
   await writeNotesMeta(db, siteId);
 
-  // Export content.json for public access (AI tools, search engines, etc.)
-  // Output path: root of backend repo → commit and push to GitHub
-  // Accessible at: https://raw.githubusercontent.com/YOURUSERNAME/YOURBACKENDREPO/main/content.json
   const outPath = path.join(process.cwd(), "content.json");
   await exportContentJson(files, baseDir, outPath);
 
+  if (skippedFiles.length > 0) {
+    console.log(`\n⚠️  Skipped ${skippedFiles.length} empty files. Run checkNotes for details.`);
+  }
+
   if (shouldPrune()) {
-    console.log("\n\n🧹 Pruning stale docs...");
+    console.log("\n🧹 Pruning stale docs...");
     const removed = await pruneStaleNotes(db, siteId, seenIds);
     console.log(`🧹 Pruned ${removed} stale docs for SITE_ID="${siteId}".`);
   } else {
     console.log(
-      '\n⚠️ PRUNE disabled. Stale docs will remain; enable by setting PRUNE=true (recommended).'
+      '\n⚠️  PRUNE disabled. Enable by setting PRUNE=true (recommended).'
     );
   }
 

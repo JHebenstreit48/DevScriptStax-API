@@ -2,17 +2,19 @@
   "name": "devscriptstax-api",
   "version": "1.0.0",
   "description": "Backend Notes seeder for DevScriptStax notes project",
-
   "scripts": {
     "seed": "ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:dry": "cross-env PRUNE=true PRUNE_DRY_RUN=true ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:write": "cross-env PRUNE=true PRUNE_DRY_RUN=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
     "seed:noprune": "cross-env PRUNE=false ts-node -r tsconfig-paths/register src/scripts/importNotes.ts",
-    "gen:md": "tsx -r tsconfig-paths/register src/scripts/cli/gen-md.ts",
 
+    "check:notes": "tsx -r tsconfig-paths/register src/scripts/cli/checkNotes.ts",
+    "check:notes:section": "tsx -r tsconfig-paths/register src/scripts/cli/checkNotes.ts",
+
+    "gen:md": "tsx -r tsconfig-paths/register src/scripts/cli/gen-md.ts",
     "nav:btns": "tsx -r tsconfig-paths/register src/scripts/cli/sync-nav-btns.ts",
     "nav:btns:dry": "tsx -r tsconfig-paths/register src/scripts/cli/sync-nav-btns.ts --dry-run",
-
+    
     "ping:firebase": "node dist/scripts/pingFirestore.js",
     "build": "tsc"
   },
